@@ -1,6 +1,4 @@
 import './bootstrap';
-import Swiper from 'swiper/bundle';
-import Swiper from 'swiper';
 import Swiper from 'swiper';
 import { Navigation, Pagination } from 'swiper/modules';
 
