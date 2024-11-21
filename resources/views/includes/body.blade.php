@@ -1,7 +1,7 @@
 
 
 <!-- intro -->
-<section class='min-h-screen mt-8 flex justify-center items-center overflow-hidden'>
+<section class='bg-gray-900 min-h-screen mt-8 flex justify-center items-center overflow-hidden'>
     <div class="absolute inset-0 bg-cover bg-center" style="background-image: url('/images/bg/gradient-bg.webp'); opacity: 0.3;"></div>
 
     <div class='max-w-6xl flex flex-col md:flex-row justify-center items-center'>
