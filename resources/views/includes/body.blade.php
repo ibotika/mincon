@@ -1,7 +1,7 @@
 
 
 <!-- intro -->
-<section class='bg-gray-900 min-h-screen mt-8 flex justify-center items-center overflow-hidden'>
+<section class='bg-black min-h-screen mt-8 flex justify-center items-center overflow-hidden'>
     <div class="absolute inset-0 bg-cover bg-center" style="background-image: url('/images/bg/gradient-bg.webp'); opacity: 0.3;"></div>
 
     <div class='max-w-6xl flex flex-col md:flex-row justify-center items-center'>
@@ -67,7 +67,7 @@
 </section>
 
 <!-- about -->
-<section class='py-10 md:py-30'>
+<section class='bg-black py-10 md:py-30'>
     <div class='m-10 justify-items-center'>
         <div class='text-white md:max-w-xl mb-10'>
             <h1 class='text-4xl text-center mb-5 md:text-6xl font-black'>
@@ -205,7 +205,7 @@
 </section>
 
 <!-- speakers -->
-<section class='pt-5 pb-20 relative md:py-40'>
+<section class='bg-black pt-5 pb-20 relative md:py-40'>
     <div class="absolute inset-0 bg-cover bg-center" style="background-image: url('/images/bg/bg-6.webp'); opacity:0.6;"></div>
 
     <div class='relative z-10 '>
@@ -235,7 +235,7 @@
 </section>
 
 <!-- registration fees -->
-<section id="registration-fees" class="py-10 md:py-40 relative ">
+<section id="registration-fees" class="bg-black py-10 md:py-40 relative ">
     <div class="absolute inset-0 bg-cover bg-center" style="background-image: url('/images/bg/Maria-Christina-Falls.webp'); opacity: 0.5;"></div>
 
     <div class='z-10 relative justify-items-center'>
