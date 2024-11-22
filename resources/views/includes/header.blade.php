@@ -1,6 +1,6 @@
 <header class='fixed bg-white w-full top-0 z-50 h-[70px] flex items-center'>
-    <div class='max-w-6xl w-full mx-10 md:mx-auto flex justify-between items-center'>
-        <a href="">
+    <div class='flex items-center justify-between w-full max-w-6xl mx-10 md:mx-auto'>
+        <a href="{{  url('/') }}">
             <img src="/images/mincon-logo.webp" class="h-[40px] w-auto" alt="Logo">
         </a>
         <div>

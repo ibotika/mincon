@@ -1,39 +1,432 @@
-<!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+@extends('layouts.guest')
 
-        <title>MINCON 2025</title>
-        <link rel="icon" href="{{ asset('/images/mincon-logo.webp') }}" type="image/webp"> <!-- WebP for modern browsers -->
+@section('scripts')
+<script>
+const words = ["Beyond an Event   ", "A legacy in the making   "];
+let i = 0;
+let j = 0;
+let currentWord = "";
+let isDeleting = false;
 
-        <!-- Fonts -->
-        <link rel="preconnect" href="https://fonts.bunny.net">
-        <link href="https://fonts.bunny.net/css?family=figtree:400,500,600&display=swap" rel="stylesheet" />
+function type() {
+  currentWord = words[i];
+  if (isDeleting) {
+    document.getElementById("typewriter").textContent = currentWord.substring(0, j-1);
+    j--;
+    if (j == 0) {
+      isDeleting = false;
+      i++;
+      if (i == words.length) {
+        i = 0;
+      }
+    }
+  } else {
+    document.getElementById("typewriter").textContent = currentWord.substring(0, j+1);
+    j++;
+    if (j == currentWord.length) {
+      isDeleting = true;
+    }
+  }
+  setTimeout(type, 100);
+}
 
-        <!-- Preconnect for better performance -->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+type();
+</script>
+@endsection
+
+@section('content')
+
+
+<!-- intro -->
+<section class='flex items-center justify-center min-h-screen py-8 mt-8 overflow-hidden bg-black'>
+
+    <div class="max-w-6xl px-8 mx-auto">
+        <div class="items-center grid-cols-2 md:grid">
+            <div>
+                <img src="{{  asset('images/banner.png') }}" alt="MINCON logo" 
+                class='md:rounded-2xl'>
+            </div>
+            <div>
+
+                <div class='text-white'>
+                    <h1 class='text-6xl font-extrabold md:mt-0'>MINCON 2025: </h1>
+                    <div class="h-12">
+                        <h2 id="typewriter" class="mt-4 text-4xl font-bold">Beyond an Event</h2>
+                    </div>
+                    <div class='mt-4'>
+                        <p class='mb-5'>
+                            Join us on an incredible journey to Iligan, the Majestic City of Waterfalls, on January 16-17, 2025.
+                            MINCON is more than just a convention; it's an eco-adventure where knowledge flows like the stunning waterfalls around us!
+                        </p>
+                        <p>This year, we're redefining the norm. Get ready to be motivated by innovative seminars.
+                        Network, learn, and unleash your potential…</p>
+                    </div>
+
+                     <div class='mt-5'>
+
+                        <div class="grid grid-cols-3 gap-4">
+
+                            <a href="https://maps.app.goo.gl/sF4usXAQabCaqz3d7" 
+                                target="_blank"
+                                class="flex w-full col-span-2 gap-2 p-4 transition-all rounded-md cursor-pointer bg-white/15 hover:bg-white/20">
+                                
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" 
+                                    class="flex-shrink-0 mt-2 size-8 animate-bounce">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z" />
+                                </svg>
+
+                                <div>
+                                    <p class="text-xs">JCLAM SHELL 1, KAUSWAGAN INTERNATIONAL ORGANIC CONVENTION CENTER, KAUSWAGAN, LANAO DEL NORTE</p>
+                                </div>
+                            </a>
+
+                            <div class="flex w-full col-span-1 gap-2 p-4 transition-all rounded-md cursor-pointer bg-white/15 hover:bg-white/20">
+                                
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" 
+                                    class="flex-shrink-0 size-8">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 0 1 2.25-2.25h13.5A2.25 2.25 0 0 1 21 7.5v11.25m-18 0A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75m-18 0v-7.5A2.25 2.25 0 0 1 5.25 9h13.5A2.25 2.25 0 0 1 21 11.25v7.5m-9-6h.008v.008H12v-.008ZM12 15h.008v.008H12V15Zm0 2.25h.008v.008H12v-.008ZM9.75 15h.008v.008H9.75V15Zm0 2.25h.008v.008H9.75v-.008ZM7.5 15h.008v.008H7.5V15Zm0 2.25h.008v.008H7.5v-.008Zm6.75-4.5h.008v.008h-.008v-.008Zm0 2.25h.008v.008h-.008V15Zm0 2.25h.008v.008h-.008v-.008Zm2.25-4.5h.008v.008H16.5v-.008Zm0 2.25h.008v.008H16.5V15Z" />
+                                </svg>
+
+
+                                <div>
+                                    <p class="text-xs">JANUARY 16-17, 2025</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mt-8"> 
+                        <a  href="#registration"
+                            onclick="document.getElementById('registration-fees').scrollIntoView({ behavior: 'smooth' });"
+                            class='relative block w-full px-10 py-4 font-bold text-center text-white rounded-md bg-violet-700 hover:bg-violet-700/80 md:w-auto'>
+                            REGISTER NOW
+                            <span class="absolute inline-flex w-3 h-3 rounded-full -top-1 -right-1 bg-sky-500 animate-ping"></span>
+                        </a> 
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- about -->
+<section class='py-10 bg-black md:py-30'>
+    <div class='m-10 justify-items-center'>
+        <div class='mb-10 text-white md:max-w-xl'>
+            <h1 class='mb-5 text-4xl font-bold text-center md:text-6xl'>
+                Welcome to MINCON 2025 </h1>
+            <p class='text-center text-white md:text-xl'>MINCON is more than just a convention; it's an eco-adventure where knowledge flows like the stunning waterfalls around us!
+                This year, we're redefining the norm.
+                Get ready to be motivated by innovative seminars.
+                Network, learn, and unleash your potential…</p>
+        </div>
+
+        <div class='md:max-w-6xl'>
+    
+            <div class='flex flex-row flex-wrap justify-center'>
+
+            <div class='w-full p-3 md:w-1/2 lg:w-1/3'>
+                    <div class='block overflow-hidden border rounded-lg bg-white/10 border-white/30 md:rounded-2xl group break-inside-avoid'>
+                        <div class='flex flex-col'>
+                            <h1 class='py-5 pl-6 mb-5 text-lg text-white'>
+                                ✨Fellowship Night✨
+                                "RETRO REVAMP: Slayin' the 70's & 80's Vibe"
+                            </h1>
+                            <div class='flex justify-center px-6'>
+                                <img src="/images/events/retrorevampprizes.jpg" alt="" class='w-full h-auto rounded-lg md:rounded-2xl'>
+                            </div>
+                            <div>
+                                <p class='p-6 text-white text-md sm:text-md'>
+                                    Show us your best moves for a chance to win the grand prize 🏆
+                                </p>
+                            </div>
+                            <div class='flex justify-center mb-6'>
+                                    <a href="https://docs.google.com/forms/d/e/1FAIpQLScG3xwA7mhxlV5fF8AEEqT_ZKRaRwePB3lhzCnc6pejTpBEow/viewform" 
+                                        class='bg-[#FF0000] hover:bg-[#FF0000]/80 h-[50px] w-[260px] rounded-md flex justify-center items-center'>
+                                            <p class='font-semibold text-center text-white'>
+                                                Click to register
+                                            </p>
+                                    </a> 
+                                </a>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+
+                <div class='w-full p-3 md:w-1/2 lg:w-1/3'>
+                    <div class='block overflow-hidden border rounded-lg bg-white/10 border-white/30 md:rounded-2xl group break-inside-avoid'>
+                        <div class='flex flex-col'>
+                            <h1 class='py-5 pl-6 mb-5 text-lg text-white'>
+                                List of recommended accommodations</h1>
+                            <div class='flex justify-center px-6'>
+                                <img src="/images/events/accomodations.jpg" alt="" class='w-full h-auto rounded-lg md:rounded-2xl'>
+                            </div> 
+                            <div>
+                                <p class='p-6 text-white text-md sm:text-md'>
+                                    For booking and reservations, contact directly your chosen accommodation.
+                                    TaraLet's sa MINCON 2025!
+                                </p>
+                            </div>
+                            <div class='flex justify-center mb-6'>
+                                    <a href="{{ url('accommodations') }}" 
+                                        class='bg-[#00BFFF] hover:bg-[#00BFFF]/80 h-[50px] w-[260px] rounded-md flex justify-center items-center'>
+                                            <p class='font-semibold text-center text-white'>
+                                                Click for more info
+                                            </p>
+                                    </a> 
+                            </div>
+                        </div>  
+                    </div>
+                </div>
+
+                <div class='w-full p-3 md:w-1/2 lg:w-1/3'>
+                    <div class='block overflow-hidden border rounded-lg bg-white/10 border-white/30 md:rounded-2xl group break-inside-avoid'>
+                        <div class='flex flex-col'>
+                            <h1 class='py-5 pl-6 text-lg text-white'>
+                                Calling all dental trade exhibitors🦷✨
+                            </h1>
+                            <div class='flex justify-center px-6'>
+                                <img src="/images/events/trader.jpg" alt="" class='w-full h-auto rounded-lg md:rounded-2xl'>
+                            </div>
+                            <div class='text-white text-md sm:text-md'>
+                                <p class='px-6 pt-6'>
+                                    Secure your booth now and showcase your products & services!
+                                </p>
+                                <p class='p-6'>
+                                    For more inquiries, you may contact Dr. Cecille B. Sabayle our trade exhibit chairman.
+                                </p>
+                            </div>
+                            <div class='flex justify-center mb-6'>
+                                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSe9mNPT9dCU1SaUBSjc8cdNDCeM-xFTQGEWy-vmw1pzlFD_Mg/viewform" 
+                                        class='bg-[#e3a100] hover:bg-[#e3a100]/80 h-[50px] w-[260px] rounded-md flex justify-center items-center'>
+                                            <p class='font-semibold text-center text-white'>
+                                                Click to register
+                                            </p>
+                                    </a> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>  
+    </div>
+</section>
+
+<!-- speakers -->
+<section class='relative pt-5 pb-20 bg-black md:py-40'>
+    <div class="absolute inset-0 bg-center bg-cover" style="background-image: url('/images/bg/bg-6.webp'); opacity:0.6;"></div>
+
+    <div class='relative z-10 '>
+        <div class='mx-10 md:mx-auto md:max-w-xl'>
+            <h1 class='mb-6 text-4xl font-bold text-center text-white md:text-6xl'>
+                Featured Speakers
+            </h1>
+            <p class='mb-5 text-center text-white md:text-xl'>
+            Get to know our lineup of prominent speakers who will be sharing their expertise at the MINCON 2025.
+            </p>
+        </div>
         
-        <!-- Poppins font -->
-        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <div class="mx-auto swiper" data-swiper-autoplay="1000" style="overflow: hidden; position: relative;">
+            <div class="swiper-wrapper" style="display: flex; transition: transform 0.3s ease-in-out;">
+                <!-- Each speaker slide (similar structure for all) -->
+                <div class="swiper-slide" style="flex: 0 0 auto; width: 350px; padding: 16px; box-sizing: border-box;">
+                <div class="card" style="background-color: rgba(0, 0, 0, 0.3); border: 1px solid rgba(255, 255, 255, 0.3); border-radius: 24px; text-align: center; padding: 16px;">
+                    <div class="image-container" style="margin-top: -40px;">
+                    <img src="/images/speakers/speaker-1.png" alt="Speaker 1" style="width: 240px; margin: 0 auto;">
+                    </div>
+                    <div class="text-content" style="color: white; margin-top: 16px;">
+                    <h1 style="font-size: 1.5rem;">Name 1</h1>
+                    <p style="margin-top: 8px; font-size: 1rem;">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                    </div>
+                </div>
+                </div>
+                
+                <div class="swiper-slide" style="flex: 0 0 auto; width: 350px; padding: 16px; box-sizing: border-box;">
+                <div class="card" style="background-color: rgba(0, 0, 0, 0.3); border: 1px solid rgba(255, 255, 255, 0.3); border-radius: 24px; text-align: center; padding: 16px;">
+                    <div class="image-container" style="margin-top: -40px;">
+                    <img src="/images/speakers/speaker-1.png" alt="Speaker 1" style="width: 240px; margin: 0 auto;">
+                    </div>
+                    <div class="text-content" style="color: white; margin-top: 16px;">
+                    <h1 style="font-size: 1.5rem;">Name 2</h1>
+                    <p style="margin-top: 8px; font-size: 1rem;">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                    </div>
+                </div>
+                </div>
 
-        <!-- Styles / Scripts -->
-        @if (file_exists(public_path('build/manifest.json')) || file_exists(public_path('hot')))
-            @vite(['resources/css/app.css', 'resources/js/app.js'])
-        @else
-            <style>
-                /* ! tailwindcss v3.4.1 | MIT License | https://tailwindcss.com */*,::after,::before{box-sizing:border-box;border-width:0;border-style:solid;border-color:#e5e7eb}::after,::before{--tw-content:''}:host,html{line-height:1.5;-webkit-text-size-adjust:100%;-moz-tab-size:4;tab-size:4;font-family:Figtree, ui-sans-serif, system-ui, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;font-feature-settings:normal;font-variation-settings:normal;-webkit-tap-highlight-color:transparent}body{margin:0;line-height:inherit}hr{height:0;color:inherit;border-top-width:1px}abbr:where([title]){-webkit-text-decoration:underline dotted;text-decoration:underline dotted}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{color:inherit;text-decoration:inherit}b,strong{font-weight:bolder}code,kbd,pre,samp{font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;font-feature-settings:normal;font-variation-settings:normal;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}table{text-indent:0;border-color:inherit;border-collapse:collapse}button,input,optgroup,select,textarea{font-family:inherit;font-feature-settings:inherit;font-variation-settings:inherit;font-size:100%;font-weight:inherit;line-height:inherit;color:inherit;margin:0;padding:0}button,select{text-transform:none}[type=button],[type=reset],[type=submit],button{-webkit-appearance:button;background-color:transparent;background-image:none}:-moz-focusring{outline:auto}:-moz-ui-invalid{box-shadow:none}progress{vertical-align:baseline}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}blockquote,dd,dl,figure,h1,h2,h3,h4,h5,h6,hr,p,pre{margin:0}fieldset{margin:0;padding:0}legend{padding:0}menu,ol,ul{list-style:none;margin:0;padding:0}dialog{padding:0}textarea{resize:vertical}input::placeholder,textarea::placeholder{opacity:1;color:#9ca3af}[role=button],button{cursor:pointer}:disabled{cursor:default}audio,canvas,embed,iframe,img,object,svg,video{display:block;vertical-align:middle}img,video{max-width:100%;height:auto}[hidden]{display:none}*, ::before, ::after{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: }::backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: }.absolute{position:absolute}.relative{position:relative}.-left-20{left:-5rem}.top-0{top:0px}.-bottom-16{bottom:-4rem}.-left-16{left:-4rem}.-mx-3{margin-left:-0.75rem;margin-right:-0.75rem}.mt-4{margin-top:1rem}.mt-6{margin-top:1.5rem}.flex{display:flex}.grid{display:grid}.hidden{display:none}.aspect-video{aspect-ratio:16 / 9}.size-12{width:3rem;height:3rem}.size-5{width:1.25rem;height:1.25rem}.size-6{width:1.5rem;height:1.5rem}.h-12{height:3rem}.h-40{height:10rem}.h-full{height:100%}.min-h-screen{min-height:100vh}.w-full{width:100%}.w-\[calc\(100\%\+8rem\)\]{width:calc(100% + 8rem)}.w-auto{width:auto}.max-w-\[877px\]{max-width:877px}.max-w-2xl{max-width:42rem}.flex-1{flex:1 1 0%}.shrink-0{flex-shrink:0}.grid-cols-2{grid-template-columns:repeat(2, minmax(0, 1fr))}.flex-col{flex-direction:column}.items-start{align-items:flex-start}.items-center{align-items:center}.items-stretch{align-items:stretch}.justify-end{justify-content:flex-end}.justify-center{justify-content:center}.gap-2{gap:0.5rem}.gap-4{gap:1rem}.gap-6{gap:1.5rem}.self-center{align-self:center}.overflow-hidden{overflow:hidden}.rounded-\[10px\]{border-radius:10px}.rounded-full{border-radius:9999px}.rounded-lg{border-radius:0.5rem}.rounded-md{border-radius:0.375rem}.rounded-sm{border-radius:0.125rem}.bg-\[\#FF2D20\]\/10{background-color:rgb(255 45 32 / 0.1)}.bg-white{--tw-bg-opacity:1;background-color:rgb(255 255 255 / var(--tw-bg-opacity))}.bg-gradient-to-b{background-image:linear-gradient(to bottom, var(--tw-gradient-stops))}.from-transparent{--tw-gradient-from:transparent var(--tw-gradient-from-position);--tw-gradient-to:rgb(0 0 0 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.via-white{--tw-gradient-to:rgb(255 255 255 / 0)  var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), #fff var(--tw-gradient-via-position), var(--tw-gradient-to)}.to-white{--tw-gradient-to:#fff var(--tw-gradient-to-position)}.stroke-\[\#FF2D20\]{stroke:#FF2D20}.object-cover{object-fit:cover}.object-top{object-position:top}.p-6{padding:1.5rem}.px-6{padding-left:1.5rem;padding-right:1.5rem}.py-10{padding-top:2.5rem;padding-bottom:2.5rem}.px-3{padding-left:0.75rem;padding-right:0.75rem}.py-16{padding-top:4rem;padding-bottom:4rem}.py-2{padding-top:0.5rem;padding-bottom:0.5rem}.pt-3{padding-top:0.75rem}.text-center{text-align:center}.font-sans{font-family:Figtree, ui-sans-serif, system-ui, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji}.text-sm{font-size:0.875rem;line-height:1.25rem}.text-sm\/relaxed{font-size:0.875rem;line-height:1.625}.text-xl{font-size:1.25rem;line-height:1.75rem}.font-semibold{font-weight:600}.text-black{--tw-text-opacity:1;color:rgb(0 0 0 / var(--tw-text-opacity))}.text-white{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity))}.underline{-webkit-text-decoration-line:underline;text-decoration-line:underline}.antialiased{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.shadow-\[0px_14px_34px_0px_rgba\(0\2c 0\2c 0\2c 0\.08\)\]{--tw-shadow:0px 14px 34px 0px rgba(0,0,0,0.08);--tw-shadow-colored:0px 14px 34px 0px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.ring-1{--tw-ring-offset-shadow:var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);--tw-ring-shadow:var(--tw-ring-inset) 0 0 0 calc(1px + var(--tw-ring-offset-width)) var(--tw-ring-color);box-shadow:var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000)}.ring-transparent{--tw-ring-color:transparent}.ring-white\/\[0\.05\]{--tw-ring-color:rgb(255 255 255 / 0.05)}.drop-shadow-\[0px_4px_34px_rgba\(0\2c 0\2c 0\2c 0\.06\)\]{--tw-drop-shadow:drop-shadow(0px 4px 34px rgba(0,0,0,0.06));filter:var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow)}.drop-shadow-\[0px_4px_34px_rgba\(0\2c 0\2c 0\2c 0\.25\)\]{--tw-drop-shadow:drop-shadow(0px 4px 34px rgba(0,0,0,0.25));filter:var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow)}.transition{transition-property:color, background-color, border-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-text-decoration-color, -webkit-backdrop-filter;transition-property:color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;transition-property:color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-text-decoration-color, -webkit-backdrop-filter;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}.duration-300{transition-duration:300ms}.selection\:bg-\[\#FF2D20\] *::selection{--tw-bg-opacity:1;background-color:rgb(255 45 32 / var(--tw-bg-opacity))}.selection\:text-white *::selection{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity))}.selection\:bg-\[\#FF2D20\]::selection{--tw-bg-opacity:1;background-color:rgb(255 45 32 / var(--tw-bg-opacity))}.selection\:text-white::selection{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity))}.hover\:text-black:hover{--tw-text-opacity:1;color:rgb(0 0 0 / var(--tw-text-opacity))}.hover\:text-black\/70:hover{color:rgb(0 0 0 / 0.7)}.hover\:ring-black\/20:hover{--tw-ring-color:rgb(0 0 0 / 0.2)}.focus\:outline-none:focus{outline:2px solid transparent;outline-offset:2px}.focus-visible\:ring-1:focus-visible{--tw-ring-offset-shadow:var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);--tw-ring-shadow:var(--tw-ring-inset) 0 0 0 calc(1px + var(--tw-ring-offset-width)) var(--tw-ring-color);box-shadow:var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000)}.focus-visible\:ring-\[\#FF2D20\]:focus-visible{--tw-ring-opacity:1;--tw-ring-color:rgb(255 45 32 / var(--tw-ring-opacity))}@media (min-width: 640px){.sm\:size-16{width:4rem;height:4rem}.sm\:size-6{width:1.5rem;height:1.5rem}.sm\:pt-5{padding-top:1.25rem}}@media (min-width: 768px){.md\:row-span-3{grid-row:span 3 / span 3}}@media (min-width: 1024px){.lg\:col-start-2{grid-column-start:2}.lg\:h-16{height:4rem}.lg\:max-w-7xl{max-width:80rem}.lg\:grid-cols-3{grid-template-columns:repeat(3, minmax(0, 1fr))}.lg\:grid-cols-2{grid-template-columns:repeat(2, minmax(0, 1fr))}.lg\:flex-col{flex-direction:column}.lg\:items-end{align-items:flex-end}.lg\:justify-center{justify-content:center}.lg\:gap-8{gap:2rem}.lg\:p-10{padding:2.5rem}.lg\:pb-10{padding-bottom:2.5rem}.lg\:pt-0{padding-top:0px}.lg\:text-\[\#FF2D20\]{--tw-text-opacity:1;color:rgb(255 45 32 / var(--tw-text-opacity))}}@media (prefers-color-scheme: dark){.dark\:block{display:block}.dark\:hidden{display:none}.dark\:bg-black{--tw-bg-opacity:1;background-color:rgb(0 0 0 / var(--tw-bg-opacity))}.dark\:bg-zinc-900{--tw-bg-opacity:1;background-color:rgb(24 24 27 / var(--tw-bg-opacity))}.dark\:via-zinc-900{--tw-gradient-to:rgb(24 24 27 / 0)  var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), #18181b var(--tw-gradient-via-position), var(--tw-gradient-to)}.dark\:to-zinc-900{--tw-gradient-to:#18181b var(--tw-gradient-to-position)}.dark\:text-white\/50{color:rgb(255 255 255 / 0.5)}.dark\:text-white{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity))}.dark\:text-white\/70{color:rgb(255 255 255 / 0.7)}.dark\:ring-zinc-800{--tw-ring-opacity:1;--tw-ring-color:rgb(39 39 42 / var(--tw-ring-opacity))}.dark\:hover\:text-white:hover{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity))}.dark\:hover\:text-white\/70:hover{color:rgb(255 255 255 / 0.7)}.dark\:hover\:text-white\/80:hover{color:rgb(255 255 255 / 0.8)}.dark\:hover\:ring-zinc-700:hover{--tw-ring-opacity:1;--tw-ring-color:rgb(63 63 70 / var(--tw-ring-opacity))}.dark\:focus-visible\:ring-\[\#FF2D20\]:focus-visible{--tw-ring-opacity:1;--tw-ring-color:rgb(255 45 32 / var(--tw-ring-opacity))}.dark\:focus-visible\:ring-white:focus-visible{--tw-ring-opacity:1;--tw-ring-color:rgb(255 255 255 / var(--tw-ring-opacity))}}
-            </style>
-        @endif
-    </head>
-    <body class="font-poppins antialiased dark:bg-black dark:text-white/50">
+                <div class="swiper-slide" style="flex: 0 0 auto; width: 350px; padding: 16px; box-sizing: border-box;">
+                <div class="card" style="background-color: rgba(0, 0, 0, 0.3); border: 1px solid rgba(255, 255, 255, 0.3); border-radius: 24px; text-align: center; padding: 16px;">
+                    <div class="image-container" style="margin-top: -40px;">
+                    <img src="/images/speakers/speaker-1.png" alt="Speaker 1" style="width: 240px; margin: 0 auto;">
+                    </div>
+                    <div class="text-content" style="color: white; margin-top: 16px;">
+                    <h1 style="font-size: 1.5rem;">Name 3</h1>
+                    <p style="margin-top: 8px; font-size: 1rem;">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                    </div>
+                </div>
+                </div>
+
+                <div class="swiper-slide" style="flex: 0 0 auto; width: 350px; padding: 16px; box-sizing: border-box;">
+                <div class="card" style="background-color: rgba(0, 0, 0, 0.3); border: 1px solid rgba(255, 255, 255, 0.3); border-radius: 24px; text-align: center; padding: 16px;">
+                    <div class="image-container" style="margin-top: -40px;">
+                    <img src="/images/speakers/speaker-1.png" alt="Speaker 1" style="width: 240px; margin: 0 auto;">
+                    </div>
+                    <div class="text-content" style="color: white; margin-top: 16px;">
+                    <h1 style="font-size: 1.5rem;">Name 4</h1>
+                    <p style="margin-top: 8px; font-size: 1rem;">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                    </div>
+                </div>
+                </div>
+
+                <div class="swiper-slide" style="flex: 0 0 auto; width: 350px; padding: 16px; box-sizing: border-box;">
+                <div class="card" style="background-color: rgba(0, 0, 0, 0.3); border: 1px solid rgba(255, 255, 255, 0.3); border-radius: 24px; text-align: center; padding: 16px;">
+                    <div class="image-container" style="margin-top: -40px;">
+                    <img src="/images/speakers/speaker-1.png" alt="Speaker 1" style="width: 240px; margin: 0 auto;">
+                    </div>
+                    <div class="text-content" style="color: white; margin-top: 16px;">
+                    <h1 style="font-size: 1.5rem;">Name 5</h1>
+                    <p style="margin-top: 8px; font-size: 1rem;">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                    </div>
+                </div>
+                </div>
+
+                <div class="swiper-slide" style="flex: 0 0 auto; width: 350px; padding: 16px; box-sizing: border-box;">
+                <div class="card" style="background-color: rgba(0, 0, 0, 0.3); border: 1px solid rgba(255, 255, 255, 0.3); border-radius: 24px; text-align: center; padding: 16px;">
+                    <div class="image-container" style="margin-top: -40px;">
+                    <img src="/images/speakers/speaker-1.png" alt="Speaker 1" style="width: 240px; margin: 0 auto;">
+                    </div>
+                    <div class="text-content" style="color: white; margin-top: 16px;">
+                    <h1 style="font-size: 1.5rem;">Name 6</h1>
+                    <p style="margin-top: 8px; font-size: 1rem;">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                    </div>
+                </div>
+                </div>
+            </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+   
+
+<!-- registration fees -->
+<section id="registration-fees" class="relative py-10 bg-black md:py-40 ">
+    <div class="absolute inset-0 bg-center bg-cover" style="background-image: url('/images/bg/Maria-Christina-Falls.webp'); opacity: 0.5;"></div>
+
+    <div class='relative z-10 m-10 justify-items-center'>
+        <div class='mx-10 md:mx-auto md:max-w-xl'>
+            <h1 class='mb-6 text-4xl font-bold text-center text-white md:text-6xl'>
+                Registration Fees</h1>
+            <!-- <p class='mb-10 text-center text-white md:text-xl'>
+                with CPD Points
+            </p> -->
+        </div>
+
+        <div class='flex flex-row flex-wrap justify-center'>
+           
+            <div class='w-full p-3 md:w-1/2 lg:w-1/3'>
+                <div class='overflow-hidden border bg-black/60 border-white/30 rounded-2xl'>
+                    <div class='py-3 text-2xl font-bold text-center text-white bg-red-600'>
+                        Early Bird
+                    </div>
+                    <div class='mt-12 text-center text-white'>
+                        <p class='mb-5 text-gray-500 w-15 '>(September 15, 2024-November 15, 2024)</p>
+                        <p class='mb-5 text-lg'>Life Member - PHP 2,500</p>
+                    </div>
+                    <div class='flex justify-center mb-6'>
+                        <button class='bg-gray-500 h-[50px] w-[260px] rounded-md'>
+                            <p class='font-semibold text-white'>
+                                Closed
+                            </p>
+                        </button> 
+                    </div>
+                </div>
+            </div>
+
+            <div class='w-full p-3 md:w-1/2 lg:w-1/3'>
+                <div class='overflow-hidden border bg-black/60 border-white/30 rounded-2xl'>
+                    <div class='text-center font-bold text-white text-2xl bg-[#9c0ad1] py-3'>
+                    Pre-registration   
+                    </div>
+                    <div class='p-6 text-white text-start'>
+                        <p class='mb-5 text-gray-400'>(November 16, 2024-January 5, 2025)</p>
+                        <p class='mb-3'><span class='text-[#9c0ad1] text-md font-black'>P4,500</span> Dentist, Dental Technologist, and Dental Hygienist</p>
+                        <p class='mb-3'><span class='text-[#9c0ad1] text-md font-black'>P3,500</span> Government Dentist</p>
+                        <p class='mb-6'><span class='text-[#9c0ad1] text-md font-black'>P3,000</span> PDA Life Member & Dental Students</p>
+                        <p class='text-gray-400'>Snacks, meals and free flowing coffee <span class='font-bold text-white'>INCLUDED</span></p>
+                    </div>
+                    <a href="https://docs.google.com/forms/d/1z5wkWCZOvqXtVmJ2xaIZHrSjaLsiBNoVKEtwXwxAHNA/viewform?edit_requested=true"
+                        class='flex justify-center mb-6'>
+                        <button class='bg-[#9c0ad1] hover:bg-[#9c0ad1]/80 h-[50px] w-[260px] rounded-md'>
+                                <p class='font-semibold text-white'>
+                                    Register Now
+                                </p>
+                        </button> 
+                    </a>
+                </div>
+            </div>
+
+            <div class='w-full p-3 md:w-1/2 lg:w-1/3'>
+                <div class='overflow-hidden border bg-black/60 border-white/30 rounded-2xl'>
+                    <div class='text-center font-bold text-white text-2xl bg-[#00BFFF] py-3'>
+                            Onsite
+                    </div>
+                    <div class='p-6 text-white text-start'>
+                        <p class='mb-3'><span class='text-[#00BFFF] text-md font-black'>P4,500</span> Dentist, Dental Technologist, and Dental Hygienist</p>
+                        <p class='mb-6'><span class='text-[#00BFFF] text-md font-black'>P3,000</span> PDA Life Member & Dental Students</p>
+                        <p class='text-gray-400'>Snacks, meals and free flowing coffee <span class='font-bold text-white'>NOT INCLUDED</span></p>
+                    </div>
+                    <div class='flex justify-center mb-6'>
+                        <button class='bg-gray-500 h-[50px] w-[260px] rounded-md'>
+                                <p class='font-semibold text-white'>
+                                    January 6,2025 - onwards
+                                </p>
+                        </button> 
+                    </div> 
+                </div>
+            </div>
+    </div>
+</section>
+
+<!-- hosted by -->
+ <section class='py-20 bg-white'>
+    <div class='mb-20 text-black'>
+        <div class='flex flex-col items-center justify-center '>
+            <h1 class='mb-5 md:text-xl'>
+                Hosted By:</h1>
+            <p class='text-lg font-bold'>PDA ILIGAN CHAPTER</p>
+        </div>
+
+        <div class='grid grid-cols-1 gap-10 py-10 md:grid-cols-3 justify-items-center md:gap-5'>
+            <a href="https://pda.com.ph/">
+                <img src="/images/logo/pda.webp" alt="PDA logo" class='h-[90px] md:h-[150px]'>
+            </a>
+
+            <img src="/images/logo/pda-115.webp" alt="PDA logo" class='h-[90px] md:h-[150px]'>
+
+            <a href="https://www.facebook.com/iligancitydentalsocietyinc">
+                <img src="/images/logo/pda-iligan.webp" alt="PDA-Iligan logo" class='h-[90px] md:h-[150px]'>
+            </a>
+        </div>
+    </div>
+    <div class='flex flex-col items-center justify-center'>
         
-        @include('includes.header')
+        <h1 class='bg-gradient-to-r from-[#A47BF4] to-[#ED4E8C] bg-clip-text text-transparent text-5xl md:text-6xl font-black'
+            onclick="document.getElementById('registration-fees').scrollIntoView({ behavior: 'smooth' });">
+        Join Now!
+        </h1>
+        
+        <img src="/images/mincon-logo.webp" alt="" class='md:max-w-2xl'>
+        <button
+            onclick="document.getElementById('registration-fees').scrollIntoView({ behavior: 'smooth' });"
+            class='bg-[#9c0ad1] hover:bg-[#9c0ad1]/80 h-[50px] w-[345px] text-white font-bold rounded-md'>
+            REGISTER NOW
+        </button> 
+    </div>
+ </section>
 
-        @include('includes.body')
 
-        @include('includes.footer')
 
-    </body>
-</html>
+ @endsection
