@@ -124,96 +124,92 @@ type();
                 Network, learn, and unleash your potential…</p>
         </div>
 
-        <div class='md:max-w-6xl'>
-    
-            <div class='flex flex-row flex-wrap justify-center'>
+        <div class='mx-auto md:px-8 md:max-w-6xl'>
+            <div class="grid gap-8 md:grid-cols-3">
 
-            <div class='w-full p-3 md:w-1/2 lg:w-1/3'>
-                    <div class='block overflow-hidden border rounded-lg bg-white/10 border-white/30 md:rounded-2xl group break-inside-avoid'>
-                        <div class='flex flex-col'>
-                            <h1 class='py-5 pl-6 mb-5 text-lg text-white'>
-                                ✨Fellowship Night✨
-                                "RETRO REVAMP: Slayin' the 70's & 80's Vibe"
-                            </h1>
-                            <div class='flex justify-center px-6'>
-                                <img src="/images/events/retrorevampprizes.jpg" alt="" class='w-full h-auto rounded-lg md:rounded-2xl'>
-                            </div>
-                            <div>
-                                <p class='p-6 text-white text-md sm:text-md'>
-                                    Show us your best moves for a chance to win the grand prize 🏆
-                                </p>
-                            </div>
-                            <div class='flex justify-center mb-6'>
-                                    <a href="https://docs.google.com/forms/d/e/1FAIpQLScG3xwA7mhxlV5fF8AEEqT_ZKRaRwePB3lhzCnc6pejTpBEow/viewform" 
-                                        class='bg-[#FF0000] hover:bg-[#FF0000]/80 h-[50px] w-[260px] rounded-md flex justify-center items-center'>
-                                            <p class='font-semibold text-center text-white'>
-                                                Click to register
-                                            </p>
-                                    </a> 
-                                </a>
-                            </div>
-                            
+                <div class="border border-gray-500 rounded-lg bg-gray-950">
+                    <header class="px-6 py-5 md:h-28">
+                        <h1 class='text-lg font-semibold text-white'>
+                            Fellowship Night
+                            "RETRO REVAMP: Slayin' the 70's & 80's Vibe"
+                        </h1>
+                    </header>
+                    <div class="px-6 py-3">
+                        <div class='flex justify-center'>
+                            <img src="/images/events/retrorevampprizes.jpg" alt="" class='object-cover w-full h-40 rounded-lg md:rounded-2xl'>
                         </div>
+                        <div class="mt-6">
+                            <p class='text-sm text-white md:h-24'>
+                                Show us your best moves for a chance to win the grand prize 🏆
+                            </p>
+                        </div>
+                    </div>
+                    <div class="px-6 py-5">
+                            <a href="https://docs.google.com/forms/d/e/1FAIpQLScG3xwA7mhxlV5fF8AEEqT_ZKRaRwePB3lhzCnc6pejTpBEow/viewform" 
+                                target="_blank"
+                                class='block w-full px-3 py-3 text-center bg-yellow-500 rounded-md hover:bg-yellow-600'>
+                                Click to register
+                            </a> 
+                        </a>
                     </div>
                 </div>
 
-                <div class='w-full p-3 md:w-1/2 lg:w-1/3'>
-                    <div class='block overflow-hidden border rounded-lg bg-white/10 border-white/30 md:rounded-2xl group break-inside-avoid'>
-                        <div class='flex flex-col'>
-                            <h1 class='py-5 pl-6 mb-5 text-lg text-white'>
-                                List of recommended accommodations</h1>
-                            <div class='flex justify-center px-6'>
-                                <img src="/images/events/accomodations.jpg" alt="" class='w-full h-auto rounded-lg md:rounded-2xl'>
-                            </div> 
-                            <div>
-                                <p class='p-6 text-white text-md sm:text-md'>
-                                    For booking and reservations, contact directly your chosen accommodation.
+                <div class="border border-gray-500 rounded-lg bg-gray-950">
+                    <header class="px-6 py-5 md:h-28">
+                        <h1 class='text-lg font-semibold text-white'>
+                            List of recommended accommodations
+                        </h1>
+                    </header>
+                    <div class="px-6 py-3">
+                        <div class='flex justify-center'>
+                            <img src="{{  asset('/images/events/accomodations.jpg') }}" alt="" class='object-cover w-full h-40 rounded-lg md:rounded-2xl'>
+                        </div>
+                        <div class="mt-6">
+                            <p class='text-sm text-white md:h-24'>
+                                 For booking and reservations, contact directly your chosen accommodation.
                                     TaraLet's sa MINCON 2025!
-                                </p>
-                            </div>
-                            <div class='flex justify-center mb-6'>
-                                    <a href="{{ url('accommodations') }}" 
-                                        class='bg-[#00BFFF] hover:bg-[#00BFFF]/80 h-[50px] w-[260px] rounded-md flex justify-center items-center'>
-                                            <p class='font-semibold text-center text-white'>
-                                                Click for more info
-                                            </p>
-                                    </a> 
-                            </div>
-                        </div>  
-                    </div>
-                </div>
-
-                <div class='w-full p-3 md:w-1/2 lg:w-1/3'>
-                    <div class='block overflow-hidden border rounded-lg bg-white/10 border-white/30 md:rounded-2xl group break-inside-avoid'>
-                        <div class='flex flex-col'>
-                            <h1 class='py-5 pl-6 text-lg text-white'>
-                                Calling all dental trade exhibitors🦷✨
-                            </h1>
-                            <div class='flex justify-center px-6'>
-                                <img src="/images/events/trader.jpg" alt="" class='w-full h-auto rounded-lg md:rounded-2xl'>
-                            </div>
-                            <div class='text-white text-md sm:text-md'>
-                                <p class='px-6 pt-6'>
-                                    Secure your booth now and showcase your products & services!
-                                </p>
-                                <p class='p-6'>
-                                    For more inquiries, you may contact Dr. Cecille B. Sabayle our trade exhibit chairman.
-                                </p>
-                            </div>
-                            <div class='flex justify-center mb-6'>
-                                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSe9mNPT9dCU1SaUBSjc8cdNDCeM-xFTQGEWy-vmw1pzlFD_Mg/viewform" 
-                                        class='bg-[#e3a100] hover:bg-[#e3a100]/80 h-[50px] w-[260px] rounded-md flex justify-center items-center'>
-                                            <p class='font-semibold text-center text-white'>
-                                                Click to register
-                                            </p>
-                                    </a> 
-                            </div>
+                            </p>
                         </div>
                     </div>
-                </div>
-            </div>  
+                    <div class="px-6 py-5">
+                            <a href="https://docs.google.com/forms/d/e/1FAIpQLScG3xwA7mhxlV5fF8AEEqT_ZKRaRwePB3lhzCnc6pejTpBEow/viewform" 
+                                target="_blank"
+                                class='block w-full px-3 py-3 text-center bg-yellow-500 rounded-md hover:bg-yellow-600'>
+                                 Click for more info
+                            </a> 
+                        </a>
+                    </div>
+                </div>  
+
+                <div class="border border-gray-500 rounded-lg bg-gray-950">
+                    <header class="px-6 py-5 md:h-28">
+                        <h1 class='text-lg font-semibold text-white'>
+                            Calling all dental trade exhibitors🦷✨
+                        </h1>
+                    </header>
+                    <div class="px-6 py-3">
+                        <div class='flex justify-center'>
+                            <img src="{{  asset('/images/events/trader.jpg') }}" alt="" class='object-cover w-full h-40 rounded-lg md:rounded-2xl'>
+                        </div>
+                        <div class="mt-6 text-sm text-white md:h-24">
+                            <p> Secure your booth now and showcase your products & services! For more inquiries, you may contact Dr. Cecille B. Sabayle our trade exhibit chairman.</p>
+                        </div>
+                    </div>
+                    <div class="px-6 py-5">
+                            <a href="https://docs.google.com/forms/d/e/1FAIpQLSe9mNPT9dCU1SaUBSjc8cdNDCeM-xFTQGEWy-vmw1pzlFD_Mg/viewform" 
+                                target="_blank"
+                                class='block w-full px-3 py-3 text-center bg-yellow-500 rounded-md hover:bg-yellow-600'>
+                                 Click to register
+                            </a> 
+                        </a>
+                    </div>
+                </div>  
+
+            </div>
+        </div>
     </div>
 </section>
+
 
 <!-- speakers -->
 <section class='relative pt-5 pb-20 bg-black md:py-40'>
