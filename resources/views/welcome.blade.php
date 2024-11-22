@@ -64,7 +64,7 @@ type();
 
                      <div class='mt-5'>
 
-                        <div class="grid-cols-3 gap-4 space-y-2 md:grid">
+                        <div class="grid-cols-3 gap-4 space-y-2 md:space-y-0 md:grid">
 
                             <a href="https://maps.app.goo.gl/sF4usXAQabCaqz3d7" 
                                 target="_blank"
