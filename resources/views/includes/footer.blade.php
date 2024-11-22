@@ -1,7 +1,7 @@
 <section class='bg-white py-20 border-2'>
     <div>
         <div class='flex flex-col justify-center items-center'>
-            <a href="" class='text-black font-black text-2xl'>Contact Us</a>
+            <a href="https://www.facebook.com/profile.php?id=61564303471877" class='text-black font-semibold text-2xl'>Contact Us</a>
         </div>
         <div class='mt-20'>
             <div class='text-center text-[#868686]'>

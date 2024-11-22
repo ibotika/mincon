@@ -15,7 +15,7 @@
 
         <div class='z-10 px-10'> 
             <div class='text-white'>
-                <h1 class='mb-5 mt-5 md:mt-0 text-5xl font-black'>
+                <h1 class='mb-5 mt-5 md:mt-0 text-5xl font-bold'>
                     MINCON 2025: Beyond an Event- A Legacy in the Making.
                 </h1>
                 <div class=''>
@@ -56,7 +56,7 @@
                 <div class='mt-3 md:mt-3 flex flex-col items-center justify-center md:items-start'> 
                     <button
                         onclick="document.getElementById('registration-fees').scrollIntoView({ behavior: 'smooth' });"
-                        class='bg-[#733b8b] hover:bg-[#733b8b]/80 h-[50px] w-[345px] md:w-auto px-10 text-white font-bold rounded-md'>
+                        class='bg-[#9c0ad1] hover:bg-[#9c0ad1]/80 h-[50px] w-[345px] md:w-auto px-10 text-white font-bold rounded-md'>
                         REGISTER NOW
                     </button> 
                 </div>
@@ -70,7 +70,7 @@
 <section class='bg-black py-10 md:py-30'>
     <div class='m-10 justify-items-center'>
         <div class='text-white md:max-w-xl mb-10'>
-            <h1 class='text-4xl text-center mb-5 md:text-6xl font-black'>
+            <h1 class='text-4xl text-center mb-5 md:text-6xl font-bold'>
                 Welcome to MINCON 2025 </h1>
             <p class='text-center text-white md:text-xl'>MINCON is more than just a convention; it's an eco-adventure where knowledge flows like the stunning waterfalls around us!
                 This year, we're redefining the norm.
@@ -81,28 +81,9 @@
         <div class='md:max-w-6xl'>
     
             <div class='flex flex-row flex-wrap justify-center'>
-                <div class='w-full md:w-1/2 lg:w-1/3 p-3'>
-                    <a href="{{ route('accommodations') }}"
-                        class='bg-white/10 border border-white/30  overflow-hidden rounded-lg md:rounded-2xl group hover:shadow-lg hover:scale-105 transition-all block break-inside-avoid'>
-                        <div class='flex flex-col'>
-                            <h1 class='py-5 pl-6 text-white text-lg mb-5'>
-                                List of recommended accommodations</h1>
-                            <div class='flex justify-center px-6'>
-                                <img src="/images/events/accomodations.jpg" alt="" class='w-full h-auto rounded-lg md:rounded-2xl'>
-                            </div> 
-                            <div>
-                                <p class='text-white text-md sm:text-md p-6'>
-                                    For booking and reservations, contact directly your chosen accommodation.
-                                    TaraLet's sa MINCON 2025!
-                                </p>
-                            </div>
-                        </div>
-                    </a>
-                </div>
 
-                <div class='w-full md:w-1/2 lg:w-1/3 p-3'>
-                    <a href="gogel.com"
-                        class='bg-white/10 border border-white/30  overflow-hidden rounded-lg md:rounded-2xl group hover:shadow-lg hover:scale-105 transition-all block break-inside-avoid'>
+            <div class='w-full md:w-1/2 lg:w-1/3 p-3'>
+                    <div class='bg-white/10 border border-white/30  overflow-hidden rounded-lg md:rounded-2xl group block break-inside-avoid'>
                         <div class='flex flex-col'>
                             <h1 class='py-5 pl-6 text-white text-lg mb-5'>
                                 ✨Fellowship Night✨
@@ -116,13 +97,48 @@
                                     Show us your best moves for a chance to win the grand prize 🏆
                                 </p>
                             </div>
+                            <div class='flex justify-center mb-6'>
+                                    <a href="https://docs.google.com/forms/d/e/1FAIpQLScG3xwA7mhxlV5fF8AEEqT_ZKRaRwePB3lhzCnc6pejTpBEow/viewform" 
+                                        class='bg-[#FF0000] hover:bg-[#FF0000]/80 h-[50px] w-[260px] rounded-md flex justify-center items-center'>
+                                            <p class='text-white text-center font-semibold'>
+                                                Click to register
+                                            </p>
+                                    </a> 
+                                </a>
+                            </div>
+                            
                         </div>
-                    </a>
+                    </div>
                 </div>
 
                 <div class='w-full md:w-1/2 lg:w-1/3 p-3'>
-                    <a href="gogel.com"
-                        class='bg-white/10 border border-white/30  overflow-hidden rounded-lg md:rounded-2xl group hover:shadow-lg hover:scale-105 transition-all block break-inside-avoid'>
+                    <div class='bg-white/10 border border-white/30  overflow-hidden rounded-lg md:rounded-2xl group block break-inside-avoid'>
+                        <div class='flex flex-col'>
+                            <h1 class='py-5 pl-6 text-white text-lg mb-5'>
+                                List of recommended accommodations</h1>
+                            <div class='flex justify-center px-6'>
+                                <img src="/images/events/accomodations.jpg" alt="" class='w-full h-auto rounded-lg md:rounded-2xl'>
+                            </div> 
+                            <div>
+                                <p class='text-white text-md sm:text-md p-6'>
+                                    For booking and reservations, contact directly your chosen accommodation.
+                                    TaraLet's sa MINCON 2025!
+                                </p>
+                            </div>
+                            <div class='flex justify-center mb-6'>
+                                    <a href="{{ route('accommodations') }}" 
+                                        class='bg-[#00BFFF] hover:bg-[#00BFFF]/80 h-[50px] w-[260px] rounded-md flex justify-center items-center'>
+                                            <p class='text-white text-center font-semibold'>
+                                                Click for more info
+                                            </p>
+                                    </a> 
+                            </div>
+                        </div>  
+                    </div>
+                </div>
+
+                <div class='w-full md:w-1/2 lg:w-1/3 p-3'>
+                    <div class='bg-white/10 border border-white/30  overflow-hidden rounded-lg md:rounded-2xl group block break-inside-avoid'>
                         <div class='flex flex-col'>
                             <h1 class='py-5 pl-6 text-white text-lg'>
                                 Calling all dental trade exhibitors🦷✨
@@ -138,68 +154,17 @@
                                     For more inquiries, you may contact Dr. Cecille B. Sabayle our trade exhibit chairman.
                                 </p>
                             </div>
-                        </div>
-                    </a>
-                </div>
-
-                <div class='flex flex-row flex-wrap justify-center'>
-                <div class='w-full md:w-1/2 lg:w-1/3 p-3'>
-                    <a href="gogel.com"
-                        class='bg-white/10 border border-white/30  overflow-hidden rounded-lg md:rounded-2xl group hover:shadow-lg hover:scale-105 transition-all block break-inside-avoid'>
-                        <div class='flex flex-col'>
-                            <h1 class='py-5 pl-6 text-white text-2xl'>
-                                Title of the post</h1>
-                            <div class='flex justify-center px-6'>
-                                <img src="/images/trader.jpg" alt="" class='w-full h-auto rounded-lg md:rounded-2xl'>
-                            </div>
-                            <div>
-                                <p class='text-white text-[15px] sm:text-md p-6'>
-                                    Join us for a night of nostalgia!
-                                    Step back in time and groove to the retro vibes of 70's and 80's
-                                    Dress in your best throwback style!</p>
+                            <div class='flex justify-center mb-6'>
+                                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSe9mNPT9dCU1SaUBSjc8cdNDCeM-xFTQGEWy-vmw1pzlFD_Mg/viewform" 
+                                        class='bg-[#e3a100] hover:bg-[#e3a100]/80 h-[50px] w-[260px] rounded-md flex justify-center items-center'>
+                                            <p class='text-white text-center font-semibold'>
+                                                Click to register
+                                            </p>
+                                    </a> 
                             </div>
                         </div>
-                    </a>
+                    </div>
                 </div>
-
-                <div class='w-full md:w-1/2 lg:w-1/3 p-3'>
-                    <a href="gogel.com"
-                        class='bg-white/10 border border-white/30  overflow-hidden rounded-lg md:rounded-2xl group hover:shadow-lg hover:scale-105 transition-all block break-inside-avoid'>
-                        <div class='flex flex-col'>
-                            <h1 class='py-5 pl-6 text-white text-2xl'>
-                                Title of the post</h1>
-                            <div class='flex justify-center px-6'>
-                                <img src="/images/retrorevamp.png" alt="" class='w-full h-auto rounded-lg md:rounded-2xl'>
-                            </div>
-                            <div>
-                                <p class='text-white text-[15px] sm:text-md p-6'>
-                                    Join us for a night of nostalgia!
-                                    Step back in time and groove to the retro vibes of 70's and 80's
-                                    Dress in your best throwback style!</p>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-
-                <div class='w-full md:w-1/2 lg:w-1/3 p-3'>
-                    <a href="gogel.com"
-                        class='bg-white/10 border border-white/30  overflow-hidden rounded-lg md:rounded-2xl group hover:shadow-lg hover:scale-105 transition-all block break-inside-avoid'>
-                        <div class='flex flex-col'>
-                            <h1 class='py-5 pl-6 text-white text-2xl'>
-                                Title of the post</h1>
-                            <div class='flex justify-center px-6'>
-                                <img src="/images/trader.jpg" alt="" class='w-full h-auto rounded-lg md:rounded-2xl'>
-                            </div>
-                            <div>
-                                <p class='text-white text-[15px] sm:text-md p-6'>
-                                    Join us for a night of nostalgia!
-                                    Step back in time and groove to the retro vibes of 70's and 80's
-                                    Dress in your best throwback style!</p>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-
             </div>  
     </div>
 </section>
@@ -209,103 +174,173 @@
     <div class="absolute inset-0 bg-cover bg-center" style="background-image: url('/images/bg/bg-6.webp'); opacity:0.6;"></div>
 
     <div class='relative z-10 '>
-        <div class='mx-10 md:mx-auto md:max-w-xl '>
-            <h1 class='mb-5 font-black text-4xl md:text-6xl text-center text-white'>
+        <div class='mx-10 md:mx-auto md:max-w-xl'>
+            <h1 class='mb-6 font-bold text-4xl md:text-6xl text-center text-white'>
                 Featured Speakers
             </h1>
             <p class='mb-5 text-center text-white md:text-xl'>
             Get to know our lineup of prominent speakers who will be sharing their expertise at the MINCON 2025.
             </p>
         </div>
-        <div class='mt-24 flex flex-cols items-center justify-center'>
-            <div class='bg-black/30 border border-white/30 h-[300px] w-[350px] rounded-3xl'>
-                <div class='justify-items-center'>
-                    <img src="/images/speakers/speaker-1.png" alt=""
-                    class='w-[240px] -mt-20'>
+        
+        <div class="swiper mx-auto" data-swiper-autoplay="1000" style="overflow: hidden; position: relative;">
+            <div class="swiper-wrapper" style="display: flex; transition: transform 0.3s ease-in-out;">
+                <!-- Each speaker slide (similar structure for all) -->
+                <div class="swiper-slide" style="flex: 0 0 auto; width: 350px; padding: 16px; box-sizing: border-box;">
+                <div class="card" style="background-color: rgba(0, 0, 0, 0.3); border: 1px solid rgba(255, 255, 255, 0.3); border-radius: 24px; text-align: center; padding: 16px;">
+                    <div class="image-container" style="margin-top: -40px;">
+                    <img src="/images/speakers/speaker-1.png" alt="Speaker 1" style="width: 240px; margin: 0 auto;">
+                    </div>
+                    <div class="text-content" style="color: white; margin-top: 16px;">
+                    <h1 style="font-size: 1.5rem;">Name 1</h1>
+                    <p style="margin-top: 8px; font-size: 1rem;">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                    </div>
                 </div>
-                <div class='text-center text-white mt-5'>
-                    <h1 class='text-2xl'>Name 1</h1>
-                    <p class='mt-3'>Lorem ipsum dolor sit
-                    amet, consectetur adipiscing elit</p>
+                </div>
+                
+                <div class="swiper-slide" style="flex: 0 0 auto; width: 350px; padding: 16px; box-sizing: border-box;">
+                <div class="card" style="background-color: rgba(0, 0, 0, 0.3); border: 1px solid rgba(255, 255, 255, 0.3); border-radius: 24px; text-align: center; padding: 16px;">
+                    <div class="image-container" style="margin-top: -40px;">
+                    <img src="/images/speakers/speaker-1.png" alt="Speaker 1" style="width: 240px; margin: 0 auto;">
+                    </div>
+                    <div class="text-content" style="color: white; margin-top: 16px;">
+                    <h1 style="font-size: 1.5rem;">Name 2</h1>
+                    <p style="margin-top: 8px; font-size: 1rem;">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                    </div>
+                </div>
+                </div>
+
+                <div class="swiper-slide" style="flex: 0 0 auto; width: 350px; padding: 16px; box-sizing: border-box;">
+                <div class="card" style="background-color: rgba(0, 0, 0, 0.3); border: 1px solid rgba(255, 255, 255, 0.3); border-radius: 24px; text-align: center; padding: 16px;">
+                    <div class="image-container" style="margin-top: -40px;">
+                    <img src="/images/speakers/speaker-1.png" alt="Speaker 1" style="width: 240px; margin: 0 auto;">
+                    </div>
+                    <div class="text-content" style="color: white; margin-top: 16px;">
+                    <h1 style="font-size: 1.5rem;">Name 3</h1>
+                    <p style="margin-top: 8px; font-size: 1rem;">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                    </div>
+                </div>
+                </div>
+
+                <div class="swiper-slide" style="flex: 0 0 auto; width: 350px; padding: 16px; box-sizing: border-box;">
+                <div class="card" style="background-color: rgba(0, 0, 0, 0.3); border: 1px solid rgba(255, 255, 255, 0.3); border-radius: 24px; text-align: center; padding: 16px;">
+                    <div class="image-container" style="margin-top: -40px;">
+                    <img src="/images/speakers/speaker-1.png" alt="Speaker 1" style="width: 240px; margin: 0 auto;">
+                    </div>
+                    <div class="text-content" style="color: white; margin-top: 16px;">
+                    <h1 style="font-size: 1.5rem;">Name 4</h1>
+                    <p style="margin-top: 8px; font-size: 1rem;">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                    </div>
+                </div>
+                </div>
+
+                <div class="swiper-slide" style="flex: 0 0 auto; width: 350px; padding: 16px; box-sizing: border-box;">
+                <div class="card" style="background-color: rgba(0, 0, 0, 0.3); border: 1px solid rgba(255, 255, 255, 0.3); border-radius: 24px; text-align: center; padding: 16px;">
+                    <div class="image-container" style="margin-top: -40px;">
+                    <img src="/images/speakers/speaker-1.png" alt="Speaker 1" style="width: 240px; margin: 0 auto;">
+                    </div>
+                    <div class="text-content" style="color: white; margin-top: 16px;">
+                    <h1 style="font-size: 1.5rem;">Name 5</h1>
+                    <p style="margin-top: 8px; font-size: 1rem;">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                    </div>
+                </div>
+                </div>
+
+                <div class="swiper-slide" style="flex: 0 0 auto; width: 350px; padding: 16px; box-sizing: border-box;">
+                <div class="card" style="background-color: rgba(0, 0, 0, 0.3); border: 1px solid rgba(255, 255, 255, 0.3); border-radius: 24px; text-align: center; padding: 16px;">
+                    <div class="image-container" style="margin-top: -40px;">
+                    <img src="/images/speakers/speaker-1.png" alt="Speaker 1" style="width: 240px; margin: 0 auto;">
+                    </div>
+                    <div class="text-content" style="color: white; margin-top: 16px;">
+                    <h1 style="font-size: 1.5rem;">Name 6</h1>
+                    <p style="margin-top: 8px; font-size: 1rem;">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                    </div>
+                </div>
                 </div>
             </div>
+
+            </div>
         </div>
-        
     </div>
 </section>
+   
 
 <!-- registration fees -->
 <section id="registration-fees" class="bg-black py-10 md:py-40 relative ">
     <div class="absolute inset-0 bg-cover bg-center" style="background-image: url('/images/bg/Maria-Christina-Falls.webp'); opacity: 0.5;"></div>
 
-    <div class='z-10 relative justify-items-center'>
+    <div class='z-10 m-10 relative justify-items-center'>
         <div class='mx-10 md:mx-auto md:max-w-xl'>
-            <h1 class='mb-5 font-black text-4xl md:text-6xl font-black text-center text-white'>
+            <h1 class='mb-6 font-bold text-4xl md:text-6xl text-center text-white'>
                 Registration Fees</h1>
-            <p class='mb-5 text-center text-white md:text-xl'>
-                Inclusions:
-                Lunch, A.M. Snacks, and P.M. Snacks for 2 days
-                Free flowing pika-pika, coffee and tea
-            </p>
+            <!-- <p class='mb-10 text-center text-white md:text-xl'>
+                with CPD Points
+            </p> -->
         </div>
 
-        <div class='flex flex-wrap md:max-w-7xl gap-5 justify-center items-center'>
-            <div class='bg-black/30 border border-white/30 h-[280px] w-[350px] overflow-hidden rounded-2xl'>
-                <div class='text-center font-bold text-white text-2xl bg-[#FFDD00] py-3'>
-                    Early Bird
+        <div class='flex flex-row flex-wrap justify-center'>
+           
+            <div class='w-full md:w-1/2 lg:w-1/3 p-3'>
+                <div class=' bg-black/60 border border-white/30 overflow-hidden rounded-2xl'>
+                    <div class='text-center font-bold text-white text-2xl bg-red-600 py-3'>
+                        Early Bird
+                    </div>
+                    <div class='mt-12 text-center text-white'>
+                        <p class='mb-5 w-15 text-gray-500 '>(September 15, 2024-November 15, 2024)</p>
+                        <p class='mb-5 text-lg'>Life Member - PHP 2,500</p>
+                    </div>
+                    <div class='flex justify-center mb-6'>
+                        <button class='bg-gray-500 h-[50px] w-[260px] rounded-md'>
+                            <p class='text-white font-semibold'>
+                                Closed
+                            </p>
+                        </button> 
+                    </div>
                 </div>
-                <div class='mt-12 text-center text-white'>
-                    <p class='mb-5 w-15 text-gray-500 '>(September 15, 2024-November 15, 2024)</p>
-                    <p class='mb-5 text-lg'>Life Member - PHP 2,500</p>
-                </div>
-                <a href="https://google.com"
-                    class='flex justify-center'>
-                    <button class='bg-[#FFDD00] hover:bg-[#FFDD00]/80 h-[50px] w-[260px] rounded-md'>
-                        <p class='text-white font-black text-2xl'>
-                            PHP 3,500
-                        </p>
-                    </button> 
-                </a>
             </div>
 
-            <div class='bg-black/30 border border-white/30  h-[280px] w-[350px] overflow-hidden rounded-2xl'>
-                <div class='text-center font-bold text-white text-2xl bg-[#FF0000] py-3'>
-                   Pre-registration   
-                 </div>
-                <div class='mt-12 text-center text-white'>
-                    <p class='mb-5 w-15 text-gray-500 '>(September 15, 2024-November 15, 2024)</p>
-                    <p class='mb-5 text-lg'>Life Member - PHP 2,500</p>
+            <div class='w-full md:w-1/2 lg:w-1/3 p-3'>
+                <div class='bg-black/60 border border-white/30 overflow-hidden rounded-2xl'>
+                    <div class='text-center font-bold text-white text-2xl bg-[#9c0ad1] py-3'>
+                    Pre-registration   
+                    </div>
+                    <div class='p-6 text-start text-white'>
+                        <p class='mb-5 text-gray-400'>(November 16, 2024-January 5, 2025)</p>
+                        <p class='mb-3'><span class='text-[#9c0ad1] text-md font-black'>P4,500</span> Dentist, Dental Technologist, and Dental Hygienist</p>
+                        <p class='mb-3'><span class='text-[#9c0ad1] text-md font-black'>P3,500</span> Government Dentist</p>
+                        <p class='mb-6'><span class='text-[#9c0ad1] text-md font-black'>P3,000</span> PDA Life Member & Dental Students</p>
+                        <p class='text-gray-400'>Snacks, meals and free flowing coffee <span class='text-white font-bold'>INCLUDED</span></p>
+                    </div>
+                    <a href="https://docs.google.com/forms/d/1z5wkWCZOvqXtVmJ2xaIZHrSjaLsiBNoVKEtwXwxAHNA/viewform?edit_requested=true"
+                        class='flex justify-center mb-6'>
+                        <button class='bg-[#9c0ad1] hover:bg-[#9c0ad1]/80 h-[50px] w-[260px] rounded-md'>
+                                <p class='text-white font-semibold'>
+                                    Register Now
+                                </p>
+                        </button> 
+                    </a>
                 </div>
-                <a href="https://google.com"
-                    class='flex justify-center'>
-                    <button         
-                        class='bg-[#FF0000] hover:bg-[#FF0000]/80 h-[50px] w-[260px] rounded-md'>
-                            <p class='text-white font-black text-2xl'>
-                                PHP 4,500
-                            </p>
-                    </button> 
-                </a>
             </div>
 
-            <div class='bg-black/30 border border-white/30 h-[280px] w-[350px] overflow-hidden rounded-2xl'>
-                <div class='text-center font-bold text-white text-2xl bg-[#00BFFF] py-3'>
-                    Onsite
+            <div class='w-full md:w-1/2 lg:w-1/3 p-3'>
+                <div class='bg-black/60 border border-white/30 overflow-hidden rounded-2xl'>
+                    <div class='text-center font-bold text-white text-2xl bg-[#00BFFF] py-3'>
+                            Onsite
+                    </div>
+                    <div class='p-6 text-start text-white'>
+                        <p class='mb-3'><span class='text-[#00BFFF] text-md font-black'>P4,500</span> Dentist, Dental Technologist, and Dental Hygienist</p>
+                        <p class='mb-6'><span class='text-[#00BFFF] text-md font-black'>P3,000</span> PDA Life Member & Dental Students</p>
+                        <p class='text-gray-400'>Snacks, meals and free flowing coffee <span class='text-white font-bold'>NOT INCLUDED</span></p>
+                    </div>
+                    <div class='flex justify-center mb-6'>
+                        <button class='bg-gray-500 h-[50px] w-[260px] rounded-md'>
+                                <p class='text-white font-semibold'>
+                                    January 6,2025 - onwards
+                                </p>
+                        </button> 
+                    </div> 
                 </div>
-                <div class='mt-12 text-center text-white'>
-                    <p class='mb-5 w-15 text-gray-500 '>(September 15, 2024-November 15, 2024)</p>
-                    <p class='mb-5 text-lg'>Life Member - PHP 2,500</p>
-                </div>
-                <a href="https://google.com"
-                    class='flex justify-center'>
-                    <button         
-                        class='bg-[#00BFFF] hover:bg-[#00BFFF]/80 h-[50px] w-[260px] rounded-md'>
-                            <p class='text-white font-black text-2xl'>
-                                PHP 6,500
-                            </p>
-                    </button> 
-                </a>
             </div>
-        </div>
     </div>
 </section>
 
@@ -315,7 +350,7 @@
         <div class=' flex flex-col justify-center items-center'>
             <h1 class='mb-5 md:text-xl'>
                 Hosted By:</h1>
-            <p class='font-black text-lg'>PDA ILIGAN CHAPTER</p>
+            <p class='font-bold text-lg'>PDA ILIGAN CHAPTER</p>
         </div>
 
         <div class='py-10 grid grid-cols-1 md:grid-cols-3 justify-items-center gap-10 md:gap-5'>
@@ -340,9 +375,10 @@
         <img src="/images/mincon-logo.webp" alt="" class='md:max-w-2xl'>
         <button
             onclick="document.getElementById('registration-fees').scrollIntoView({ behavior: 'smooth' });"
-            class='bg-[#733b8b] hover:bg-[#733b8b]/80 h-[50px] w-[345px] text-white font-bold rounded-md'>
+            class='bg-[#9c0ad1] hover:bg-[#9c0ad1]/80 h-[50px] w-[345px] text-white font-bold rounded-md'>
             REGISTER NOW
         </button> 
     </div>
  </section>
+
 
