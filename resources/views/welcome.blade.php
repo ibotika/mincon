@@ -49,9 +49,9 @@ type();
             <div>
 
                 <div class='text-white'>
-                    <h1 class='text-6xl font-extrabold md:mt-0'>MINCON 2025: </h1>
+                    <h1 class='text-6xl font-extrabold md:text-6xl md:mt-0'>MINCON 2025: </h1>
                     <div class="h-12">
-                        <h2 id="typewriter" class="mt-4 text-4xl font-bold">Beyond an Event</h2>
+                        <h2 id="typewriter" class="mt-4 text-2xl font-bold md:text-4xl">Beyond an Event</h2>
                     </div>
                     <div class='mt-4'>
                         <p class='mb-5'>
@@ -64,14 +64,14 @@ type();
 
                      <div class='mt-5'>
 
-                        <div class="grid grid-cols-3 gap-4">
+                        <div class="grid-cols-3 gap-4 space-y-2 md:grid">
 
                             <a href="https://maps.app.goo.gl/sF4usXAQabCaqz3d7" 
                                 target="_blank"
-                                class="flex w-full col-span-2 gap-2 p-4 transition-all rounded-md cursor-pointer bg-white/15 hover:bg-white/20">
+                                class="flex w-full col-span-2 gap-3 p-4 transition-all rounded-md cursor-pointer md:gap-2 bg-white/15 hover:bg-white/20">
                                 
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" 
-                                    class="flex-shrink-0 mt-2 size-8 animate-bounce">
+                                    class="flex-shrink-0 md:mt-2 size-8 md:animate-bounce">
                                     <path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
                                     <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z" />
                                 </svg>
@@ -81,7 +81,7 @@ type();
                                 </div>
                             </a>
 
-                            <div class="flex w-full col-span-1 gap-2 p-4 transition-all rounded-md cursor-pointer bg-white/15 hover:bg-white/20">
+                            <div class="flex items-center w-full col-span-1 gap-3 p-4 transition-all rounded-md cursor-pointer md:gap-2 md:item-start bg-white/15 hover:bg-white/20">
                                 
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" 
                                     class="flex-shrink-0 size-8">
