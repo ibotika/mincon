@@ -172,11 +172,9 @@ type();
                         </div>
                     </div>
                     <div class="px-6 py-5">
-                            <a href="https://docs.google.com/forms/d/e/1FAIpQLScG3xwA7mhxlV5fF8AEEqT_ZKRaRwePB3lhzCnc6pejTpBEow/viewform" 
-                                target="_blank"
-                                class='block w-full px-3 py-3 text-center bg-yellow-500 rounded-md hover:bg-yellow-600'>
-                                 Click for more info
-                            </a> 
+                        <a href="{{ route('accommodations') }}" 
+                            class='block w-full px-3 py-3 text-center bg-yellow-500 rounded-md hover:bg-yellow-600'>
+                            Click for more info
                         </a>
                     </div>
                 </div>  
@@ -229,75 +227,75 @@ type();
             <div class="swiper-wrapper" style="display: flex; transition: transform 0.3s ease-in-out;">
                 <!-- Each speaker slide (similar structure for all) -->
                 <div class="swiper-slide" style="flex: 0 0 auto; width: 350px; padding: 16px; box-sizing: border-box;">
-                <div class="card" style="background-color: rgba(0, 0, 0, 0.3); border: 1px solid rgba(255, 255, 255, 0.3); border-radius: 24px; text-align: center; padding: 16px;">
-                    <div class="image-container" style="margin-top: -40px;">
-                    <img src="/images/speakers/speaker-1.png" alt="Speaker 1" style="width: 240px; margin: 0 auto;">
+                    <div class="card" style="background-color: rgba(0, 0, 0, 0.3); border: 1px solid rgba(255, 255, 255, 0.3); border-radius: 24px; text-align: center; padding: 16px;">
+                        <div class="image-container" style="margin-top: -40px;">
+                        <img src="/images/speakers/speaker-1.png" alt="Speaker 1" style="width: 240px; margin: 0 auto;">
+                        </div>
+                        <div class="text-content" style="color: white; margin-top: 16px;">
+                        <h1 style="font-size: 1.5rem;">Name 1</h1>
+                        <p style="margin-top: 8px; font-size: 1rem;">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                        </div>
                     </div>
-                    <div class="text-content" style="color: white; margin-top: 16px;">
-                    <h1 style="font-size: 1.5rem;">Name 1</h1>
-                    <p style="margin-top: 8px; font-size: 1rem;">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-                    </div>
-                </div>
                 </div>
                 
                 <div class="swiper-slide" style="flex: 0 0 auto; width: 350px; padding: 16px; box-sizing: border-box;">
-                <div class="card" style="background-color: rgba(0, 0, 0, 0.3); border: 1px solid rgba(255, 255, 255, 0.3); border-radius: 24px; text-align: center; padding: 16px;">
-                    <div class="image-container" style="margin-top: -40px;">
-                    <img src="/images/speakers/speaker-1.png" alt="Speaker 1" style="width: 240px; margin: 0 auto;">
+                    <div class="card" style="background-color: rgba(0, 0, 0, 0.3); border: 1px solid rgba(255, 255, 255, 0.3); border-radius: 24px; text-align: center; padding: 16px;">
+                        <div class="image-container" style="margin-top: -40px;">
+                        <img src="/images/speakers/speaker-1.png" alt="Speaker 1" style="width: 240px; margin: 0 auto;">
+                        </div>
+                        <div class="text-content" style="color: white; margin-top: 16px;">
+                        <h1 style="font-size: 1.5rem;">Name 2</h1>
+                        <p style="margin-top: 8px; font-size: 1rem;">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                        </div>
                     </div>
-                    <div class="text-content" style="color: white; margin-top: 16px;">
-                    <h1 style="font-size: 1.5rem;">Name 2</h1>
-                    <p style="margin-top: 8px; font-size: 1rem;">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-                    </div>
-                </div>
                 </div>
 
                 <div class="swiper-slide" style="flex: 0 0 auto; width: 350px; padding: 16px; box-sizing: border-box;">
-                <div class="card" style="background-color: rgba(0, 0, 0, 0.3); border: 1px solid rgba(255, 255, 255, 0.3); border-radius: 24px; text-align: center; padding: 16px;">
-                    <div class="image-container" style="margin-top: -40px;">
-                    <img src="/images/speakers/speaker-1.png" alt="Speaker 1" style="width: 240px; margin: 0 auto;">
+                    <div class="card" style="background-color: rgba(0, 0, 0, 0.3); border: 1px solid rgba(255, 255, 255, 0.3); border-radius: 24px; text-align: center; padding: 16px;">
+                        <div class="image-container" style="margin-top: -40px;">
+                        <img src="/images/speakers/speaker-1.png" alt="Speaker 1" style="width: 240px; margin: 0 auto;">
+                        </div>
+                        <div class="text-content" style="color: white; margin-top: 16px;">
+                        <h1 style="font-size: 1.5rem;">Name 3</h1>
+                        <p style="margin-top: 8px; font-size: 1rem;">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                        </div>
                     </div>
-                    <div class="text-content" style="color: white; margin-top: 16px;">
-                    <h1 style="font-size: 1.5rem;">Name 3</h1>
-                    <p style="margin-top: 8px; font-size: 1rem;">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-                    </div>
-                </div>
                 </div>
 
                 <div class="swiper-slide" style="flex: 0 0 auto; width: 350px; padding: 16px; box-sizing: border-box;">
-                <div class="card" style="background-color: rgba(0, 0, 0, 0.3); border: 1px solid rgba(255, 255, 255, 0.3); border-radius: 24px; text-align: center; padding: 16px;">
-                    <div class="image-container" style="margin-top: -40px;">
-                    <img src="/images/speakers/speaker-1.png" alt="Speaker 1" style="width: 240px; margin: 0 auto;">
+                    <div class="card" style="background-color: rgba(0, 0, 0, 0.3); border: 1px solid rgba(255, 255, 255, 0.3); border-radius: 24px; text-align: center; padding: 16px;">
+                        <div class="image-container" style="margin-top: -40px;">
+                        <img src="/images/speakers/speaker-1.png" alt="Speaker 1" style="width: 240px; margin: 0 auto;">
+                        </div>
+                        <div class="text-content" style="color: white; margin-top: 16px;">
+                        <h1 style="font-size: 1.5rem;">Name 4</h1>
+                        <p style="margin-top: 8px; font-size: 1rem;">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                        </div>
                     </div>
-                    <div class="text-content" style="color: white; margin-top: 16px;">
-                    <h1 style="font-size: 1.5rem;">Name 4</h1>
-                    <p style="margin-top: 8px; font-size: 1rem;">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-                    </div>
-                </div>
                 </div>
 
                 <div class="swiper-slide" style="flex: 0 0 auto; width: 350px; padding: 16px; box-sizing: border-box;">
-                <div class="card" style="background-color: rgba(0, 0, 0, 0.3); border: 1px solid rgba(255, 255, 255, 0.3); border-radius: 24px; text-align: center; padding: 16px;">
-                    <div class="image-container" style="margin-top: -40px;">
-                    <img src="/images/speakers/speaker-1.png" alt="Speaker 1" style="width: 240px; margin: 0 auto;">
+                    <div class="card" style="background-color: rgba(0, 0, 0, 0.3); border: 1px solid rgba(255, 255, 255, 0.3); border-radius: 24px; text-align: center; padding: 16px;">
+                        <div class="image-container" style="margin-top: -40px;">
+                        <img src="/images/speakers/speaker-1.png" alt="Speaker 1" style="width: 240px; margin: 0 auto;">
+                        </div>
+                        <div class="text-content" style="color: white; margin-top: 16px;">
+                        <h1 style="font-size: 1.5rem;">Name 5</h1>
+                        <p style="margin-top: 8px; font-size: 1rem;">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                        </div>
                     </div>
-                    <div class="text-content" style="color: white; margin-top: 16px;">
-                    <h1 style="font-size: 1.5rem;">Name 5</h1>
-                    <p style="margin-top: 8px; font-size: 1rem;">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-                    </div>
-                </div>
                 </div>
 
                 <div class="swiper-slide" style="flex: 0 0 auto; width: 350px; padding: 16px; box-sizing: border-box;">
-                <div class="card" style="background-color: rgba(0, 0, 0, 0.3); border: 1px solid rgba(255, 255, 255, 0.3); border-radius: 24px; text-align: center; padding: 16px;">
-                    <div class="image-container" style="margin-top: -40px;">
-                    <img src="/images/speakers/speaker-1.png" alt="Speaker 1" style="width: 240px; margin: 0 auto;">
+                    <div class="card" style="background-color: rgba(0, 0, 0, 0.3); border: 1px solid rgba(255, 255, 255, 0.3); border-radius: 24px; text-align: center; padding: 16px;">
+                        <div class="image-container" style="margin-top: -40px;">
+                        <img src="/images/speakers/speaker-1.png" alt="Speaker 1" style="width: 240px; margin: 0 auto;">
+                        </div>
+                        <div class="text-content" style="color: white; margin-top: 16px;">
+                        <h1 style="font-size: 1.5rem;">Name 6</h1>
+                        <p style="margin-top: 8px; font-size: 1rem;">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                        </div>
                     </div>
-                    <div class="text-content" style="color: white; margin-top: 16px;">
-                    <h1 style="font-size: 1.5rem;">Name 6</h1>
-                    <p style="margin-top: 8px; font-size: 1rem;">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-                    </div>
-                </div>
                 </div>
             </div>
 
