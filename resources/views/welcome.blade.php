@@ -147,7 +147,7 @@ type();
                     <div class="px-6 py-5">
                             <a href="https://docs.google.com/forms/d/e/1FAIpQLScG3xwA7mhxlV5fF8AEEqT_ZKRaRwePB3lhzCnc6pejTpBEow/viewform" 
                                 target="_blank"
-                                class='block w-full px-3 py-3 text-center bg-yellow-500 rounded-md hover:bg-yellow-600'>
+                                class='block text-white w-full px-3 py-3 text-center bg-yellow-500 rounded-md hover:bg-yellow-600'>
                                 Click to register
                             </a> 
                         </a>
@@ -173,7 +173,7 @@ type();
                     </div>
                     <div class="px-6 py-5">
                         <a href="{{ route('accommodations') }}" 
-                            class='block w-full px-3 py-3 text-center bg-yellow-500 rounded-md hover:bg-yellow-600'>
+                            class='block text-white w-full px-3 py-3 text-center bg-yellow-500 rounded-md hover:bg-yellow-600'>
                             Click for more info
                         </a>
                     </div>
@@ -196,7 +196,7 @@ type();
                     <div class="px-6 py-5">
                             <a href="https://docs.google.com/forms/d/e/1FAIpQLSe9mNPT9dCU1SaUBSjc8cdNDCeM-xFTQGEWy-vmw1pzlFD_Mg/viewform" 
                                 target="_blank"
-                                class='block w-full px-3 py-3 text-center bg-yellow-500 rounded-md hover:bg-yellow-600'>
+                                class='block text-white w-full px-3 py-3 text-center bg-yellow-500 rounded-md hover:bg-yellow-600'>
                                  Click to register
                             </a> 
                         </a>
@@ -261,7 +261,7 @@ type();
                 updateSlideWidth() {
                     const container = document.querySelector('.swiper-container');
                     const containerWidth = container.offsetWidth;
-                    this.slideWidth = containerWidth >= 768 ? containerWidth / 1 : containerWidth * 0.8;
+                    this.slideWidth = containerWidth >= 768 ? containerWidth / 3 : containerWidth * 0.8;
                 },
                 handleTouchStart(event) {
                     this.startX = event.touches[0].clientX;
