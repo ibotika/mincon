@@ -27,10 +27,9 @@
                     <div class="px-6 py-5">
                             <a href="https://www.facebook.com/@GoHotelsIligan/" 
                                 target="_blank"
-                                class='block w-full px-3 py-3 text-center bg-yellow-500 rounded-md hover:bg-yellow-600'>
+                                class='text-white block w-full px-3 py-3 text-center bg-[#1877F2] rounded-md hover:bg-[#1877F2]/50'>
                                 Facebook page
                             </a> 
-                        </a>
                     </div>
                 </div>
 
@@ -48,7 +47,7 @@
                     <div class="px-6 py-5">
                             <a href="https://www.facebook.com/thelofthoteliligan" 
                                 target="_blank"
-                                class='block w-full px-3 py-3 text-center bg-yellow-500 rounded-md hover:bg-yellow-600'>
+                                class='text-white block w-full px-3 py-3 text-center bg-[#1877F2] rounded-md hover:bg-[#1877F2]/50'>
                                 Facebook page
                             </a> 
                         </a>
@@ -69,7 +68,7 @@
                     <div class="px-6 py-5">
                             <a href="https://www.facebook.com/@TheResidencebyIvory" 
                                 target="_blank"
-                                class='block w-full px-3 py-3 text-center bg-yellow-500 rounded-md hover:bg-yellow-600'>
+                                class='text-white block w-full px-3 py-3 text-center bg-[#1877F2] rounded-md hover:bg-[#1877F2]/50'>
                                 Facebook page
                             </a> 
                         </a>
@@ -90,7 +89,7 @@
                     <div class="px-6 py-5">
                             <a href="https://www.facebook.com/fortunesuiteiligancity" 
                                 target="_blank"
-                                class='block w-full px-3 py-3 text-center bg-yellow-500 rounded-md hover:bg-yellow-600'>
+                                class='text-white block w-full px-3 py-3 text-center bg-[#1877F2] rounded-md hover:bg-[#1877F2]/50'>
                                 Facebook page
                             </a> 
                         </a>
@@ -111,7 +110,7 @@
                     <div class="px-6 py-5">
                             <a href="https://www.facebook.com/profile.php?id=100093620817879" 
                                 target="_blank"
-                                class='block w-full px-3 py-3 text-center bg-yellow-500 rounded-md hover:bg-yellow-600'>
+                                class='text-white block w-full px-3 py-3 text-center bg-[#1877F2] rounded-md hover:bg-[#1877F2]/50'>
                                 Facebook page
                             </a> 
                         </a>
@@ -132,7 +131,7 @@
                     <div class="px-6 py-5">
                             <a href="https://www.facebook.com/alansrresidences/" 
                                 target="_blank"
-                                class='block w-full px-3 py-3 text-center bg-yellow-500 rounded-md hover:bg-yellow-600'>
+                                class='text-white block w-full px-3 py-3 text-center bg-[#1877F2] rounded-md hover:bg-[#1877F2]/50'>
                                 Facebook page
                             </a> 
                         </a>
@@ -153,7 +152,7 @@
                     <div class="px-6 py-5">
                             <a href="https://www.facebook.com/profile.php?id=100063857991092" 
                                 target="_blank"
-                                class='block w-full px-3 py-3 text-center bg-yellow-500 rounded-md hover:bg-yellow-600'>
+                                class='text-white block w-full px-3 py-3 text-center bg-[#1877F2] rounded-md hover:bg-[#1877F2]/50'>
                                 Facebook page
                             </a> 
                         </a>
@@ -174,7 +173,7 @@
                     <div class="px-6 py-5">
                             <a href="https://www.facebook.com/kingswayiliganhotel" 
                                 target="_blank"
-                                class='block w-full px-3 py-3 text-center bg-yellow-500 rounded-md hover:bg-yellow-600'>
+                                class='text-white block w-full px-3 py-3 text-center bg-[#1877F2] rounded-md hover:bg-[#1877F2]/50'>
                                 Facebook page
                             </a> 
                         </a>
@@ -195,7 +194,7 @@
                     <div class="px-6 py-5">
                             <a href="https://www.facebook.com/PAH.WeCater" 
                                 target="_blank"
-                                class='block w-full px-3 py-3 text-center bg-yellow-500 rounded-md hover:bg-yellow-600'>
+                                class='text-white block w-full px-3 py-3 text-center bg-[#1877F2] rounded-md hover:bg-[#1877F2]/50'>
                                 Facebook page
                             </a> 
                         </a>
@@ -216,7 +215,7 @@
                     <div class="px-6 py-5">
                             <a href="https://www.facebook.com/profile.php?id=61559879034886" 
                                 target="_blank"
-                                class='block w-full px-3 py-3 text-center bg-yellow-500 rounded-md hover:bg-yellow-600'>
+                                class='text-white block w-full px-3 py-3 text-center bg-[#1877F2] rounded-md hover:bg-[#1877F2]/50'>
                                 Facebook page
                             </a> 
                         </a>
@@ -237,7 +236,7 @@
                     <div class="px-6 py-5">
                             <a href="https://www.facebook.com/CrystalInnInc" 
                                 target="_blank"
-                                class='block w-full px-3 py-3 text-center bg-yellow-500 rounded-md hover:bg-yellow-600'>
+                                class='text-white block w-full px-3 py-3 text-center bg-[#1877F2] rounded-md hover:bg-[#1877F2]/50'>
                                 Facebook page
                             </a> 
                         </a>
@@ -258,7 +257,7 @@
                     <div class="px-6 py-5">
                             <a href="https://www.facebook.com/maximinniligan" 
                                 target="_blank"
-                                class='block w-full px-3 py-3 text-center bg-yellow-500 rounded-md hover:bg-yellow-600'>
+                                class='text-white block w-full px-3 py-3 text-center bg-[#1877F2] rounded-md hover:bg-[#1877F2]/50'>
                                 Facebook page
                             </a> 
                         </a>
@@ -279,7 +278,7 @@
                     <div class="px-6 py-5">
                             <a href="https://www.facebook.com/profile.php?id=100057594782321" 
                                 target="_blank"
-                                class='block w-full px-3 py-3 text-center bg-yellow-500 rounded-md hover:bg-yellow-600'>
+                                class='text-white block w-full px-3 py-3 text-center bg-[#1877F2] rounded-md hover:bg-[#1877F2]/50'>
                                 Facebook page
                             </a> 
                         </a>
@@ -300,7 +299,7 @@
                     <div class="px-6 py-5">
                             <a href="https://www.facebook.com/profile.php?id=100093617465550" 
                                 target="_blank"
-                                class='block w-full px-3 py-3 text-center bg-yellow-500 rounded-md hover:bg-yellow-600'>
+                                class='text-white block w-full px-3 py-3 text-center bg-[#1877F2] rounded-md hover:bg-[#1877F2]/50'>
                                 Facebook page
                             </a> 
                         </a>

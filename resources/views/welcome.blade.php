@@ -331,7 +331,7 @@ type();
                     <div class='flex justify-center mb-6'>
                         <button class='bg-gray-500 h-[50px] w-[260px] rounded-md'>
                             <p class='font-semibold text-white'>
-                                Closed
+                                PHP 3,500
                             </p>
                         </button> 
                     </div>
