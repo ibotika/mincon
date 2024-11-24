@@ -77,7 +77,7 @@ type();
                                 </svg>
 
                                 <div>
-                                    <p class="text-xs">JCLAM SHELL 1, KAUSWAGAN INTERNATIONAL ORGANIC CONVENTION CENTER, KAUSWAGAN, LANAO DEL NORTE</p>
+                                    <p class="text-xs">CLAM SHELL 1, KAUSWAGAN INTERNATIONAL ORGANIC CONVENTION CENTER, KAUSWAGAN, LANAO DEL NORTE</p>
                                 </div>
                             </a>
 
@@ -223,84 +223,83 @@ type();
             </p>
         </div>
         
-        <div class="mx-auto swiper" data-swiper-autoplay="1000" style="overflow: hidden; position: relative;">
-            <div class="swiper-wrapper" style="display: flex; transition: transform 0.3s ease-in-out;">
-                <!-- Each speaker slide (similar structure for all) -->
-                <div class="swiper-slide" style="flex: 0 0 auto; width: 350px; padding: 16px; box-sizing: border-box;">
-                    <div class="card" style="background-color: rgba(0, 0, 0, 0.3); border: 1px solid rgba(255, 255, 255, 0.3); border-radius: 24px; text-align: center; padding: 16px;">
-                        <div class="image-container" style="margin-top: -40px;">
-                        <img src="/images/speakers/speaker-1.png" alt="Speaker 1" style="width: 240px; margin: 0 auto;">
-                        </div>
-                        <div class="text-content" style="color: white; margin-top: 16px;">
-                        <h1 style="font-size: 1.5rem;">Name 1</h1>
-                        <p style="margin-top: 8px; font-size: 1rem;">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-                        </div>
-                    </div>
-                </div>
+       
+        <div x-data="{
+                slides: [
+                    { title: 'Name 1', description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit', image: '/images/speakers/speaker-1.png' },
+                    { title: 'Justin Bieber', description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit', image: '/images/speakers/speaker-1.png' },
+                    { title: 'Name 3', description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elitLorem ipsum dolor sit amet, consectetur adipiscing elitLorem ipsum dolor sit amet, consectetur adipiscing elit', image: '/images/speakers/speaker-1.png' },
+                    { title: 'Name 4', description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit', image: '/images/speakers/speaker-1.png' },
+                    { title: 'Name 5', description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit', image: '/images/speakers/speaker-1.png' },
+                    { title: 'Name 6', description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit', image: '/images/speakers/speaker-1.png' }
+                ],
+                currentSlide: 0,
+                interval: null,
+                autoplaySpeed: 3000,
+                startX: 0,
+                endX: 0,
+                slideWidth: 0,
+                init() {
+                    this.startAutoplay();
+                    this.updateSlideWidth();
+                    window.addEventListener('resize', this.updateSlideWidth.bind(this));
+                },
+                startAutoplay() {
+                    this.interval = setInterval(() => {
+                        this.goToNext();
+                    }, this.autoplaySpeed);
+                },
+                stopAutoplay() {
+                    clearInterval(this.interval);
+                },
+                goToNext() {
+                    this.currentSlide = (this.currentSlide + 1) % this.slides.length;
+                },
+                goToPrev() {
+                    this.currentSlide = (this.currentSlide - 1 + this.slides.length) % this.slides.length;
+                },
+                updateSlideWidth() {
+                    const container = document.querySelector('.swiper-container');
+                    const containerWidth = container.offsetWidth;
+                    this.slideWidth = containerWidth >= 768 ? containerWidth / 3 : containerWidth * 0.8;
+                },
+                handleTouchStart(event) {
+                    this.startX = event.touches[0].clientX;
+                },
+                handleTouchEnd(event) {
+                    this.endX = event.changedTouches[0].clientX;
+
+                    // Detect swipe direction based on X-axis movement
+                    if (this.startX - this.endX > 50) {
+                        // Swiped left, go to next slide
+                        this.goToNext();
+                    } else if (this.endX - this.startX > 50) {
+                        // Swiped right, go to previous slide
+                        this.goToPrev();
+                    }
+                }
+            }" class="swiper-container mx-auto overflow-hidden relative pt-10 style="width: 100%; max-width: 1200px;">
+
+            <!-- Slides  -->
+            <div class="flex transition-transform ease-in-out duration-300" :style="{ transform: `translateX(-${currentSlide * slideWidth}px)` }"
+                @touchstart="handleTouchStart($event)" @touchend="handleTouchEnd($event)">
                 
-                <div class="swiper-slide" style="flex: 0 0 auto; width: 350px; padding: 16px; box-sizing: border-box;">
-                    <div class="card" style="background-color: rgba(0, 0, 0, 0.3); border: 1px solid rgba(255, 255, 255, 0.3); border-radius: 24px; text-align: center; padding: 16px;">
-                        <div class="image-container" style="margin-top: -40px;">
-                        <img src="/images/speakers/speaker-1.png" alt="Speaker 1" style="width: 240px; margin: 0 auto;">
-                        </div>
-                        <div class="text-content" style="color: white; margin-top: 16px;">
-                        <h1 style="font-size: 1.5rem;">Name 2</h1>
-                        <p style="margin-top: 8px; font-size: 1rem;">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="swiper-slide" style="flex: 0 0 auto; width: 350px; padding: 16px; box-sizing: border-box;">
-                    <div class="card" style="background-color: rgba(0, 0, 0, 0.3); border: 1px solid rgba(255, 255, 255, 0.3); border-radius: 24px; text-align: center; padding: 16px;">
-                        <div class="image-container" style="margin-top: -40px;">
-                        <img src="/images/speakers/speaker-1.png" alt="Speaker 1" style="width: 240px; margin: 0 auto;">
-                        </div>
-                        <div class="text-content" style="color: white; margin-top: 16px;">
-                        <h1 style="font-size: 1.5rem;">Name 3</h1>
-                        <p style="margin-top: 8px; font-size: 1rem;">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                <template x-for="(slide, index) in slides" :key="index">
+                    <div class="swiper-slide flex-none px-2" :style="{ width: `${slideWidth}px` }">
+                        <div class="card" style=" background-color: rgba(0, 0, 0, 0.3); border: 1px solid rgba(255, 255, 255, 0.3); border-radius: 24px; text-align: center; padding: 16px;">
+                            <div class="image-container" style="position: relative; overflow: visible; margin-top: -40px;">
+                                <img :src="slide.image" :alt="slide.title" class="mx-auto" style="width: 240px; margin: 0 auto;">
+                            </div>
+                            <div class="text-content text-white mt-4">
+                                <h1 class="text-xl font-bold" x-text="slide.title"></h1>
+                                <p class="mt-2 text-sm px-6" x-text="slide.description"></p>
+                            </div>
                         </div>
                     </div>
-                </div>
-
-                <div class="swiper-slide" style="flex: 0 0 auto; width: 350px; padding: 16px; box-sizing: border-box;">
-                    <div class="card" style="background-color: rgba(0, 0, 0, 0.3); border: 1px solid rgba(255, 255, 255, 0.3); border-radius: 24px; text-align: center; padding: 16px;">
-                        <div class="image-container" style="margin-top: -40px;">
-                        <img src="/images/speakers/speaker-1.png" alt="Speaker 1" style="width: 240px; margin: 0 auto;">
-                        </div>
-                        <div class="text-content" style="color: white; margin-top: 16px;">
-                        <h1 style="font-size: 1.5rem;">Name 4</h1>
-                        <p style="margin-top: 8px; font-size: 1rem;">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="swiper-slide" style="flex: 0 0 auto; width: 350px; padding: 16px; box-sizing: border-box;">
-                    <div class="card" style="background-color: rgba(0, 0, 0, 0.3); border: 1px solid rgba(255, 255, 255, 0.3); border-radius: 24px; text-align: center; padding: 16px;">
-                        <div class="image-container" style="margin-top: -40px;">
-                        <img src="/images/speakers/speaker-1.png" alt="Speaker 1" style="width: 240px; margin: 0 auto;">
-                        </div>
-                        <div class="text-content" style="color: white; margin-top: 16px;">
-                        <h1 style="font-size: 1.5rem;">Name 5</h1>
-                        <p style="margin-top: 8px; font-size: 1rem;">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="swiper-slide" style="flex: 0 0 auto; width: 350px; padding: 16px; box-sizing: border-box;">
-                    <div class="card" style="background-color: rgba(0, 0, 0, 0.3); border: 1px solid rgba(255, 255, 255, 0.3); border-radius: 24px; text-align: center; padding: 16px;">
-                        <div class="image-container" style="margin-top: -40px;">
-                        <img src="/images/speakers/speaker-1.png" alt="Speaker 1" style="width: 240px; margin: 0 auto;">
-                        </div>
-                        <div class="text-content" style="color: white; margin-top: 16px;">
-                        <h1 style="font-size: 1.5rem;">Name 6</h1>
-                        <p style="margin-top: 8px; font-size: 1rem;">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
+                </template>
             </div>
         </div>
+
     </div>
 </section>
    
