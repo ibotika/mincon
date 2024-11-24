@@ -261,7 +261,7 @@ type();
                 updateSlideWidth() {
                     const container = document.querySelector('.swiper-container');
                     const containerWidth = container.offsetWidth;
-                    this.slideWidth = containerWidth >= 768 ? containerWidth / 3 : containerWidth * 0.8;
+                    this.slideWidth = containerWidth >= 768 ? containerWidth / 1 : containerWidth * 0.8;
                 },
                 handleTouchStart(event) {
                     this.startX = event.touches[0].clientX;
@@ -278,7 +278,7 @@ type();
                         this.goToPrev();
                     }
                 }
-            }" class="swiper-container mx-auto overflow-hidden relative pt-10 style="width: 100%; max-width: 1200px;">
+            }" class="swiper-container mx-auto overflow-hidden relative pt-20" style="width: 100%; max-width: 1200px;">
 
             <!-- Slides  -->
             <div class="flex transition-transform ease-in-out duration-300" :style="{ transform: `translateX(-${currentSlide * slideWidth}px)` }"
