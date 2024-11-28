@@ -12,7 +12,7 @@
   </div>
 </footer>
 <div class="bg-gray-900">
-    <div class="justify-center px-6 py-3 mx-auto text-xs text-gray-500 max-w-7xl md:flex md:items-center lg:px-8">
+    <div class="flex justify-center px-6 py-3 mx-auto text-xs text-gray-500 max-w-7xl md:flex md:items-center lg:px-8">
         <p>Developed by: <span class="text-gray-400">Prynz Palasan</span> & <span  class="text-gray-400">Irish Hambre</span> <span class="mx-8">|</span> Powered by <a href="https://ibotika.com/" target="_blank" class="text-gray-400 underline">@ibotikaph</a></p>
     </div>
 </div>
