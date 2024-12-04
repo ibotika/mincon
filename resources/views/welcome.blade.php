@@ -68,7 +68,7 @@ type();
 
                             <a href="https://maps.app.goo.gl/sF4usXAQabCaqz3d7" 
                                 target="_blank"
-                                class="flex w-full col-span-2 gap-3 p-4 transition-all rounded-md cursor-pointer md:gap-2 bg-[#00BFFF]/100 hover:bg-[#00BFFF]/70">
+                                class="flex w-full col-span-2 gap-3 p-4 transition-all rounded-md cursor-pointer md:gap-2 bg-sky-500 hover:bg-sky-500/70">
                                 
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" 
                                     class="flex-shrink-0 md:mt-2 size-8 md:animate-bounce">
@@ -99,7 +99,7 @@ type();
                     <div class="mt-8"> 
                         <a  href="#registration"
                             onclick="document.getElementById('registration-fees').scrollIntoView({ behavior: 'smooth' });"
-                            class='relative block w-full px-10 py-4 font-bold text-center text-white rounded-md bg-violet-700 hover:bg-violet-700/80 md:w-auto'>
+                            class='relative block w-full px-10 py-4 font-bold text-center text-white rounded-md bg-purple-600 hover:bg-purple-600/80 md:w-auto'>
                             REGISTER NOW
                             <span class="absolute inline-flex w-3 h-3 rounded-full -top-1 -right-1 bg-sky-500 animate-ping"></span>
                         </a> 
@@ -124,9 +124,12 @@ type();
                 Network, learn, and unleash your potential…</p>
         </div>
 
-        <!-- <div>
-                <video src="">hi</video>
-            </div> -->
+        <div class="rounded-lg overflow-hidden mb-10">
+            <video autoplay loop controls class="max-w-5xl w-full">
+                <source src="/images/video/teaser-vid.webm" type="video/mp4" alt='Mincon Teaser Video'>
+                Your browser does not support the video.
+            </video>
+        </div>
 
         <div class='mx-auto md:px-8 md:max-w-6xl'>
             <div class="grid gap-8 md:grid-cols-3">
@@ -227,32 +230,27 @@ type();
         </div>
         
         <div x-data="{
-            slides: [
-                { title: 'DR. ALVIN M. LAXAMANA', description: 'DENTIST / PROFESSOR', image: '/images/speakers/updated/Dr. Laxamana.png' },
-                { title: 'DR. ARNOLD LAURITO', description: '', image: '/images/speakers/updated/Dr. Laurito.png' },
-                { title: 'DR. ROSA RIA HALILI SUGUITAN', description: ' ', image: '/images/speakers/updated/Dr. Suguitan.png' },
-                { title: 'DR. SAMANTHA NINA UY', description: '', image: '/images/speakers/updated/Dr. Uy.png' },
-                { title: 'DR. SHERILYN LANTICAN ', description: '', image: '/images/speakers/updated/Dr. Lantican.png' },
-                { title: 'ATTY. FELYLOU FERNANDEZ', description: '', image: '/images/speakers/updated/Dr. Fernandez.png' },
-                { title: 'DR. ANGELO MILITANTE', description: '', image: '/images/speakers/updated/Dr. Militante.png' },
-                { title: 'DR. ARVIN NUNEZ', description: '', image: '/images/speakers/updated/Dr. Nunez.png' },
-                { title: 'DR. LEO GERALD DE CASTRO', description: '', image: '/images/speakers/updated/Dr. De Castro.png' },
-                { title: 'DR. ROMEO JACOB', description: '', image: '/images/speakers/updated/Dr. Jacob.png' },
-                { title: 'DR. STEPHEN ALMONTE', description: '', image: '/images/speakers/updated/Dr. Almonte.png' }
-            ],
+                slides: [
+                    { title: 'DR. ALVIN M. LAXAMANA', description: 'DENTIST / PROFESSOR', image: '/images/speakers/updated/Dr. Laxamana.png', link: '/link-to-dr-laxamana' },
+                    { title: 'DR. ARNOLD LAURITO', description: '', image: '/images/speakers/updated/Dr. Laurito.png', link: '/link-to-dr-laurito' },
+                    { title: 'DR. ROSA RIA HALILI SUGUITAN', description: ' ', image: '/images/speakers/updated/Dr. Suguitan.png', link: '/link-to-dr-suguitan' },
+                    { title: 'DR. SAMANTHA NINA UY', description: '', image: '/images/speakers/updated/Dr. Uy.png', link: '/link-to-dr-uy' },
+                    { title: 'DR. SHERILYN LANTICAN ', description: '', image: '/images/speakers/updated/Dr. Lantican.png', link: '/link-to-dr-lantican' },
+                    { title: 'ATTY. FELYLOU FERNANDEZ', description: '', image: '/images/speakers/updated/Dr. Fernandez.png', link: '/link-to-atty-fernandez' },
+                    { title: 'DR. ANGELO MILITANTE', description: '', image: '/images/speakers/updated/Dr. Militante.png', link: '/link-to-dr-militante' },
+                    { title: 'DR. ARVIN NUNEZ', description: '', image: '/images/speakers/updated/Dr. Nunez.png', link: '/link-to-dr-nunez' },
+                    { title: 'DR. LEO GERALD DE CASTRO', description: '', image: '/images/speakers/updated/Dr. De Castro.png', link: '/link-to-dr-de-castro' },
+                    { title: 'DR. ROMEO JACOB', description: '', image: '/images/speakers/updated/Dr. Jacob.png', link: '/link-to-dr-jacob' },
+                    { title: 'DR. STEPHEN ALMONTE', description: '', image: '/images/speakers/updated/Dr. Almonte.png', link: '/link-to-dr-almonte' }
+                ],
                 currentSlide: 0,
-                autoplay: null,
-                autoplaySpeed: 3000,
+                slideWidth: 0,
                 startX: 0,
                 endX: 0,
-                slideWidth: 0,
                 mouseDown: false,
                 init() {
                     this.updateSlideWidth();
                     window.addEventListener('resize', this.updateSlideWidth.bind(this));
-
-                    // Start autoplay for all screen sizes
-                    this.startAutoplay();
 
                     // Mouse events for desktop swipe functionality
                     const container = document.querySelector('.swiper-container');
@@ -260,21 +258,16 @@ type();
                     container.addEventListener('mouseup', this.handleMouseUp.bind(this));
                     container.addEventListener('mouseleave', this.handleMouseUp.bind(this));
                     container.addEventListener('mousemove', this.handleMouseMove.bind(this));
-                },
-                startAutoplay() {
-                    this.autoplay = setInterval(() => {
-                        this.goToNext();
-                    }, this.autoplaySpeed);
-                },
-                stopAutoplay() {
-                    clearInterval(this.autoplay);
-                    this.autoplay = null;
+
+                    // Touch events for mobile swipe functionality
+                    container.addEventListener('touchstart', this.handleTouchStart.bind(this));
+                    container.addEventListener('touchend', this.handleTouchEnd.bind(this));
                 },
                 goToNext() {
-                    this.currentSlide = (this.currentSlide + 1) % this.slides.length;
+                    this.currentSlide = (this.currentSlide + 1) % this.slides.length; // Wrap to first slide after the last one
                 },
                 goToPrev() {
-                    this.currentSlide = (this.currentSlide - 1 + this.slides.length) % this.slides.length;
+                    this.currentSlide = (this.currentSlide - 1 + this.slides.length) % this.slides.length; // Wrap to last slide before the first one
                 },
                 updateSlideWidth() {
                     const container = document.querySelector('.swiper-container');
@@ -289,10 +282,8 @@ type();
 
                     // Detect swipe direction based on X-axis movement
                     if (this.startX - this.endX > 50) {
-                        // Swiped left, go to next slide
                         this.goToNext();
                     } else if (this.endX - this.startX > 50) {
-                        // Swiped right, go to previous slide
                         this.goToPrev();
                     }
                 },
@@ -307,10 +298,8 @@ type();
 
                     // Detect swipe direction based on X-axis movement
                     if (this.startX - this.endX > 50) {
-                        // Swiped left, go to next slide
                         this.goToNext();
                     } else if (this.endX - this.startX > 50) {
-                        // Swiped right, go to previous slide
                         this.goToPrev();
                     }
                 },
@@ -320,25 +309,28 @@ type();
                 }
             }" class="swiper-container mx-auto overflow-hidden relative pt-20" style="width: 100%; max-width: 1200px;">
                 <!-- Slides -->
-                <div class="flex transition-transform ease-in-out duration-300" :style="{ transform: `translateX(-${currentSlide * slideWidth}px)` }"
-                    @touchstart="handleTouchStart($event)" @touchend="handleTouchEnd($event)">
-                    
-                    <template x-for="(slide, index) in slides" :key="index">
-                        <div class="swiper-slide flex-none px-2" :style="{ width: `${slideWidth}px` }">
-                            <div class="card" style="background-color: rgba(0, 0, 0, 0.3); border: 1px solid rgba(255, 255, 255, 0.3); border-radius: 24px; text-align: center; padding: 16px;">
-                                <div class="image-container" style="position: relative; overflow: visible; margin-top: -80px;">
-                                    <img :src="slide.image" :alt="slide.title" class="mx-auto" style="width: 240px; margin: 0 auto;">
-                                </div>
-                                <div class="text-content text-white mt-4">
-                                    <h1 class="text-xl font-bold" x-text="slide.title"></h1>
-                                    <p class="mt-2 text-sm px-6" x-text="slide.description"></p>
-                                </div>
+    
+        <div class="flex transition-transform ease-in-out duration-300" :style="{ transform: `translateX(-${currentSlide * slideWidth}px)` }">
+            <template x-for="(slide, index) in slides" :key="index">
+                <div class="swiper-slide flex-none px-2" :style="{ width: `${slideWidth}px` }">
+                    <a :href="slide.link">
+                        <div class="card" style="background-color: rgba(0, 0, 0, 0.3); border: 1px solid rgba(255, 255, 255, 0.3); border-radius: 24px; text-align: center; padding: 16px;">
+                            <div class="image-container" style="position: relative; overflow: visible; margin-top: -80px;">
+                                <img :src="slide.image" :alt="slide.title" class="mx-auto" style="width: 240px; margin: 0 auto;">
+                            </div>
+                            <div class="text-content text-white mt-4">
+                                <h1 class="text-xl font-bold" x-text="slide.title"></h1>
+                                <p class="mt-2 text-sm px-6" x-text="slide.description"></p>
                             </div>
                         </div>
-                    </template>
+                    </a>
                 </div>
-            </div>
-    </div>
+            </template>
+        </div>
+    
+</div>
+
+
 </section>
    
 
@@ -378,19 +370,19 @@ type();
 
             <div class='w-full p-3 md:w-1/2 lg:w-1/3'>
                 <div class='overflow-hidden border bg-black/60 border-white/30 rounded-2xl'>
-                    <div class='text-center font-bold text-white text-2xl bg-[#9c0ad1] py-3'>
+                    <div class='text-center font-bold text-white text-2xl bg-purple-600 py-3'>
                     Pre-registration   
                     </div>
                     <div class='p-6 text-white text-start'>
                         <p class='mb-5 text-gray-400'>(November 16, 2024-January 5, 2025)</p>
-                        <p class='mb-3'><span class='text-[#9c0ad1] text-md font-black'>P4,500</span> Dentist, Dental Technologist, and Dental Hygienist</p>
-                        <p class='mb-3'><span class='text-[#9c0ad1] text-md font-black'>P3,500</span> Government Dentist</p>
-                        <p class='mb-6'><span class='text-[#9c0ad1] text-md font-black'>P3,000</span> PDA Life Member & Dental Students</p>
+                        <p class='mb-3'><span class='text-purple-600 text-md font-black'>P4,500</span> Dentist, Dental Technologist, and Dental Hygienist</p>
+                        <p class='mb-3'><span class='text-purple-600 text-md font-black'>P3,500</span> Government Dentist</p>
+                        <p class='mb-6'><span class='text-purple-600 text-md font-black'>P3,000</span> PDA Life Member & Dental Students</p>
                         <p class='text-gray-400'>Snacks, meals and free flowing coffee <span class='font-bold text-white'>INCLUDED</span></p>
                     </div>
                     <a href="https://docs.google.com/forms/d/1z5wkWCZOvqXtVmJ2xaIZHrSjaLsiBNoVKEtwXwxAHNA/viewform?edit_requested=true"
                         class='flex justify-center mb-6'>
-                        <button class='bg-[#9c0ad1] hover:bg-[#9c0ad1]/80 h-[50px] w-[260px] rounded-md'>
+                        <button class='bg-purple-600 hover:bg-purple-600/80 h-[50px] w-[260px] rounded-md'>
                                 <p class='font-semibold text-white'>
                                     Register Now
                                 </p>
@@ -401,12 +393,12 @@ type();
 
             <div class='w-full p-3 md:w-1/2 lg:w-1/3'>
                 <div class='overflow-hidden border bg-black/60 border-white/30 rounded-2xl'>
-                    <div class='text-center font-bold text-white text-2xl bg-[#00BFFF] py-3'>
+                    <div class='text-center font-bold text-white text-2xl bg-sky-500 py-3'>
                             Onsite
                     </div>
                     <div class='p-6 text-white text-start'>
-                        <p class='mb-3'><span class='text-[#00BFFF] text-md font-black'>P4,500</span> Dentist, Dental Technologist, and Dental Hygienist</p>
-                        <p class='mb-6'><span class='text-[#00BFFF] text-md font-black'>P3,000</span> PDA Life Member & Dental Students</p>
+                        <p class='mb-3'><span class='text-sky-500 text-md font-black'>P4,500</span> Dentist, Dental Technologist, and Dental Hygienist</p>
+                        <p class='mb-6'><span class='text-sky-500 text-md font-black'>P3,000</span> PDA Life Member & Dental Students</p>
                         <p class='text-gray-400'>Snacks, meals and free flowing coffee <span class='font-bold text-white'>NOT INCLUDED</span></p>
                     </div>
                     <div class='flex justify-center mb-6'>
@@ -452,11 +444,10 @@ type();
         <img src="/images/mincon-logo.webp" alt="" class='md:max-w-2xl'>
         <button
             onclick="document.getElementById('registration-fees').scrollIntoView({ behavior: 'smooth' });"
-            class='bg-[#9c0ad1] hover:bg-[#9c0ad1]/80 h-[50px] w-[345px] text-white font-bold rounded-md'>
+            class='bg-purple-600 hover:bg-purple-600/80 h-[50px] w-[345px] text-white font-bold rounded-md'>
             REGISTER NOW
         </button> 
     </div>
  </section>
-
 
  @endsection
