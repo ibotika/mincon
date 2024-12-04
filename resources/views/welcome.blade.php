@@ -43,7 +43,7 @@ type();
     <div class="max-w-6xl px-8 mx-auto">
         <div class="items-center grid-cols-2 md:grid">
             <div>
-                <img src="{{  asset('images/banner.png') }}" alt="MINCON logo" 
+                <img src="{{  asset('/images/mincon-cutout-logo.png') }}" alt="MINCON logo" 
                 class='md:rounded-2xl'>
             </div>
             <div>
@@ -68,7 +68,7 @@ type();
 
                             <a href="https://maps.app.goo.gl/sF4usXAQabCaqz3d7" 
                                 target="_blank"
-                                class="flex w-full col-span-2 gap-3 p-4 transition-all rounded-md cursor-pointer md:gap-2 bg-white/15 hover:bg-white/20">
+                                class="flex w-full col-span-2 gap-3 p-4 transition-all rounded-md cursor-pointer md:gap-2 bg-[#00BFFF]/100 hover:bg-[#00BFFF]/70">
                                 
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" 
                                     class="flex-shrink-0 md:mt-2 size-8 md:animate-bounce">
@@ -123,6 +123,10 @@ type();
                 Get ready to be motivated by innovative seminars.
                 Network, learn, and unleash your potential…</p>
         </div>
+
+        <!-- <div>
+                <video src="">hi</video>
+            </div> -->
 
         <div class='mx-auto md:px-8 md:max-w-6xl'>
             <div class="grid gap-8 md:grid-cols-3">
@@ -224,17 +228,17 @@ type();
         
         <div x-data="{
             slides: [
-                { title: 'DR. ALVIN M. LAXAMANA', description: 'DENTIST / PROFESSOR', image: '/images/speakers/DR._ALVIN_LAXAMANA.png' },
-                { title: 'DR. ARNOLD LAURITO', description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit', image: '/images/speakers/DR._ARNOLD_LAURITO.png' },
-                { title: 'DR. ROSA RIA HALILI SUGUITAN', description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elitLorem ipsum dolor sit amet, consectetur adipiscing elitLorem ipsum dolor sit amet, consectetur adipiscing elit', image: '/images/speakers/DR._ROSA_RIA_HALILI-SUGUITAN.png' },
-                { title: 'DR. SAMANTHA NINA UY', description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit', image: '/images/speakers/DR._SAMANTHA_NINA_UY.png' },
-                { title: 'DR. SHERILYN LANTICAN ', description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit', image: '/images/speakers/DR._SHERILYN_LANTICAN.png' },
-                { title: 'ATTY. FELYLOU FERNANDEZ', description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit', image: '/images/speakers/ATTY._FELYLOU_FERNANDEZ.png' },
-                { title: 'DR. ANGELO MILITANTE', description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit', image: '/images/speakers/DR._ANGELO_MILITANTE.png' },
-                { title: 'DR. ARVIN NUNEZ', description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit', image: '/images/speakers/DR._ARVIN_NUNEZ.png' },
-                { title: 'DR. LEO GERALD DE CASTRO', description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit', image: '/images/speakers/DR._LEO_GERALD_DE_CASTRO.png' },
-                { title: 'DR. ROMEO JACOB', description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit', image: '/images/speakers/DR._ROMEO_JACOB.png' },
-                { title: 'DR. STEPHEN ALMONTE', description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit', image: '/images/speakers/DR._STEPHEN_ALMONTE.png' }
+                { title: 'DR. ALVIN M. LAXAMANA', description: 'DENTIST / PROFESSOR', image: '/images/speakers/updated/Dr. Laxamana.png' },
+                { title: 'DR. ARNOLD LAURITO', description: '', image: '/images/speakers/updated/Dr. Laurito.png' },
+                { title: 'DR. ROSA RIA HALILI SUGUITAN', description: ' ', image: '/images/speakers/updated/Dr. Suguitan.png' },
+                { title: 'DR. SAMANTHA NINA UY', description: '', image: '/images/speakers/updated/Dr. Uy.png' },
+                { title: 'DR. SHERILYN LANTICAN ', description: '', image: '/images/speakers/updated/Dr. Lantican.png' },
+                { title: 'ATTY. FELYLOU FERNANDEZ', description: '', image: '/images/speakers/updated/Dr. Fernandez.png' },
+                { title: 'DR. ANGELO MILITANTE', description: '', image: '/images/speakers/updated/Dr. Militante.png' },
+                { title: 'DR. ARVIN NUNEZ', description: '', image: '/images/speakers/updated/Dr. Nunez.png' },
+                { title: 'DR. LEO GERALD DE CASTRO', description: '', image: '/images/speakers/updated/Dr. De Castro.png' },
+                { title: 'DR. ROMEO JACOB', description: '', image: '/images/speakers/updated/Dr. Jacob.png' },
+                { title: 'DR. STEPHEN ALMONTE', description: '', image: '/images/speakers/updated/Dr. Almonte.png' }
             ],
                 currentSlide: 0,
                 autoplay: null,
@@ -423,7 +427,7 @@ type();
         <div class='flex flex-col items-center justify-center '>
             <h1 class='mb-5 md:text-xl'>
                 Hosted By:</h1>
-            <p class='text-lg font-bold'>PDA ILIGAN CHAPTER</p>
+            <p class='text-lg font-bold'>PDA ILIGAN CITY CHAPTER</p>
         </div>
 
         <div class='grid grid-cols-1 gap-10 py-10 md:grid-cols-3 justify-items-center md:gap-5'>
