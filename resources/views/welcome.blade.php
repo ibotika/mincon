@@ -134,30 +134,32 @@ type();
         <div class='mx-auto md:px-8 md:max-w-6xl'>
             <div class="grid gap-8 md:grid-cols-3">
 
-                <div class="border border-gray-500 rounded-lg bg-gray-950">
-                    <header class="px-6 py-5 md:h-28">
-                        <h1 class='text-lg font-semibold text-white'>
-                            Fellowship Night
-                            "RETRO REVAMP: Slayin' the 70's & 80's Vibe"
-                        </h1>
-                    </header>
-                    <div class="px-6 py-3">
-                        <div class='flex justify-center'>
-                            <img src="/images/events/retrorevampprizes.jpg" alt="" class='object-cover w-full h-40 rounded-lg md:rounded-2xl'>
+                <div class='flex justify-center'>
+                    <div class="border border-gray-500 rounded-lg bg-gray-950">
+                        <header class="px-6 py-5 md:h-28">
+                            <h1 class='text-lg font-semibold text-white'>
+                                Fellowship Night
+                                "RETRO REVAMP: Slayin' the 70's & 80's Vibe"
+                            </h1>
+                        </header>
+                        <div class="px-6 py-3">
+                            <div class='flex justify-center'>
+                                <img src="/images/events/retrorevampprizes.jpg" alt="" class='object-cover w-full h-40 rounded-lg md:rounded-2xl'>
+                            </div>
+                            <div class="mt-6">
+                                <p class='text-sm text-white md:h-24'>
+                                    Show us your best moves for a chance to win the grand prize 🏆
+                                </p>
+                            </div>
                         </div>
-                        <div class="mt-6">
-                            <p class='text-sm text-white md:h-24'>
-                                Show us your best moves for a chance to win the grand prize 🏆
-                            </p>
+                        <div class="px-6 py-5">
+                                <a href="https://docs.google.com/forms/d/e/1FAIpQLScG3xwA7mhxlV5fF8AEEqT_ZKRaRwePB3lhzCnc6pejTpBEow/viewform" 
+                                    target="_blank"
+                                    class='block text-white w-full px-3 py-3 text-center bg-yellow-500 rounded-md hover:bg-yellow-600'>
+                                    Click to register
+                                </a> 
+                            </a>
                         </div>
-                    </div>
-                    <div class="px-6 py-5">
-                            <a href="https://docs.google.com/forms/d/e/1FAIpQLScG3xwA7mhxlV5fF8AEEqT_ZKRaRwePB3lhzCnc6pejTpBEow/viewform" 
-                                target="_blank"
-                                class='block text-white w-full px-3 py-3 text-center bg-yellow-500 rounded-md hover:bg-yellow-600'>
-                                Click to register
-                            </a> 
-                        </a>
                     </div>
                 </div>
 
@@ -208,6 +210,29 @@ type();
                         </a>
                     </div>
                 </div>  
+                <div class="border border-gray-500 rounded-lg bg-gray-950">
+                    <header class="px-6 py-5 md:h-28">
+                        <h1 class='text-lg font-semibold text-white'>
+                            Calling all dental trade exhibitors🦷✨
+                        </h1>
+                    </header>
+                    <div class="px-6 py-3">
+                        <div class='flex justify-center'>
+                            <img src="{{  asset('/images/events/trader.jpg') }}" alt="" class='object-cover w-full h-40 rounded-lg md:rounded-2xl'>
+                        </div>
+                        <div class="mt-6 text-sm text-white md:h-24">
+                            <p> Secure your booth now and showcase your products & services! For more inquiries, you may contact Dr. Cecille B. Sabayle our trade exhibit chairman.</p>
+                        </div>
+                    </div>
+                    <div class="px-6 py-5">
+                            <a href="https://docs.google.com/forms/d/e/1FAIpQLSe9mNPT9dCU1SaUBSjc8cdNDCeM-xFTQGEWy-vmw1pzlFD_Mg/viewform" 
+                                target="_blank"
+                                class='block text-white w-full px-3 py-3 text-center bg-yellow-500 rounded-md hover:bg-yellow-600'>
+                                 Click to register
+                            </a> 
+                        </a>
+                    </div>
+                </div>  
 
             </div>
         </div>
@@ -231,7 +256,7 @@ type();
         
         <div x-data="{
                 slides: [
-                    { title: 'DR. ALVIN M. LAXAMANA', description: 'DENTIST / PROFESSOR', image: '/images/speakers/updated/Dr. Laxamana.png', link: '/link-to-dr-laxamana' },
+                    { title: 'DR. ALVIN M. LAXAMANA', description: 'DENTIST / PROFESSOR', image: '/images/speakers/updated/Dr. Laxamana.png', link: '{{ route('speaker-1') }}' },
                     { title: 'DR. ARNOLD LAURITO', description: '', image: '/images/speakers/updated/Dr. Laurito.png', link: '/link-to-dr-laurito' },
                     { title: 'DR. ROSA RIA HALILI SUGUITAN', description: ' ', image: '/images/speakers/updated/Dr. Suguitan.png', link: '/link-to-dr-suguitan' },
                     { title: 'DR. SAMANTHA NINA UY', description: '', image: '/images/speakers/updated/Dr. Uy.png', link: '/link-to-dr-uy' },

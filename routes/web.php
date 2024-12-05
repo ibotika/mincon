@@ -12,6 +12,10 @@ Route::get('/accommodations', function(){
     return view('accommodations');
 })->name('accommodations');
 
+Route::get('/speaker-1', function(){
+    return view('speakers.speaker-1');
+})->name('speaker-1');
+
 Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');

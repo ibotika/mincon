@@ -3,14 +3,26 @@
 
 @section('content')
 <section class='py-20 bg-black md:py-30'>
+
     <div class='m-10 justify-items-center'>
-        <div class='mb-10 text-white md:max-w-xl'>
-            <p class='text-center text-white md:text-xl'>
-             Recommended accommodations
-            </p>
-        </div>
+        
 
         <div class='mx-auto md:px-8 md:max-w-6xl'>
+
+            <button onclick="history.back()" class="text-white hover:text-blue-600">
+                <svg xmlns="http://www.w3.org/2000/svg" height="32px" viewBox="0 -960 960 960" width="32px" fill="#e8eaed" class="hover:fill-white/50">
+                    <path d="m313-440 224 224-57 56-320-320 320-320 57 56-224 224h487v80H313Z"/>
+                </svg>
+            </button>   
+
+            <div class='flex items-center justify-center'>
+                <div class='mb-10 text-white md:max-w-xl'>
+                    <p class='text-center text-white md:text-xl'>
+                    Recommended accommodations
+                    </p>
+                </div>
+            </div>
+
             <div class="grid gap-8 md:grid-cols-3">
 
                 <div class="border border-gray-500 rounded-lg bg-gray-950">
