@@ -125,10 +125,14 @@ type();
         </div>
 
         <div class="rounded-lg overflow-hidden mb-10">
-            <video autoplay loop controls class="max-w-5xl w-full">
-                <source src="/images/video/teaser-vid.webm" type="video/mp4" alt='Mincon Teaser Video'>
-                Your browser does not support the video.
-            </video>
+            <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2F61564303471877%2Fvideos%2F531176213127524%2F&show_text=false&width=560&t=0" 
+                width="720" height="314" 
+                style="border:none;overflow:hidden" 
+                scrolling="no" 
+                frameborder="0" 
+                allowfullscreen="true" 
+                allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" 
+                allowFullScreen="true"></iframe>
         </div>
 
         <div class='mx-auto md:px-8 md:max-w-6xl'>
