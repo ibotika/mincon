@@ -426,7 +426,7 @@ type();
                     </div>
                     
                     <div class="swiper-pagination"></div> 
-
+                    
                 </div>
         </body> 
     </div>
