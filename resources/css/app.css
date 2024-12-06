@@ -1,3 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Targeting the swiper pagination container */
+/* Targeting the swiper pagination container */
+.swiper-pagination {
+    background-color: transparent !important;
+    /* Ensure the background is white */
+    padding: 10px 0;
+    /* Optional: Adjust padding */
+}
+
+/* Styling the pagination bullets to be purple-600 */
+.swiper-pagination-bullet {
+    background-color: white !important;
+    /* Purple-600 color */
+}

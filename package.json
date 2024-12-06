@@ -27,6 +27,6 @@
     "author": "",
     "license": "ISC",
     "dependencies": {
-        "swiper": "^7.4.1"
+        "swiper": "^11.1.15"
     }
 }
