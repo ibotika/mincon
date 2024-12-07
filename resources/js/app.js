@@ -5,7 +5,9 @@ window.Alpine = Alpine;
 Alpine.start();
 
 // Import Swiper styles and necessary modules
-import Swiper, { Pagination } from 'swiper';
+import Swiper from 'swiper';
+
+import { Pagination } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/pagination';
 
