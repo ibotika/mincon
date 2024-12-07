@@ -21,22 +21,21 @@
     <a href="" class="w-full md:w-1/2 p-10">
         <div class="card w-full bg-black bg-opacity-30 border border-white border-opacity-30 rounded-2xl text-center p-5">
             <div class="image-container w-full relative overflow-visible mt-[-80px]">
-                <img src="/images/speakers/updated/Dr. Laxamana.png" alt="Dr. Laxamana" class="mx-auto w-[350px]">
+                <img src="/images/speakers/updated/Dr. De Castro.png" alt="Dr. Laurito" class="mx-auto w-[350px]">
             </div>
         </div>
     </a>
 
 
     <div class="w-full md:w-1/2 text-left text-white">
-        <h1 class="text-xl md:text-4xl font-bold">DR. ALVIN M. LAXAMANA</h1>
+        <h1 class="text-xl md:text-4xl font-bold">DR. LEO GERALD DE CASTRO</h1>
         <div class='mt-2 text-sm'>
             <!-- <p><span class="font-black">Occupation: </span>Dentist / Professor</p>
             <p><span class="font-black">Address:</span> 3-B Mariveles Street, Sta. Mesa Heights, Quezon City</p>
             <p><span class="font-black">Mobile Number:</span> +63918.5051180</p> -->
-            <p class='mt-5 text-xl'>"From Mouth to Body: The Impact of the Oral Microbiome on Systemic Health"</p>
+            <p class='mt-5 text-xl'>"Ethical Excellence: The Key to Sustainable Success in Your Practice"</p>
                 <div class='text-justify'>
-                    <p class='mt-5'>A complex ecology of bacteria, viruses, fungus, and other microorganisms that live in the oral cavity, the oral microbiome is essential to preserving general health. Its substantial impact extends beyond dental health, as recent studies have connected it to systemic diseases like diabetes, cardiovascular disease, respiratory infections, and unfavorable pregnancy outcomes.</p>
-                    <p class='mt-5'>This lecture will focus on the mechanisms by which the oral microbiome impacts systemic health, emphasizing the bidirectional relationship between oral and systemic diseases. Understanding the oral microbiome's systemic implications underscores its importance in holistic healthcare and the need for integrated prevention strategies to enhance overall well-being.</p>
+                    <p class='mt-5'>Ethical practices are often seen as obstacles to success in competitive industries, but in reality, they form the foundation for long-term growth and sustainability. This article explores how ethics and success can coexist and even enhance each other. By building trust, avoiding legal pitfalls, fostering a positive work environment, and creating a competitive edge, professionals can achieve both integrity and profitability. Ethical decision-making not only strengthens client relationships and boosts employee satisfaction but also cultivates personal fulfillment, ensuring that success is meaningful and enduring.</p>
                 </div>
             </div>
     </div>

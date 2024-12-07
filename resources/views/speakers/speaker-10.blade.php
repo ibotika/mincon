@@ -21,22 +21,21 @@
     <a href="" class="w-full md:w-1/2 p-10">
         <div class="card w-full bg-black bg-opacity-30 border border-white border-opacity-30 rounded-2xl text-center p-5">
             <div class="image-container w-full relative overflow-visible mt-[-80px]">
-                <img src="/images/speakers/updated/Dr. Laxamana.png" alt="Dr. Laxamana" class="mx-auto w-[350px]">
+                <img src="/images/speakers/updated/Dr. Nunez.png" alt="Dr. Laurito" class="mx-auto w-[350px]">
             </div>
         </div>
     </a>
 
 
     <div class="w-full md:w-1/2 text-left text-white">
-        <h1 class="text-xl md:text-4xl font-bold">DR. ALVIN M. LAXAMANA</h1>
+        <h1 class="text-xl md:text-4xl font-bold">DR. ARVIN LESTER NUÑEZ</h1>
         <div class='mt-2 text-sm'>
             <!-- <p><span class="font-black">Occupation: </span>Dentist / Professor</p>
             <p><span class="font-black">Address:</span> 3-B Mariveles Street, Sta. Mesa Heights, Quezon City</p>
             <p><span class="font-black">Mobile Number:</span> +63918.5051180</p> -->
-            <p class='mt-5 text-xl'>"From Mouth to Body: The Impact of the Oral Microbiome on Systemic Health"</p>
+            <p class='mt-5 text-xl'>"Digital Prosthodontics: The Future of Dental Prosthodontics"</p>
                 <div class='text-justify'>
-                    <p class='mt-5'>A complex ecology of bacteria, viruses, fungus, and other microorganisms that live in the oral cavity, the oral microbiome is essential to preserving general health. Its substantial impact extends beyond dental health, as recent studies have connected it to systemic diseases like diabetes, cardiovascular disease, respiratory infections, and unfavorable pregnancy outcomes.</p>
-                    <p class='mt-5'>This lecture will focus on the mechanisms by which the oral microbiome impacts systemic health, emphasizing the bidirectional relationship between oral and systemic diseases. Understanding the oral microbiome's systemic implications underscores its importance in holistic healthcare and the need for integrated prevention strategies to enhance overall well-being.</p>
+                    <p class='mt-5'>Advancements in the evolution of dentistry have taken Dentistry to another level, Digital Era have begun, various dental procedures like digital impression ,3D Printing Dental Restorations such as Crown, Veneer, Bridge & Dentures . Three-dimensional (3D) printing  is a process where materials (resin) are added in layers & cured by blue light  in which a 3D object is formed. With the use of computer aided programs, dental restoration is possible to manufacture chairside w/accuracy w/ direct patient communication on how we can finish & deliver the treatment. 3D Printing Dental restoration is a game changer Single Visit Dentistry.</p>
                 </div>
             </div>
     </div>

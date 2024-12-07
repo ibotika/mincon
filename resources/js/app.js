@@ -4,26 +4,24 @@ import Alpine from 'alpinejs';
 window.Alpine = Alpine;
 Alpine.start();
 
-// Import Swiper styles and necessary modules
-import Swiper from 'swiper';
 
+import Swiper from 'swiper';
 import { Pagination } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/pagination';
 
-// Initialize Swiper
 const swiper = new Swiper('.swiper', {
-    slidesPerView: 1, // Default for small screens
+    slidesPerView: 1,
     spaceBetween: 30,
     pagination: {
         el: '.swiper-pagination',
         clickable: true,
     },
-
+    loop: true,
     modules: [Pagination],
     breakpoints: {
-        768: { // For medium screens and above
-            slidesPerView: 3, // Show 3 slides
+        768: {
+            slidesPerView: 3,
         },
     },
 });

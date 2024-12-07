@@ -49,7 +49,11 @@ type();
             <div>
 
                 <div class='text-white'>
-                    <h1 class='text-6xl font-extrabold md:text-6xl md:mt-0'>MINCON 2025: </h1>
+                    <h1 class='text-6xl font-extrabold md:text-6xl md:mt-0 bg-gradient-to-r from-[#A47BF4] to-[#ED4E8C] bg-clip-text text-transparent text-5xl md:text-6xl font-black'>
+                        <span class='text-white'>
+                            WELCOME TO
+                        </span>  
+                        MINCON 2025:</h1>
                     <div class="h-12">
                         <h2 id="typewriter" class="mt-4 text-2xl font-bold md:text-4xl">Beyond an Event</h2>
                     </div>
@@ -111,29 +115,129 @@ type();
     </div>
 </section>
 
+<!-- promotional video -->
+
+<section class='py-10 bg-black md:py-30 justify-items-center'>
+    <div class="rounded-lg overflow-hidden mb-10">
+        <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2F61564303471877%2Fvideos%2F531176213127524%2F&show_text=false&width=560&t=0" 
+            width="720" height="320" 
+            style="border:none;overflow:hidden" 
+            scrolling="no" 
+            frameborder="0" 
+            allowfullscreen="true" 
+            allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" 
+            allowFullScreen="true"
+            class=''></iframe>
+    </div>
+
+</section>
+
+<!-- Iligan city -->
+<section class='py-10 bg-black md:py-30'>
+        <div class='m-10 justify-items-center'>
+            <div class=' text-white md:max-w-xl text-center '>
+                <h1 class='text-4xl font-bold text-center md:text-6xl'>
+                    Welcome to  
+                </h1>
+                <h1 class='mb-5 bg-gradient-to-r from-[#A47BF4] to-[#ED4E8C] bg-clip-text text-transparent text-5xl md:text-6xl font-black'>
+                    Iligan City
+                </h1>
+                <p class='text-center text-white md:text-xl'>
+                     Iligan is a place unlike any other. It is a highly progressive city perfect for trips, socializing and adventures. A perfect mix of chill and excitement.
+                </p>
+            </div>
+
+            <body>
+                <div class='swiper w-full max-w-6xl mx-auto py-10 px-4 relative '>
+                    <div class='swiper-wrapper py-20'>
+                    
+                            <div class="swiper-slide border border-gray-500 rounded-lg bg-gray-950">
+                                <div class="px-6 py-3">
+                                    <div class='flex justify-center'>
+                                        <img src="{{  asset('/images/iligan/maria-cristina.jpg') }}" alt="" class='mt-8 object-cover w-full h-80 rounded-lg md:rounded-2xl'>
+                                    </div>
+                                    <div class="mt-6">
+                                        <p class='text-lg text-white'>
+                                           Maria Cristina Falls
+                                        </p>
+                                        <p class='text-md text-gray-500'>
+                                        Maria Cristina Falls is a waterfall of the Agus River in the Northern Mindanao region of the Philippines. It is sometimes called the "twin falls" as the flow is separated by a rock at the brink of the waterfall. 
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>   
+
+                            <div class="swiper-slide border border-gray-500 rounded-lg bg-gray-950">
+                                <div class="px-6 py-3">
+                                    <div class='flex justify-center'>
+                                        <img src="{{  asset('/images/iligan/tinago-falls.jpg') }}" alt="" class='mt-8 object-cover w-full h-80 rounded-lg md:rounded-2xl'>
+                                    </div>
+                                    <div class="mt-6">
+                                        <p class='text-lg text-white'>
+                                           Tinago Falls
+                                        </p>
+                                        <p class='text-md text-gray-500'>
+                                         Tinago Falls is a waterfall on the Agus River, located in between the town of Linamon and Iligan City, Lanao del Norte in the northern part of the Philippine island of Mindanao. It is one of the main tourist attractions of Iligan, a city known as the City of Majestic Waterfalls.                                        </p>
+                                    </div>
+                                </div>
+                            </div>  
+
+                            <div class="swiper-slide border border-gray-500 rounded-lg bg-gray-950">
+                                <div class="px-6 py-3">
+                                    <div class='flex justify-center'>
+                                        <img src="{{  asset('/images/iligan/paseo.webp') }}" alt="" class='mt-8 object-cover w-full h-80 rounded-lg md:rounded-2xl'>
+                                    </div>
+                                    <div class="mt-6">
+                                        <p class='text-lg text-white'>
+                                            Paseo De Santiago                                        
+                                        </p>
+                                        <p class='text-md text-gray-500'>
+                                         Paseo de Santiago in Iligan City, Philippines is a beautiful and historically significant park that offers visitors a chance to relax, explore, and learn about the city’s rich cultural heritage.                                        </p>
+                                    </div>
+                                </div>
+                            </div>  
+
+                            <div class="swiper-slide border border-gray-500 rounded-lg bg-gray-950">
+                                <div class="px-6 py-3">
+                                    <div class='flex justify-center'>
+                                        <img src="{{  asset('/images/iligan/avoda.jpg') }}" alt="" class='mt-8 object-cover w-full h-80 rounded-lg md:rounded-2xl'>
+                                    </div>
+                                    <div class="mt-6">
+                                        <p class='text-lg text-white'>
+                                           Avodah Kitchen
+                                        </p>
+                                        <p class='text-md text-gray-500'>
+                                         CRAVINGS FOR THE CURIOUS                                       
+                                         </p>
+                                    </div>
+                                </div>
+                            </div>  
+                    </div>
+
+                    <div class="swiper-pagination"></div> 
+
+                </div>
+            </body>
+        </div>
+</section>
 
 <!-- about -->
 <section class='py-10 bg-black md:py-30'>
     <div class='m-10 justify-items-center'>
+
         <div class='mb-10 text-white md:max-w-xl'>
             <h1 class='mb-5 text-4xl font-bold text-center md:text-6xl'>
-                Welcome to MINCON 2025 </h1>
+                Welcome to  
+                <span class='mb-5 bg-gradient-to-r from-[#A47BF4] to-[#ED4E8C] bg-clip-text text-transparent text-5xl md:text-6xl font-black'>
+                    MINCON 2025
+                </span> 
+            </h1>
+
+               
             <p class='text-center text-white md:text-xl'>MINCON is more than just a convention; it's an eco-adventure where knowledge flows like the stunning waterfalls around us!
                 This year, we're redefining the norm.
                 Get ready to be motivated by innovative seminars.
                 Network, learn, and unleash your potential…</p>
-        </div>
-
-        <div class="rounded-lg overflow-hidden mb-10">
-            <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2F61564303471877%2Fvideos%2F531176213127524%2F&show_text=false&width=560&t=0" 
-                width="720" height="314" 
-                style="border:none;overflow:hidden" 
-                scrolling="no" 
-                frameborder="0" 
-                allowfullscreen="true" 
-                allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" 
-                allowFullScreen="true"
-                class=''></iframe>
         </div>
 
         <body>
@@ -276,77 +380,77 @@ type();
                                     </div>
                                     <div class="text-content text-white mt-4">
                                         <h1 class="text-xl font-bold mt-4">DR. ALVIN M. LAXAMANA</h1>
-                                        <p class="mt-2 text-sm px-6 text-white">1</p>
+                                        <!-- <p class="mt-2 text-sm px-6 text-white">1</p> -->
                                     </div>
                                 </div>
                             </a>
                         </div>
 
                         <div class='swiper-slide flex flex-col items-center justify-center text-lg p-6'>
-                            <a href="{{ route('speaker-1') }}">
+                            <a href="{{ route('speaker-2') }}">
                                 <div class="card" style="background-color: rgba(0, 0, 0, 0.3); border: 1px solid rgba(255, 255, 255, 0.3); border-radius: 24px; text-align: center; padding: 16px;">
                                     <div class="image-container" style="position: relative; overflow: visible; margin-top: -80px;">
                                         <img src="/images/speakers/updated/Dr. Laurito.png" alt="DR. ALVIN M. LAXAMANA" class="mx-auto w-full h-full mx-auto " style="width: 240px; margin: 0 auto;">
                                     </div>
                                     <div class="text-content text-white mt-4">
                                         <h1 class="text-xl font-bold mt-4">DR. ARNOLD LAURITO</h1>
-                                        <p class="mt-2 text-sm px-6 text-white">2</p>
+                                        <!-- <p class="mt-2 text-sm px-6 text-white">2</p> -->
                                     </div>
                                 </div>
                             </a>
                         </div>
                         
                         <div class='swiper-slide flex flex-col items-center justify-center text-lg p-6'>
-                            <a href="{{ route('speaker-1') }}">
+                            <a href="{{ route('speaker-3') }}">
                                 <div class="card" style="background-color: rgba(0, 0, 0, 0.3); border: 1px solid rgba(255, 255, 255, 0.3); border-radius: 24px; text-align: center; padding: 16px;">
                                     <div class="image-container" style="position: relative; overflow: visible; margin-top: -80px;">
                                         <img src="/images/speakers/updated/Dr. Suguitan.png" alt="DR. ALVIN M. LAXAMANA" class="mx-auto w-full h-full mx-auto " style="width: 240px; margin: 0 auto;">
                                     </div>
                                     <div class="text-white mt-4">
                                         <h1 class="text-xl font-bold mt-4">DR. ROSA RIA HALILI SUGUITAN</h1>
-                                        <p class="mt-2 text-sm px-6 text-white">3</p>
+                                        <!-- <p class="mt-2 text-sm px-6 text-white">3</p> -->
                                     </div>
                                 </div>
                             </a>
                         </div>
 
                         <div class='swiper-slide flex flex-col items-center justify-center text-lg p-6'>
-                            <a href="{{ route('speaker-1') }}">
+                            <a href="{{ route('speaker-4') }}">
                                 <div class="card" style="background-color: rgba(0, 0, 0, 0.3); border: 1px solid rgba(255, 255, 255, 0.3); border-radius: 24px; text-align: center; padding: 16px;">
                                     <div class="image-container" style="position: relative; overflow: visible; margin-top: -80px;">
                                         <img src="/images/speakers/updated/Dr. Uy.png" alt="DR. ALVIN M. LAXAMANA" class="mx-auto w-full h-full mx-auto " style="width: 240px; margin: 0 auto;">
                                     </div>
                                     <div class="text-content text-white mt-4">
                                         <h1 class="text-xl font-bold mt-4">DR. SAMANTHA NINA UY</h1>
-                                        <p class="mt-2 text-sm px-6 text-white">3</p>
+                                        <!-- <p class="mt-2 text-sm px-6 text-white">4</p> -->
                                     </div>
                                 </div>
                             </a>
                         </div>
                         
                         <div class='swiper-slide flex flex-col items-center justify-center text-lg p-6'>
-                            <a href="{{ route('speaker-1') }}">
+                            <a href="{{ route('speaker-5') }}">
                                 <div class="card" style="background-color: rgba(0, 0, 0, 0.3); border: 1px solid rgba(255, 255, 255, 0.3); border-radius: 24px; text-align: center; padding: 16px;">
                                     <div class="image-container" style="position: relative; overflow: visible; margin-top: -80px;">
                                         <img src="/images/speakers/updated/Dr. Lantican.png" alt="DR. ALVIN M. LAXAMANA" class="mx-auto w-full h-full mx-auto " style="width: 240px; margin: 0 auto;">
                                     </div>
                                     <div class="text-content text-white mt-4">
                                         <h1 class="text-xl font-bold mt-4">DR. SHERILYN LANTICAN</h1>
-                                        <p class="mt-2 text-sm px-6 text-white">5</p>
+                                        <!-- <p class="mt-2 text-sm px-6 text-white">5</p> -->
                                     </div>
                                 </div>
                             </a>
                         </div>
                         
                         <div class='swiper-slide flex flex-col items-center justify-center text-lg p-6'>
-                            <a href="{{ route('speaker-1') }}">
+                            <a href="{{ route('speaker-6') }}">
                                 <div class="card" style="background-color: rgba(0, 0, 0, 0.3); border: 1px solid rgba(255, 255, 255, 0.3); border-radius: 24px; text-align: center; padding: 16px;">
                                     <div class="image-container" style="position: relative; overflow: visible; margin-top: -80px;">
-                                        <img src="/images/speakers/updated/Dr. Fernandez.png" alt="DR. ALVIN M. LAXAMANA" class="mx-auto w-full h-full mx-auto " style="width: 240px; margin: 0 auto;">
+                                        <img src="/images/speakers/updated/Dr. Jacob.png" alt="DR. ALVIN M. LAXAMANA" class="mx-auto w-full h-full mx-auto " style="width: 240px; margin: 0 auto;">
                                     </div>
                                     <div class="text-content text-white mt-4">
-                                        <h1 class="text-xl font-bold mt-4">ATTY. FELYLOU FERNANDEZ</h1>
-                                        <p class="mt-2 text-sm px-6 text-white">6</p>
+                                        <h1 class="text-xl font-bold mt-4">Romeo N. Jacob, Jr.<span class='text-sm font-light'>, DMD., Cert. Ortho., FADI, FPFA</span></h1>
+                                        <!-- <p class="mt-2 text-sm px-6 text-white">6</p> -->
                                     </div>
                                 </div>
                             </a>
@@ -354,74 +458,158 @@ type();
                         
                         
                         <div class='swiper-slide flex flex-col items-center justify-center text-lg p-6'>
-                            <a href="{{ route('speaker-1') }}">
+                            <a href="{{ route('speaker-7') }}">
                                 <div class="card" style="background-color: rgba(0, 0, 0, 0.3); border: 1px solid rgba(255, 255, 255, 0.3); border-radius: 24px; text-align: center; padding: 16px;">
                                     <div class="image-container" style="position: relative; overflow: visible; margin-top: -80px;">
                                         <img src="/images/speakers/updated/Dr. Militante.png" alt="DR. ALVIN M. LAXAMANA" class="mx-auto w-full h-full mx-auto " style="width: 240px; margin: 0 auto;">
                                     </div>
                                     <div class="text-content text-white mt-4">
                                         <h1 class="text-xl font-bold mt-4">DR. ANGELO MILITANTE</h1>
-                                        <p class="mt-2 text-sm px-6 text-white">7</p>
+                                        <!-- <p class="mt-2 text-sm px-6 text-white">7</p> -->
                                     </div>
                                 </div>
                             </a>
                         </div>
                         
                         <div class='swiper-slide flex flex-col items-center justify-center text-lg p-6'>
-                            <a href="{{ route('speaker-1') }}">
-                                <div class="card" style="background-color: rgba(0, 0, 0, 0.3); border: 1px solid rgba(255, 255, 255, 0.3); border-radius: 24px; text-align: center; padding: 16px;">
-                                    <div class="image-container" style="position: relative; overflow: visible; margin-top: -80px;">
-                                        <img src="/images/speakers/updated/Dr. Nunez.png" alt="DR. ALVIN M. LAXAMANA" class="mx-auto w-full h-full mx-auto " style="width: 240px; margin: 0 auto;">
-                                    </div>
-                                    <div class="text-content text-white mt-4">
-                                        <h1 class="text-xl font-bold mt-4">DR. ARVIN NUNEZ</h1>
-                                        <p class="mt-2 text-sm px-6 text-white">8</p>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        
-                        <div class='swiper-slide flex flex-col items-center justify-center text-lg p-6'>
-                            <a href="{{ route('speaker-1') }}">
+                            <a href="{{ route('speaker-8') }}">
                                 <div class="card" style="background-color: rgba(0, 0, 0, 0.3); border: 1px solid rgba(255, 255, 255, 0.3); border-radius: 24px; text-align: center; padding: 16px;">
                                     <div class="image-container" style="position: relative; overflow: visible; margin-top: -80px;">
                                         <img src="/images/speakers/updated/Dr. De Castro.png" alt="DR. ALVIN M. LAXAMANA" class="mx-auto w-full h-full mx-auto " style="width: 240px; margin: 0 auto;">
                                     </div>
                                     <div class="text-content text-white mt-4">
                                         <h1 class="text-xl font-bold mt-4">DR. LEO GERALD DE CASTRO</h1>
-                                        <p class="mt-2 text-sm px-6 text-white">9</p>
+                                        <!-- <p class="mt-2 text-sm px-6 text-white">8</p> -->
                                     </div>
                                 </div>
                             </a>
                         </div>
-
+                        
                         <div class='swiper-slide flex flex-col items-center justify-center text-lg p-6'>
-                            <a href="{{ route('speaker-1') }}">
+                            <a href="{{ route('speaker-9') }}">
                                 <div class="card" style="background-color: rgba(0, 0, 0, 0.3); border: 1px solid rgba(255, 255, 255, 0.3); border-radius: 24px; text-align: center; padding: 16px;">
                                     <div class="image-container" style="position: relative; overflow: visible; margin-top: -80px;">
-                                        <img src="/images/speakers/updated/Dr. Jacob.png" alt="DR. ALVIN M. LAXAMANA" class="mx-auto w-full h-full mx-auto " style="width: 240px; margin: 0 auto;">
+                                        <img src="/images/speakers/updated/Dr. Fernandez.png" alt="DR. ALVIN M. LAXAMANA" class="mx-auto w-full h-full mx-auto " style="width: 240px; margin: 0 auto;">
                                     </div>
                                     <div class="text-content text-white mt-4">
-                                        <h1 class="text-xl font-bold mt-4">DR. ROMEO JACOB</h1>
-                                        <p class="mt-2 text-sm px-6 text-white">10</p>
+                                        <h1 class="text-xl font-bold mt-4">DR. FELYLOU FERNANDEZ</h1>
+                                        <!-- <p class="mt-2 text-sm px-6 text-white">9</p> -->
                                     </div>
                                 </div>
                             </a>
                         </div>
 
                         <div class='swiper-slide flex flex-col items-center justify-center text-lg p-6'>
-                            <a href="{{ route('speaker-1') }}">
+                            <a href="{{ route('speaker-10') }}">
+                                <div class="card" style="background-color: rgba(0, 0, 0, 0.3); border: 1px solid rgba(255, 255, 255, 0.3); border-radius: 24px; text-align: center; padding: 16px;">
+                                    <div class="image-container" style="position: relative; overflow: visible; margin-top: -80px;">
+                                        <img src="/images/speakers/updated/Dr. Nunez.png" alt="DR. ALVIN M. LAXAMANA" class="mx-auto w-full h-full mx-auto " style="width: 240px; margin: 0 auto;">
+                                    </div>
+                                    <div class="text-content text-white mt-4">
+                                        <h1 class="text-xl font-bold mt-4">DR. ARVIN LESTER NUÑEZ</h1>
+                                        <!-- <p class="mt-2 text-sm px-6 text-white">10</p> -->
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class='swiper-slide flex flex-col items-center justify-center text-lg p-6'>
+                            <a href="{{ route('speaker-11') }}">
                                 <div class="card" style="background-color: rgba(0, 0, 0, 0.3); border: 1px solid rgba(255, 255, 255, 0.3); border-radius: 24px; text-align: center; padding: 16px;">
                                     <div class="image-container" style="position: relative; overflow: visible; margin-top: -80px;">
                                         <img src="/images/speakers/updated/Dr. Almonte.png" alt="DR. ALVIN M. LAXAMANA" class="mx-auto w-full h-full mx-auto " style="width: 240px; margin: 0 auto;">
                                     </div>
                                     <div class="text-content text-white mt-4">
                                         <h1 class="text-xl font-bold mt-4">DR. STEPHEN ALMONTE</h1>
-                                        <p class="mt-2 text-sm px-6 text-white">11</p>
+                                        <!-- <p class="mt-2 text-sm px-6 text-white">11</p> -->
                                     </div>
                                 </div>
                             </a>
-                        </div>      
+                        </div>
+                        
+                        <div class='swiper-slide flex flex-col items-center justify-center text-lg p-6'>
+                            <a href="{{ route('speaker-12') }}">
+                                <div class="card" style="background-color: rgba(0, 0, 0, 0.3); border: 1px solid rgba(255, 255, 255, 0.3); border-radius: 24px; text-align: center; padding: 16px;">
+                                    <div class="image-container" style="position: relative; overflow: visible; margin-top: -80px;">
+                                        <img src="/images/speakers/updated/Dr. Bautista.png" alt="Dr. Bautista.png" class="mx-auto w-full h-full mx-auto " style="width: 240px; margin: 0 auto;">
+                                    </div>
+                                    <div class="text-content text-white mt-4">
+                                        <h1 class="text-xl font-bold mt-4">DR. JOY BAUTISTA</h1>
+                                        <!-- <p class="mt-2 text-sm px-6 text-white">12</p> -->
+                                    </div>
+                                </div>
+                            </a>
+                        </div>     
+
+                        <div class='swiper-slide flex flex-col items-center justify-center text-lg p-6'>
+                            <a href="{{ route('speaker-13') }}">
+                                <div class="card" style="background-color: rgba(0, 0, 0, 0.3); border: 1px solid rgba(255, 255, 255, 0.3); border-radius: 24px; text-align: center; padding: 16px;">
+                                    <div class="image-container" style="position: relative; overflow: visible; margin-top: -80px;">
+                                        <img src="/images/speakers/updated/Dr. Reguyal.png" alt="DR. ALVIN M. LAXAMANA" class="mx-auto w-full h-full mx-auto " style="width: 240px; margin: 0 auto;">
+                                    </div>
+                                    <div class="text-content text-white mt-4">
+                                        <h1 class="text-xl font-bold mt-4">DR. ALBERT REGUYAL</h1>
+                                        <!-- <p class="mt-2 text-sm px-6 text-white">13</p> -->
+                                    </div>
+                                </div>
+                            </a>
+                        </div>     
+
+                        <div class='swiper-slide flex flex-col items-center justify-center text-lg p-6'>
+                            <a href="{{ route('speaker-14') }}">
+                                <div class="card" style="background-color: rgba(0, 0, 0, 0.3); border: 1px solid rgba(255, 255, 255, 0.3); border-radius: 24px; text-align: center; padding: 16px;">
+                                    <div class="image-container" style="position: relative; overflow: visible; margin-top: -80px;">
+                                        <img src="" alt="OSWALD PADILLA" class="mx-auto w-full h-full mx-auto " style="width: 240px; margin: 0 auto;">
+                                    </div>
+                                    <div class="text-content text-white mt-4">
+                                        <h1 class="text-xl font-bold mt-4">OSWALD PADILLA, <span class='text-sm font-light'>RN, RMT, MAN</span></h1>
+                                        <!-- <p class="mt-2 text-sm px-6 text-white">14</p> -->
+                                    </div>
+                                </div>
+                            </a>
+                        </div>     
+
+                        <div class='swiper-slide flex flex-col items-center justify-center text-lg p-6'>
+                            <a href="{{ route('speaker-15') }}">
+                                <div class="card" style="background-color: rgba(0, 0, 0, 0.3); border: 1px solid rgba(255, 255, 255, 0.3); border-radius: 24px; text-align: center; padding: 16px;">
+                                    <div class="image-container" style="position: relative; overflow: visible; margin-top: -80px;">
+                                        <img src="" alt="ART KEVIN DE LEON" class="mx-auto w-full h-full mx-auto " style="width: 240px; margin: 0 auto;">
+                                    </div>
+                                    <div class="text-content text-white mt-4">
+                                        <h1 class="text-xl font-bold mt-4">ART KEVIN DE LEON</h1>
+                                        <!-- <p class="mt-2 text-sm px-6 text-white">15</p> -->
+                                    </div>
+                                </div>
+                            </a>
+                        </div>     
+
+                        <div class='swiper-slide flex flex-col items-center justify-center text-lg p-6'>
+                            <a href="{{ route('speaker-16') }}">
+                                <div class="card" style="background-color: rgba(0, 0, 0, 0.3); border: 1px solid rgba(255, 255, 255, 0.3); border-radius: 24px; text-align: center; padding: 16px;">
+                                    <div class="image-container" style="position: relative; overflow: visible; margin-top: -80px;">
+                                        <img src="/images/speakers/updated/Dr. Alano.png" alt="DR. HERTZ A. ALANO" class="mx-auto w-full h-full mx-auto " style="width: 240px; margin: 0 auto;">
+                                    </div>
+                                    <div class="text-content text-white mt-4">
+                                        <h1 class="text-xl font-bold mt-4">DR. HERTZ A. ALANO</h1>
+                                        <!-- <p class="mt-2 text-sm px-6 text-white">16</p> -->
+                                    </div>
+                                </div>
+                            </a>
+                        </div>     
+
+                        <div class='swiper-slide flex flex-col items-center justify-center text-lg p-6'>
+                            <a href="{{ route('speaker-17') }}">
+                                <div class="card" style="background-color: rgba(0, 0, 0, 0.3); border: 1px solid rgba(255, 255, 255, 0.3); border-radius: 24px; text-align: center; padding: 16px;">
+                                    <div class="image-container" style="position: relative; overflow: visible; margin-top: -80px;">
+                                        <img src="/images/speakers/updated/Dr. Manaloto.png" alt="DR. ALVIN M. LAXAMANA" class="mx-auto w-full h-full mx-auto " style="width: 240px; margin: 0 auto;">
+                                    </div>
+                                    <div class="text-content text-white mt-4">
+                                        <h1 class="text-xl font-bold mt-4">DR. ADRIAN CARLOS MANALOTO</h1>
+                                        <!-- <p class="mt-2 text-sm px-6 text-white">17</p> -->
+                                    </div>
+                                </div>
+                            </a>
+                        </div>     
 
                     </div>
                     
@@ -431,7 +619,40 @@ type();
         </body> 
     </div>
 </section>
+
+<!-- trade exhibit map -->
    
+<section class="py-10 bg-black md:py-40">
+    <div class="m-10 justify-items-center">
+        <div class="mb-10 text-white md:max-w-xl text-center">
+            <h1 class="text-4xl font-bold text-center md:text-6xl">
+                Trade Exhibit Hall 
+            </h1>
+            <img src="/images/events/floorplan.png" alt="Floor Plan" class="mt-10 rounded-xl">
+        </div>
+        <div class="flex flex-wrap justify-center gap-6">
+            <div class="h-[64px] w-auto max-w-[150px]">
+                <img src="/images/logo/logo-placeholder.png" alt="Logo 1" class="w-full h-auto object-contain">
+            </div>
+            <div class="h-[64px] w-auto max-w-[150px]">
+                <img src="/images/logo/logo-placeholder.png" alt="Logo 2" class="w-full h-auto object-contain">
+            </div>
+            <div class="h-[64px] w-auto max-w-[150px]">
+                <img src="/images/logo/logo-placeholder.png" alt="Logo 3" class="w-full h-auto object-contain">
+            </div>
+            <div class="h-[64px] w-auto max-w-[150px]">
+                <img src="/images/logo/logo-placeholder.png" alt="Logo 1" class="w-full h-auto object-contain">
+            </div>
+            <div class="h-[64px] w-auto max-w-[150px]">
+                <img src="/images/logo/logo-placeholder.png" alt="Logo 2" class="w-full h-auto object-contain">
+            </div>
+            <div class="h-[64px] w-auto max-w-[150px]">
+                <img src="/images/logo/logo-placeholder.png" alt="Logo 3" class="w-full h-auto object-contain">
+            </div>
+        </div>
+    </div>
+</section>
+
 
 <!-- registration fees -->
 <section id="registration-fees" class="relative py-10 bg-black md:py-40 ">
