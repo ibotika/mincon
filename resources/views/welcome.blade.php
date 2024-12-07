@@ -120,14 +120,14 @@ type();
 <section class='py-10 bg-black md:py-30 justify-items-center'>
     <div class="rounded-lg overflow-hidden mb-10">
         <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2F61564303471877%2Fvideos%2F531176213127524%2F&show_text=false&width=560&t=0" 
-            width="720" height="320" 
+            width="auto" height="auto" 
             style="border:none;overflow:hidden" 
             scrolling="no" 
             frameborder="0" 
             allowfullscreen="true" 
             allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" 
             allowFullScreen="true"
-            class=''></iframe>
+            class='h-[320px] md:w-[720px]'></iframe>
     </div>
 
 </section>
@@ -630,7 +630,7 @@ type();
             </h1>
             <img src="/images/events/floorplan.png" alt="Floor Plan" class="mt-10 rounded-xl">
         </div>
-        <div class="flex flex-wrap justify-center gap-6">
+        <!-- <div class="flex flex-wrap justify-center gap-6">
             <div class="h-[64px] w-auto max-w-[150px]">
                 <img src="/images/logo/logo-placeholder.png" alt="Logo 1" class="w-full h-auto object-contain">
             </div>
@@ -649,7 +649,7 @@ type();
             <div class="h-[64px] w-auto max-w-[150px]">
                 <img src="/images/logo/logo-placeholder.png" alt="Logo 3" class="w-full h-auto object-contain">
             </div>
-        </div>
+        </div> -->
     </div>
 </section>
 

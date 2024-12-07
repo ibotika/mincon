@@ -19,8 +19,8 @@
             <div class="mt-12 flex flex-col md:flex-row justify-center items-center space-x-4">
 
     <a href="" class="w-full md:w-1/2 p-10">
-        <div class="card w-full bg-black bg-opacity-30 border border-white border-opacity-30 rounded-2xl text-center p-5">
-            <div class="image-container w-full relative overflow-visible mt-[-80px]">
+        <div class="card w-full bg-black/30 border border-white border-opacity-30 rounded-2xl text-center p-5">
+            <div class="image-container w-full relative overflow-hidden mt-[-80px]">
                 <img src="/images/speakers/updated/Dr. Fernandez.png" alt="Dr. Laurito" class="mx-auto w-[350px]">
             </div>
         </div>
