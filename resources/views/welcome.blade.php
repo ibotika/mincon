@@ -716,8 +716,8 @@ type();
                                 Onsite
                         </div>
                         <div class='p-6 text-white text-start'>
-                            <p class='mb-3'><span class='text-sky-500 text-md font-black'>P4,500</span> Dentist, Dental Technologist, and Dental Hygienist</p>
-                            <p class='mb-6'><span class='text-sky-500 text-md font-black'>P3,000</span> PDA Life Member & Dental Students</p>
+                            <p class='mb-3'><span class='text-sky-500 text-md font-black'>P6,000</span> Dentist, Dental Technologist, and Dental Hygienist</p>
+                            <p class='mb-6'><span class='text-sky-500 text-md font-black'>P3,500</span> PDA Life Member & Dental Students</p>
                             <p class='text-gray-400'>Snacks, meals and free flowing coffee <span class='font-bold text-white'>NOT INCLUDED</span></p>
                         </div>
                         <div class='flex justify-center mb-6'>
