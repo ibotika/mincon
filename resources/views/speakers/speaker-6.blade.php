@@ -21,14 +21,14 @@
     <a href="" class="w-full md:w-1/2 p-10">
         <div class="card w-full bg-black/30 border border-white border-opacity-30 rounded-2xl text-center p-5 mb-4">
             <div class="image-container w-full relative overflow-hidden mt-[-80px] p-4">
-                <img src="/images/speakers/updated/Dr. Jacob.png" alt="Dr. Laurito" class="mx-auto w-[350px]">
+                <img src="/images/speakers/updated/Dr. Jacob.png" alt="Dr. Laurito" class="mx-auto">
             </div>
         </div>
     </a>
 
 
-    <div class="w-full md:w-1/2 text-left text-white">
-        <h1 class="text-xl md:text-4xl font-bold">Romeo N. Jacob, Jr. <span class='text-lg md:text-2xl'>, DMD., Cert. Ortho., FADI, FPFA</span></h1>
+    <div class="w-full md:w-1/2 text-white m-4">
+        <h1 class="text-xl md:text-4xl font-bold text-left">Romeo N. Jacob, Jr. <span class='text-lg md:text-2xl'>, DMD., Cert. Ortho., FADI, FPFA</span></h1>
         <div class='mt-2 text-sm'>
             <!-- <p><span class="font-black">Occupation: </span>Dentist / Professor</p>
             <p><span class="font-black">Address:</span> 3-B Mariveles Street, Sta. Mesa Heights, Quezon City</p>
