@@ -49,7 +49,7 @@ type();
             <div>
 
                 <div class='text-white'>
-                    <h1 class='text-6xl font-extrabold md:text-6xl md:mt-0 bg-gradient-to-r from-[#A47BF4] to-[#ED4E8C] bg-clip-text text-transparent text-5xl md:text-6xl font-black'>
+                    <h1 class='text-5xl font-extrabold md:text-6xl md:mt-0 bg-gradient-to-r from-[#A47BF4] to-[#ED4E8C] bg-clip-text text-transparent text-5xl md:text-6xl font-black'>
                         <span class='text-white'>
                             WELCOME TO
                         </span>  
@@ -117,7 +117,7 @@ type();
 
 <!-- promotional video -->
 
-<section class='py-10 bg-black md:py-30 justify-items-center'>
+<section class='py-10 bg-black md:py-30 flex justify-center items-center'>
     <div class="rounded-lg overflow-hidden mb-10">
         <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2F61564303471877%2Fvideos%2F531176213127524%2F&show_text=false&width=560&t=0" 
             width="auto" height="auto" 
@@ -127,18 +127,17 @@ type();
             allowfullscreen="true" 
             allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" 
             allowFullScreen="true"
-            class='h-[320px] md:w-[720px]'></iframe>
+            class=''></iframe>
     </div>
-
 </section>
 
 <!-- Iligan city -->
 <section class='py-10 bg-black md:py-30'>
         <div class='m-10 justify-items-center'>
             <div class=' text-white md:max-w-xl text-center '>
-                <h1 class='text-4xl font-bold text-center md:text-6xl'>
+                <!-- <h1 class='text-4xl font-bold text-center md:text-6xl'>
                     Welcome to  
-                </h1>
+                </h1> -->
                 <h1 class='mb-5 bg-gradient-to-r from-[#A47BF4] to-[#ED4E8C] bg-clip-text text-transparent text-5xl md:text-6xl font-black'>
                     Iligan City
                 </h1>
@@ -154,7 +153,7 @@ type();
                             <div class="swiper-slide border border-gray-500 rounded-lg bg-gray-950">
                                 <div class="px-6 py-3">
                                     <div class='flex justify-center'>
-                                        <img src="{{  asset('/images/iligan/maria-cristina.jpg') }}" alt="" class='mt-8 object-cover w-full h-80 rounded-lg md:rounded-2xl'>
+                                        <img src="{{  asset('/images/iligan/maria-cristina.jpg') }}" alt="" class='mt-8 object-cover w-full h-60 rounded-lg md:rounded-2xl'>
                                     </div>
                                     <div class="mt-6">
                                         <p class='text-lg text-white'>
@@ -170,7 +169,7 @@ type();
                             <div class="swiper-slide border border-gray-500 rounded-lg bg-gray-950">
                                 <div class="px-6 py-3">
                                     <div class='flex justify-center'>
-                                        <img src="{{  asset('/images/iligan/tinago-falls.jpg') }}" alt="" class='mt-8 object-cover w-full h-80 rounded-lg md:rounded-2xl'>
+                                        <img src="{{  asset('/images/iligan/tinago-falls.jpg') }}" alt="" class='mt-8 object-cover w-full h-60 rounded-lg md:rounded-2xl'>
                                     </div>
                                     <div class="mt-6">
                                         <p class='text-lg text-white'>
@@ -185,7 +184,7 @@ type();
                             <div class="swiper-slide border border-gray-500 rounded-lg bg-gray-950">
                                 <div class="px-6 py-3">
                                     <div class='flex justify-center'>
-                                        <img src="{{  asset('/images/iligan/paseo.webp') }}" alt="" class='mt-8 object-cover w-full h-80 rounded-lg md:rounded-2xl'>
+                                        <img src="{{  asset('/images/iligan/paseo.webp') }}" alt="" class='mt-8 object-cover w-full h-60 rounded-lg md:rounded-2xl'>
                                     </div>
                                     <div class="mt-6">
                                         <p class='text-lg text-white'>
@@ -200,7 +199,7 @@ type();
                             <div class="swiper-slide border border-gray-500 rounded-lg bg-gray-950">
                                 <div class="px-6 py-3">
                                     <div class='flex justify-center'>
-                                        <img src="{{  asset('/images/iligan/avoda.jpg') }}" alt="" class='mt-8 object-cover w-full h-80 rounded-lg md:rounded-2xl'>
+                                        <img src="{{  asset('/images/iligan/avoda.jpg') }}" alt="" class='mt-8 object-cover w-full h-60 rounded-lg md:rounded-2xl'>
                                     </div>
                                     <div class="mt-6">
                                         <p class='text-lg text-white'>
@@ -225,7 +224,7 @@ type();
 <section class='py-10 bg-black md:py-30'>
     <div class='m-10 justify-items-center'>
 
-        <div class='mb-10 text-white md:max-w-xl'>
+        <div class='text-white md:max-w-xl'>
             <h1 class='mb-5 text-4xl font-bold text-center md:text-6xl'>
                 Welcome to  
                 <span class='mb-5 bg-gradient-to-r from-[#A47BF4] to-[#ED4E8C] bg-clip-text text-transparent text-5xl md:text-6xl font-black'>
@@ -241,8 +240,8 @@ type();
         </div>
 
         <body>
-        <div class='swiper w-full max-w-6xl mx-auto py-10 px-4 relative '>
-            <div class='swiper-wrapper py-20'>
+        <div class='swiper w-full max-w-6xl mx-auto px-4 relative '>
+            <div class='swiper-wrapper py-10'>
             
                     <div class="swiper-slide border border-gray-500 rounded-lg bg-gray-950">
                         <header class="px-6 py-5 md:h-28">
@@ -625,10 +624,10 @@ type();
 <section class="py-10 bg-black md:py-40">
     <div class="m-10 justify-items-center">
         <div class="mb-10 text-white md:max-w-xl text-center">
-            <h1 class="text-4xl font-bold text-center md:text-6xl">
+            <h1 class="text-4xl font-bold text-center md:text-6xl mb-5">
                 Trade Exhibit Hall 
             </h1>
-            <img src="/images/events/floorplan.png" alt="Floor Plan" class="mt-10 rounded-xl">
+            <img src="/images/events/floorplan.png" alt="Floor Plan" class="rounded-xl">
         </div>
         <!-- <div class="flex flex-wrap justify-center gap-6">
             <div class="h-[64px] w-auto max-w-[150px]">
