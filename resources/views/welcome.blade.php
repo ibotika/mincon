@@ -176,7 +176,7 @@ type();
                                            Tinago Falls
                                         </p>
                                         <p class='text-md text-gray-500'>
-                                         Tinago Falls is a waterfall on the Agus River, located in between the town of Linamon and Iligan City, Lanao del Norte in the northern part of the Philippine island of Mindanao. It is one of the main tourist attractions of Iligan, a city known as the City of Majestic Waterfalls.                                        </p>
+                                        It is one of the main tourist attractions of Iligan, a city known as the City of Majestic Waterfalls.                                        </p>
                                     </div>
                                 </div>
                             </div>  
@@ -321,12 +321,12 @@ type();
                     <div class="swiper-slide border border-gray-500 rounded-lg bg-gray-950">
                         <header class="px-6 py-5 md:h-28">
                             <h1 class='text-lg font-semibold text-white'>
-                                4
+                                Transportation
                             </h1>
                         </header>
                         <div class="px-6 py-3">
                             <div class='flex justify-center'>
-                                <img src="{{  asset('/images/events/accomodations.jpg') }}" alt="" class='object-cover w-full h-40 rounded-lg md:rounded-2xl'>
+                                <img src="{{  asset('/images/events/transportation.jpg') }}" alt="" class='object-cover w-full h-40 rounded-lg md:rounded-2xl'>
                             </div>
                             <div class="mt-6">
                                 <p class='text-sm text-white md:h-24'>
@@ -335,7 +335,7 @@ type();
                             </div>
                         </div>
                         <div class="px-6 py-5">
-                            <a href="{{ route('accommodations') }}" 
+                            <a href="" 
                                 class='block text-white w-full px-3 py-3 text-center bg-yellow-500 rounded-md hover:bg-yellow-600'>
                                 Click for more info
                             </a>
@@ -558,7 +558,7 @@ type();
                             <a href="{{ route('speaker-14') }}">
                                 <div class="card" style="background-color: rgba(0, 0, 0, 0.3); border: 1px solid rgba(255, 255, 255, 0.3); border-radius: 24px; text-align: center; padding: 16px;">
                                     <div class="image-container" style="position: relative; overflow: visible; margin-top: -80px;">
-                                        <img src="" alt="OSWALD PADILLA" class="mx-auto w-full h-full mx-auto " style="width: 240px; margin: 0 auto;">
+                                        <img src="/images/speakers/placeholder.jpg" alt="OSWALD PADILLA" class="mx-auto w-full h-full mx-auto " style="width: 240px; margin: 0 auto;">
                                     </div>
                                     <div class="text-content text-white mt-4">
                                         <h1 class="text-xl font-bold mt-4">OSWALD PADILLA, <span class='text-sm font-light'>RN, RMT, MAN</span></h1>
@@ -572,7 +572,7 @@ type();
                             <a href="{{ route('speaker-15') }}">
                                 <div class="card" style="background-color: rgba(0, 0, 0, 0.3); border: 1px solid rgba(255, 255, 255, 0.3); border-radius: 24px; text-align: center; padding: 16px;">
                                     <div class="image-container" style="position: relative; overflow: visible; margin-top: -80px;">
-                                        <img src="" alt="ART KEVIN DE LEON" class="mx-auto w-full h-full mx-auto " style="width: 240px; margin: 0 auto;">
+                                        <img src="/images/speakers/placeholder.jpg" alt="ART KEVIN DE LEON" class="mx-auto w-full h-full mx-auto " style="width: 240px; margin: 0 auto;">
                                     </div>
                                     <div class="text-content text-white mt-4">
                                         <h1 class="text-xl font-bold mt-4">ART KEVIN DE LEON</h1>
