@@ -4,48 +4,39 @@
 @section('content')
 
 <section class='relative py-20 bg-black md:py-30'>
-
     <div class="absolute inset-0 bg-center bg-cover" style="background-image: url('/images/bg/bg-6.webp'); opacity:0.6;"></div>
-
-    <div class='mx-auto md:px-8 md:max-w-7xl'>
-        <div class='relative z-10 m-10'>
-            
-            <button onclick="history.back()" class="text-white hover:text-blue-600">
-                <svg xmlns="http://www.w3.org/2000/svg" height="32px" viewBox="0 -960 960 960" width="32px" fill="#e8eaed" class="hover:fill-white/50">
-                    <path d="m313-440 224 224-57 56-320-320 320-320 57 56-224 224h487v80H313Z"/>
-                </svg>
-            </button>
-
-            <div class="mt-12 flex flex-col md:flex-row justify-center items-center space-x-4">
-
-    <a href="" class="w-full md:1/2 p-10">
-        <div class="card w-full bg-black/30 border border-white border-opacity-30 rounded-2xl text-center p-5 mb-4">
-            <div class="image-container w-full md:w-1/2 relative overflow-hidden mt-[-80px] p-4">
-                <img src="/images/speakers/updated/Dr. Laxamana.png" alt="Dr. Laxamana" class="mx-auto w-[350px]">
-            </div>
-        </div>
-    </a>
-
-
-    <div class="w-full md:w-1/2 text-left text-white">
-        <h1 class="text-xl md:text-4xl font-bold">DR. ALVIN M. LAXAMANA</h1>
-        <div class='mt-2 text-sm'>
-            <!-- <p><span class="font-black">Occupation: </span>Dentist / Professor</p>
-            <p><span class="font-black">Address:</span> 3-B Mariveles Street, Sta. Mesa Heights, Quezon City</p>
-            <p><span class="font-black">Mobile Number:</span> +63918.5051180</p> -->
-            <p class='mt-5 text-xl'>"From Mouth to Body: The Impact of the Oral Microbiome on Systemic Health"</p>
-                <div class='text-justify'>
-                    <p class='mt-5'>A complex ecology of bacteria, viruses, fungus, and other microorganisms that live in the oral cavity, the oral microbiome is essential to preserving general health. Its substantial impact extends beyond dental health, as recent studies have connected it to systemic diseases like diabetes, cardiovascular disease, respiratory infections, and unfavorable pregnancy outcomes.</p>
-                    <p class='mt-5'>This lecture will focus on the mechanisms by which the oral microbiome impacts systemic health, emphasizing the bidirectional relationship between oral and systemic diseases. Understanding the oral microbiome's systemic implications underscores its importance in holistic healthcare and the need for integrated prevention strategies to enhance overall well-being.</p>
+        <div class='mx-auto md:px-8 md:max-w-6xl'>
+            <div class='relative z-10 m-10'>
+                <button onclick="history.back()" class="text-white hover:text-blue-600">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="32px" viewBox="0 -960 960 960" width="32px" fill="#e8eaed" class="hover:fill-white/50">
+                        <path d="m313-440 224 224-57 56-320-320 320-320 57 56-224 224h487v80H313Z"/>
+                    </svg>
+                </button>
+                <div class="mt-12 flex flex-col md:flex-row justify-center items-center space-x-4">
+                    <a href="" class="w-full p-10 flex items-center justify-center">
+                        <div class="card w-full md:w-3/4 " style="background-color: rgba(0, 0, 0, 0.3); border: 1px solid rgba(255, 255, 255, 0.3); border-radius: 24px; text-align: center; padding: 16px;">
+                            <div class="image-container" style="position: relative; overflow: visible; margin-top: -80px;">
+                                <img src="/images/speakers/updated/Dr. Laxamana.png" alt="DR. ALVIN M. LAXAMANA" class="mx-auto w-full h-full mx-auto " style="width: 240px; margin: 0 auto;">
+                            </div>
+                        </div>
+                    </a>
+                    <div class="w-full text-left text-white">
+                        <h1 class="text-xl md:text-4xl font-bold">DR. ALVIN M. LAXAMANA</h1>
+                        <div class='mt-2 text-sm'>
+                            <!-- <p><span class="font-black">Occupation: </span>Dentist / Professor</p>
+                            <p><span class="font-black">Address:</span> 3-B Mariveles Street, Sta. Mesa Heights, Quezon City</p>
+                            <p><span class="font-black">Mobile Number:</span> +63918.5051180</p> -->
+                            <p class='mt-5 text-xl'>"From Mouth to Body: The Impact of the Oral Microbiome on Systemic Health"</p>
+                            <div class='text-justify'>
+                                <p class='mt-5'>A complex ecology of bacteria, viruses, fungus, and other microorganisms that live in the oral cavity, the oral microbiome is essential to preserving general health. Its substantial impact extends beyond dental health, as recent studies have connected it to systemic diseases like diabetes, cardiovascular disease, respiratory infections, and unfavorable pregnancy outcomes.</p>
+                                <p class='mt-5'>This lecture will focus on the mechanisms by which the oral microbiome impacts systemic health, emphasizing the bidirectional relationship between oral and systemic diseases. Understanding the oral microbiome's systemic implications underscores its importance in holistic healthcare and the need for integrated prevention strategies to enhance overall well-being.</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-    </div>
-</div>
-
-
         </div>
     </div>
-    
 </section>
 
 
