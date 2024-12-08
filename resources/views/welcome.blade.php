@@ -620,7 +620,7 @@ type();
 </section>
 
 <!-- trade exhibit map -->
-   
+<!-- 
 <section class="py-10 bg-black md:py-40">
     <div class="m-10 justify-items-center">
         <div class="mb-10 text-white md:max-w-xl text-center">
@@ -629,7 +629,7 @@ type();
             </h1>
             <img src="/images/events/floorplan.png" alt="Floor Plan" class="rounded-xl overflow-hidden">
         </div>
-        <!-- <div class="flex flex-wrap justify-center gap-6">
+        <div class="flex flex-wrap justify-center gap-6">
             <div class="h-[64px] w-auto max-w-[150px]">
                 <img src="/images/logo/logo-placeholder.png" alt="Logo 1" class="w-full h-auto object-contain">
             </div>
@@ -648,9 +648,9 @@ type();
             <div class="h-[64px] w-auto max-w-[150px]">
                 <img src="/images/logo/logo-placeholder.png" alt="Logo 3" class="w-full h-auto object-contain">
             </div>
-        </div> -->
+        </div>
     </div>
-</section>
+</section> -->
 
 
 <!-- registration fees -->
