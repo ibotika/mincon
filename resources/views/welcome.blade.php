@@ -318,7 +318,7 @@ type();
                         </div>
                     </div> 
 
-                    <div class="swiper-slide border border-gray-500 rounded-lg bg-gray-950">
+                    <!-- <div class="swiper-slide border border-gray-500 rounded-lg bg-gray-950">
                         <header class="px-6 py-5 md:h-28">
                             <h1 class='text-lg font-semibold text-white'>
                                 Transportation
@@ -340,7 +340,7 @@ type();
                                 Click for more info
                             </a>
                         </div>
-                    </div> 
+                    </div>  -->
                 
             </div>
 
@@ -353,14 +353,14 @@ type();
 </section>
 
 
-<!-- speakers -->
+<!-- speakers scientific  -->
 <section class='relative pt-5 pb-20 bg-black md:py-40'>
     <div class="absolute inset-0 bg-center bg-cover" style="background-image: url('/images/bg/bg-6.webp'); opacity:0.6;"></div>
 
     <div class='relative z-10 '>
         <div class='mx-10 md:mx-auto md:max-w-xl'>
             <h1 class='mb-6 text-4xl font-bold text-center text-white md:text-6xl'>
-                Featured Speakers
+                Scientific Lecturers
             </h1>
             <p class='mb-6 text-center text-white md:text-xl'>
             Get to know our lineup of prominent speakers who will be sharing their expertise at the MINCON 2025.
@@ -378,7 +378,7 @@ type();
                                         <img src="/images/speakers/updated/Dr. Laxamana.png" alt="DR. ALVIN M. LAXAMANA" class="mx-auto w-full h-full mx-auto " style="width: 240px; margin: 0 auto;">
                                     </div>
                                     <div class="text-content text-white mt-4">
-                                        <h1 class="text-xl font-bold mt-4">DR. ALVIN M. LAXAMANA</h1>
+                                        <h1 class="text-md font-bold mt-4">ALVIN M. LAXAMANA, DMD</h1>
                                         <!-- <p class="mt-2 text-sm px-6 text-white">1</p> -->
                                     </div>
                                 </div>
@@ -392,7 +392,7 @@ type();
                                         <img src="/images/speakers/updated/Dr. Laurito.png" alt="DR. ALVIN M. LAXAMANA" class="mx-auto w-full h-full mx-auto " style="width: 240px; margin: 0 auto;">
                                     </div>
                                     <div class="text-content text-white mt-4">
-                                        <h1 class="text-xl font-bold mt-4">DR. ARNOLD LAURITO</h1>
+                                        <h1 class="text-xl font-bold mt-4">ARNOLD LAURITO, MD</h1>
                                         <!-- <p class="mt-2 text-sm px-6 text-white">2</p> -->
                                     </div>
                                 </div>
@@ -406,7 +406,7 @@ type();
                                         <img src="/images/speakers/updated/Dr. Suguitan.png" alt="DR. ALVIN M. LAXAMANA" class="mx-auto w-full h-full mx-auto " style="width: 240px; margin: 0 auto;">
                                     </div>
                                     <div class="text-white mt-4">
-                                        <h1 class="text-xl font-bold mt-4">DR. ROSA RIA HALILI SUGUITAN</h1>
+                                        <h1 class="text-xl font-bold mt-4">ROSA RIA HALILI SUGUITAN, DMD</h1>
                                         <!-- <p class="mt-2 text-sm px-6 text-white">3</p> -->
                                     </div>
                                 </div>
@@ -420,7 +420,7 @@ type();
                                         <img src="/images/speakers/updated/Dr. Uy.png" alt="DR. ALVIN M. LAXAMANA" class="mx-auto w-full h-full mx-auto " style="width: 240px; margin: 0 auto;">
                                     </div>
                                     <div class="text-content text-white mt-4">
-                                        <h1 class="text-xl font-bold mt-4">DR. SAMANTHA NINA UY</h1>
+                                        <h1 class="text-xl font-bold mt-4">SAMANTHA NINA UY, DMD</h1>
                                         <!-- <p class="mt-2 text-sm px-6 text-white">4</p> -->
                                     </div>
                                 </div>
@@ -434,7 +434,7 @@ type();
                                         <img src="/images/speakers/updated/Dr. Lantican.png" alt="DR. ALVIN M. LAXAMANA" class="mx-auto w-full h-full mx-auto " style="width: 240px; margin: 0 auto;">
                                     </div>
                                     <div class="text-content text-white mt-4">
-                                        <h1 class="text-xl font-bold mt-4">DR. SHERILYN LANTICAN</h1>
+                                        <h1 class="text-xl font-bold mt-4">SHERILYN LANTICAN, DMD</h1>
                                         <!-- <p class="mt-2 text-sm px-6 text-white">5</p> -->
                                     </div>
                                 </div>
@@ -525,6 +525,27 @@ type();
                                 </div>
                             </a>
                         </div>
+                    </div>
+                    
+                    <div class="swiper-pagination"></div> 
+                    
+                </div>
+        </body> 
+
+        <div class='relative z-10 mt-32 '>
+        <div class='mx-10 md:mx-auto md:max-w-xl'>
+            <h1 class='mb-6 text-4xl font-bold text-center text-white md:text-6xl'>
+                Table Clinic Lecturers
+            </h1>
+            <p class='mb-6 text-center text-white md:text-xl'>
+            Get to know our lineup of prominent speakers who will be sharing their expertise at the MINCON 2025.
+            </p>
+        </div>
+        
+        <body class="h-full bg-gray-100 font-sans text-sm text-black">  
+            <div class="swiper w-full max-w-6xl mx-auto py-10 px-4 relative ">
+                <div class="swiper-wrapper py-10">
+
                         
                         <div class='swiper-slide flex flex-col items-center justify-center text-lg p-6'>
                             <a href="{{ route('speaker-12') }}">
@@ -558,7 +579,7 @@ type();
                             <a href="{{ route('speaker-14') }}">
                                 <div class="card" style="background-color: rgba(0, 0, 0, 0.3); border: 1px solid rgba(255, 255, 255, 0.3); border-radius: 24px; text-align: center; padding: 16px;">
                                     <div class="image-container" style="position: relative; overflow: visible; margin-top: -80px;">
-                                        <img src="/images/speakers/placeholder.jpg" alt="OSWALD PADILLA" class="mx-auto w-full h-full mx-auto " style="width: 240px; margin: 0 auto;">
+                                        <img src="/images/speakers/updated/Dr. Padilla.png" alt="OSWALD PADILLA" class="mx-auto w-full h-full mx-auto " style="width: 240px; margin: 0 auto;">
                                     </div>
                                     <div class="text-content text-white mt-4">
                                         <h1 class="text-xl font-bold mt-4">OSWALD PADILLA, <span class='text-sm font-light'>RN, RMT, MAN</span></h1>
@@ -572,7 +593,7 @@ type();
                             <a href="{{ route('speaker-15') }}">
                                 <div class="card" style="background-color: rgba(0, 0, 0, 0.3); border: 1px solid rgba(255, 255, 255, 0.3); border-radius: 24px; text-align: center; padding: 16px;">
                                     <div class="image-container" style="position: relative; overflow: visible; margin-top: -80px;">
-                                        <img src="/images/speakers/placeholder.jpg" alt="ART KEVIN DE LEON" class="mx-auto w-full h-full mx-auto " style="width: 240px; margin: 0 auto;">
+                                        <img src="/images/speakers/updated/Dr. de Leon.png" alt="ART KEVIN DE LEON" class="mx-auto w-full h-full mx-auto " style="width: 240px; margin: 0 auto;">
                                     </div>
                                     <div class="text-content text-white mt-4">
                                         <h1 class="text-xl font-bold mt-4">ART KEVIN DE LEON</h1>
@@ -617,6 +638,7 @@ type();
                 </div>
         </body> 
     </div>
+    </div>
 </section>
 
 <!-- trade exhibit map -->
@@ -653,6 +675,8 @@ type();
 </section> -->
 
 
+
+
 <!-- registration fees -->
 <section id="registration-fees" class="relative py-10 bg-black md:py-40 ">
         <div class="absolute inset-0 bg-center bg-cover" style="background-image: url('/images/bg/Maria-Christina-Falls.webp'); opacity: 0.5;"></div>
@@ -673,9 +697,11 @@ type();
                         <div class='py-3 text-2xl font-bold text-center text-white bg-red-600'>
                             Early Bird
                         </div>
-                        <div class='mt-12 text-center text-white'>
+                        <div class='mt-5 p-6 text-center text-white'>
                             <p class='mb-5 text-gray-500 w-15 '>(September 15, 2024-November 15, 2024)</p>
-                            <p class='mb-5 text-lg'>Life Member - PHP 2,500</p>
+                            <p class='mb-3'><span class='text-red-600 text-md font-black'>P4,500</span> Dentist, Dental Technologist, Dental Hygienist, and Government Dentist</p>
+                            <p class='mb-6'><span class='text-red-600 text-md font-black'>P2,500</span> PDA Life Member & Dental Students</p>
+                            <p class='text-gray-400'>With snacks, meals and free flowing coffee</p>
                         </div>
                         <div class='flex justify-center mb-6'>
                             <button class='bg-gray-500 h-[50px] w-[260px] rounded-md'>
@@ -697,7 +723,7 @@ type();
                             <p class='mb-3'><span class='text-purple-600 text-md font-black'>P4,500</span> Dentist, Dental Technologist, and Dental Hygienist</p>
                             <p class='mb-3'><span class='text-purple-600 text-md font-black'>P3,500</span> Government Dentist</p>
                             <p class='mb-6'><span class='text-purple-600 text-md font-black'>P3,000</span> PDA Life Member & Dental Students</p>
-                            <p class='text-gray-400'>Snacks, meals and free flowing coffee <span class='font-bold text-white'>INCLUDED</span></p>
+                            <p class='text-gray-400'>With snacks, meals and free flowing coffee</p>
                         </div>
                         <a href="https://docs.google.com/forms/d/1z5wkWCZOvqXtVmJ2xaIZHrSjaLsiBNoVKEtwXwxAHNA/viewform?edit_requested=true"
                             class='flex justify-center mb-6'>
@@ -716,9 +742,9 @@ type();
                                 Onsite
                         </div>
                         <div class='p-6 text-white text-start'>
-                            <p class='mb-3'><span class='text-sky-500 text-md font-black'>P6,000</span> Dentist, Dental Technologist, and Dental Hygienist</p>
+                            <p class='mb-3'><span class='text-sky-500 text-md font-black'>P6,000</span> Dentist, Dental Technologist, Dental Hygienist, and Government Dentist</p>
                             <p class='mb-6'><span class='text-sky-500 text-md font-black'>P3,500</span> PDA Life Member & Dental Students</p>
-                            <p class='text-gray-400'>Snacks, meals and free flowing coffee <span class='font-bold text-white'>NOT INCLUDED</span></p>
+                            <p class='text-gray-400'>With snacks, meals and free flowing coffee</p>
                         </div>
                         <div class='flex justify-center mb-6'>
                             <button class='bg-gray-500 h-[50px] w-[260px] rounded-md'>
