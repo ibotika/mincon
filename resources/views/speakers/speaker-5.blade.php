@@ -7,7 +7,7 @@
 
     <div class="absolute inset-0 bg-center bg-cover" style="background-image: url('/images/bg/bg-6.webp'); opacity:0.6;"></div>
 
-    <div class='mx-auto md:px-8 md:max-w-7xl'>
+    <div class='mx-auto md:px-8 md:max-w-6xl'>
         <div class='relative z-10 m-10'>
             
             <button onclick="history.back()" class="text-white hover:text-blue-600">
@@ -17,17 +17,16 @@
             </button>
 
             <div class="mt-12 flex flex-col md:flex-row justify-center items-center space-x-4">
+            <a href="" class="w-full md:w-3/4 p-10 flex items-center justify-center">
+                <div class="card" style="background-color: rgba(0, 0, 0, 0.3); border: 1px solid rgba(255, 255, 255, 0.3); border-radius: 24px; text-align: center; padding: 16px;">
+                    <div class="image-container" style="position: relative; overflow: visible; margin-top: -80px;">
+                        <img src="/images/speakers/updated/Dr. Lantican.png" alt="Dr. Lantican.png" class="mx-auto w-full h-full mx-auto " style="width: 240px; margin: 0 auto;">
+                    </div>
+                </div>
+            </a>
 
-    <a href="" class="w-full md:w-1/2 p-10">
-        <div class="card w-full bg-black/30 border border-white border-opacity-30 rounded-2xl text-center p-5 mb-4">
-            <div class="image-container w-full relative overflow-hidden mt-[-80px] p-4">
-                <img src="/images/speakers/updated/Dr. Lantican.png" alt="Dr. Laurito" class="mx-auto w-[350px]">
-            </div>
-        </div>
-    </a>
 
-
-    <div class="w-full md:w-1/2 text-left text-white">
+    <div class="w-full text-left text-white">
         <h1 class="text-xl md:text-4xl font-bold">DR. SHERILYN LANTICAN </h1>
         <div class='mt-2 text-sm'>
             <!-- <p><span class="font-black">Occupation: </span>Dentist / Professor</p>

@@ -7,7 +7,7 @@
 
     <div class="absolute inset-0 bg-center bg-cover" style="background-image: url('/images/bg/bg-6.webp'); opacity:0.6;"></div>
 
-    <div class='mx-auto md:px-8 md:max-w-7xl'>
+    <div class='mx-auto md:px-8 md:max-w-6xl'>
         <div class='relative z-10 m-10'>
             
             <button onclick="history.back()" class="text-white hover:text-blue-600">
