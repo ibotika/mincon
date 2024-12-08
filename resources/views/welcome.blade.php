@@ -153,7 +153,7 @@ type();
                             <div class="swiper-slide border border-gray-500 rounded-lg bg-gray-950">
                                 <div class="px-6 py-3">
                                     <div class='flex justify-center'>
-                                        <img src="{{  asset('/images/iligan/maria-cristina.jpg') }}" alt="" class='mt-8 object-cover w-full h-60 rounded-lg md:rounded-2xl'>
+                                        <img src="{{  asset('/images/iligan/maria-cristina.jpg') }}" alt="" class='mt-5 object-cover w-full h-40 rounded-lg md:rounded-2xl'>
                                     </div>
                                     <div class="mt-6">
                                         <p class='text-lg text-white'>
@@ -169,7 +169,7 @@ type();
                             <div class="swiper-slide border border-gray-500 rounded-lg bg-gray-950">
                                 <div class="px-6 py-3">
                                     <div class='flex justify-center'>
-                                        <img src="{{  asset('/images/iligan/tinago-falls.jpg') }}" alt="" class='mt-8 object-cover w-full h-60 rounded-lg md:rounded-2xl'>
+                                        <img src="{{  asset('/images/iligan/tinago-falls.jpg') }}" alt="" class='mt-5 object-cover w-full h-40 rounded-lg md:rounded-2xl'>
                                     </div>
                                     <div class="mt-6">
                                         <p class='text-lg text-white'>
@@ -184,7 +184,7 @@ type();
                             <div class="swiper-slide border border-gray-500 rounded-lg bg-gray-950">
                                 <div class="px-6 py-3">
                                     <div class='flex justify-center'>
-                                        <img src="{{  asset('/images/iligan/paseo.webp') }}" alt="" class='mt-8 object-cover w-full h-60 rounded-lg md:rounded-2xl'>
+                                        <img src="{{  asset('/images/iligan/paseo.webp') }}" alt="" class='mt-5 object-cover w-full h-40 rounded-lg md:rounded-2xl'>
                                     </div>
                                     <div class="mt-6">
                                         <p class='text-lg text-white'>
@@ -199,7 +199,7 @@ type();
                             <div class="swiper-slide border border-gray-500 rounded-lg bg-gray-950">
                                 <div class="px-6 py-3">
                                     <div class='flex justify-center'>
-                                        <img src="{{  asset('/images/iligan/avoda.jpg') }}" alt="" class='mt-8 object-cover w-full h-60 rounded-lg md:rounded-2xl'>
+                                        <img src="{{  asset('/images/iligan/avoda.jpg') }}" alt="" class='mt-5 object-cover w-full h-40 rounded-lg md:rounded-2xl'>
                                     </div>
                                     <div class="mt-6">
                                         <p class='text-lg text-white'>
@@ -627,7 +627,7 @@ type();
             <h1 class="text-4xl font-bold text-center md:text-6xl mb-5">
                 Trade Exhibit Hall 
             </h1>
-            <img src="/images/events/floorplan.png" alt="Floor Plan" class="rounded-xl">
+            <img src="/images/events/floorplan.png" alt="Floor Plan" class="rounded-xl overflow-hidden">
         </div>
         <!-- <div class="flex flex-wrap justify-center gap-6">
             <div class="h-[64px] w-auto max-w-[150px]">
