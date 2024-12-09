@@ -20,16 +20,16 @@
                             </div>
                         </div>
                     </a>
-                    <div class="w-full text-left text-white">
-                        <h1 class="text-xl md:text-4xl font-bold">DR. ARNOLD ACOSTA LAURITO</h1>
-                        <div class='mt-2 text-sm'>
-                            <!-- <p><span class="font-black">Occupation: </span>Dentist / Professor</p>
-                            <p><span class="font-black">Address:</span> 3-B Mariveles Street, Sta. Mesa Heights, Quezon City</p>
-                            <p><span class="font-black">Mobile Number:</span> +63918.5051180</p> -->
-                            <p class='mt-5 text-xl'>"The Insights & Implications Connecting Periodontal and Urological Health"</p>
-                            <div class='text-justify'>
+                    
+                    <div class="w-full text-white">
+                        <h1 class="text-xl md:text-4xl font-bold text-left">DR. ARNOLD ACOSTA LAURITO</h1>
+                        <div class='mt-5 text-sm text-left'>
+                            <p class=''>Day 1, 10:30 AM - 12:00 PM</p>
+                            <p class=''>Location: Clamshell 1</p>
+                        </div>
+                        <div class='mt-5 text-sm text-justify'>
+                                <p class='mt-5 text-xl'>"The Insights & Implications Connecting Periodontal and Urological Health"</p>
                                 <p class='mt-5'>This lecture explores the innovative insights linking periodontal health with urological health markers, focusing on the scientific evidence underpinning the relationship between periodontal and urological health. Through a multidisciplinary approach, the presentation highlights the importance of coordinated care between dentistry and urology, offering a comprehensive understanding into how managing periodontal disease can significantly affect prostate health and improve overall patient well-being.</p>
-                            </div>
                         </div>
                     </div>
                 </div>
