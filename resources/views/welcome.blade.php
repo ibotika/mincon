@@ -115,7 +115,7 @@ type();
 
 <!-- Iligan city -->
 <section class='py-10 bg-black md:py-30'>
-        <div class='m-10 justify-items-center'>
+        <div class='px-8 justify-items-center max-w-6xl mx-auto'>
             <div class=' text-white md:max-w-xl text-center '>
                 <!-- <h1 class='text-4xl font-bold text-center md:text-6xl'>
                     Welcome to  
@@ -210,7 +210,7 @@ type();
 
 <!-- about -->
 <section class='py-10 bg-black md:py-30'>
-    <div class='m-10 justify-items-center'>
+    <div class='m-10 justify-items-center px-8 justify-items-center max-w-6xl mx-auto'>
 
         <div class='text-white md:max-w-xl'>
             <h1 class='mb-5 text-4xl font-bold text-center md:text-6xl'>
@@ -228,7 +228,7 @@ type();
         </div>
 
         <body>
-        <div class='swiper w-full max-w-6xl mx-auto px-4 relative '>
+        <div class='swiper w-full px-4 relative '>
             <div class='swiper-wrapper py-10'>
             
                     <div class="swiper-slide border border-gray-500 rounded-lg bg-gray-950">
@@ -345,7 +345,7 @@ type();
 <section class='relative pt-5 pb-20 bg-black md:py-40'>
     <div class="absolute inset-0 bg-center bg-cover" style="background-image: url('/images/bg/bg-6.webp'); opacity:0.6;"></div>
 
-    <div class='relative z-10 '>
+    <div class='px-8 justify-items-center max-w-6xl mx-auto relative z-10 '>
         <div class='mx-10 md:mx-auto md:max-w-xl'>
             <h1 class='mb-6 text-4xl font-bold text-center text-white md:text-6xl'>
                 Scientific Lecturers
@@ -523,7 +523,7 @@ type();
                 </div>
         </body> 
 
-        <div class='relative z-10 mt-32 '>
+        <div class='px-8 justify-items-center max-w-6xl mx-auto relative z-10 '>
         <div class='mx-10 md:mx-auto md:max-w-xl'>
             <h1 class='mb-6 text-4xl font-bold text-center text-white md:text-6xl'>
                 Table Clinic Lecturers
@@ -675,7 +675,7 @@ type();
 <section id="registration-fees" class="relative py-10 bg-black md:py-40 ">
         <div class="absolute inset-0 bg-center bg-cover" style="background-image: url('/images/bg/Maria-Christina-Falls.webp'); opacity: 0.5;"></div>
 
-        <div class='relative z-10 m-10 justify-items-center'>
+        <div class='relative z-10 m-10 justify-items-center px-8 justify-items-center max-w-6xl mx-auto'>
             <div class='mx-10 md:mx-auto md:max-w-xl'>
                 <h1 class='mb-6 text-4xl font-bold text-center text-white md:text-6xl'>
                     Registration Fees</h1>
@@ -754,14 +754,14 @@ type();
 
     <!-- hosted by -->
     <section class='py-20 bg-white'>
-        <div class='mb-20 text-black'>
+        <div class='mb-20 text-black px-8 justify-items-center max-w-6xl mx-auto'>
             <div class='flex flex-col items-center justify-center '>
                 <h1 class='mb-5 md:text-xl'>
                     Hosted By:</h1>
                 <p class='text-lg font-bold'>PDA ILIGAN CITY CHAPTER</p>
             </div>
 
-            <div class='grid grid-cols-1 gap-10 py-10 md:grid-cols-3 justify-items-center md:gap-5'>
+            <div class='grid grid-cols-1 gap-10 py-10 md:grid-cols-3 justify-items-center md:gap-20'>
                 <a href="https://pda.com.ph/">
                     <img src="/images/logo/pda.webp" alt="PDA logo" class='h-[90px] md:h-[150px]'>
                 </a>
@@ -789,10 +789,5 @@ type();
         </div>
     </section>
 
-     <div class='max-w-6xl mx-auto py-20 px-10'>
-        <div class='wrapper rounded-lg'>
-            <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2F61564303471877%2Fvideos%2F1792807084852870%2F&show_text=false&width=560&t=0" width="560" height="314" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
-        </div>
-    </div>
 
  @endsection
