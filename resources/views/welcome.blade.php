@@ -39,7 +39,6 @@ type();
 
 <!-- intro -->
 <section class='flex items-center justify-center min-h-screen py-8 mt-8 overflow-hidden bg-black'>
-
     <div class="max-w-6xl px-8 mx-auto">
         <div class="items-center grid-cols-2 md:grid">
             <div>
@@ -47,7 +46,6 @@ type();
                 class='md:rounded-2xl'>
             </div>
             <div>
-
                 <div class='text-white'>
                     <h1 class='text-5xl font-extrabold md:text-6xl md:mt-0 bg-gradient-to-r from-[#A47BF4] to-[#ED4E8C] bg-clip-text text-transparent text-5xl md:text-6xl font-black'>
                         <span class='text-white'>
@@ -65,41 +63,31 @@ type();
                         <p>This year, we're redefining the norm. Get ready to be motivated by innovative seminars.
                         Network, learn, and unleash your potential…</p>
                     </div>
-
                      <div class='mt-5'>
-
                         <div class="grid-cols-3 gap-4 space-y-2 md:space-y-0 md:grid">
-
                             <a href="https://maps.app.goo.gl/sF4usXAQabCaqz3d7" 
                                 target="_blank"
                                 class="flex w-full col-span-2 gap-3 p-4 transition-all rounded-md cursor-pointer md:gap-2 bg-sky-500 hover:bg-sky-500/70">
-                                
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" 
                                     class="flex-shrink-0 md:mt-2 size-8 md:animate-bounce">
                                     <path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
                                     <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z" />
                                 </svg>
-
                                 <div>
                                     <p class="text-xs">CLAM SHELL 1, KAUSWAGAN INTERNATIONAL ORGANIC CONVENTION CENTER, KAUSWAGAN, LANAO DEL NORTE</p>
                                 </div>
                             </a>
-
                             <div class="flex items-center w-full col-span-1 gap-3 p-4 transition-all rounded-md cursor-pointer md:gap-2 md:item-start bg-white/15 hover:bg-white/20">
-                                
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" 
                                     class="flex-shrink-0 size-8">
                                     <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 0 1 2.25-2.25h13.5A2.25 2.25 0 0 1 21 7.5v11.25m-18 0A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75m-18 0v-7.5A2.25 2.25 0 0 1 5.25 9h13.5A2.25 2.25 0 0 1 21 11.25v7.5m-9-6h.008v.008H12v-.008ZM12 15h.008v.008H12V15Zm0 2.25h.008v.008H12v-.008ZM9.75 15h.008v.008H9.75V15Zm0 2.25h.008v.008H9.75v-.008ZM7.5 15h.008v.008H7.5V15Zm0 2.25h.008v.008H7.5v-.008Zm6.75-4.5h.008v.008h-.008v-.008Zm0 2.25h.008v.008h-.008V15Zm0 2.25h.008v.008h-.008v-.008Zm2.25-4.5h.008v.008H16.5v-.008Zm0 2.25h.008v.008H16.5V15Z" />
                                 </svg>
-
-
                                 <div>
                                     <p class="text-xs">JANUARY 16-17, 2025</p>
                                 </div>
                             </div>
                         </div>
                     </div>
-
                     <div class="mt-8"> 
                         <a  href="#registration"
                             onclick="document.getElementById('registration-fees').scrollIntoView({ behavior: 'smooth' });"
@@ -108,7 +96,6 @@ type();
                             <span class="absolute inline-flex w-3 h-3 rounded-full -top-1 -right-1 bg-sky-500 animate-ping"></span>
                         </a> 
                     </div>
-                    
                 </div>
             </div>
         </div>
@@ -160,7 +147,7 @@ type();
                                            Maria Cristina Falls
                                         </p>
                                         <p class='text-md text-gray-500'>
-                                        Maria Cristina Falls is a waterfall of the Agus River in the Northern Mindanao region of the Philippines. It is sometimes called the "twin falls" as the flow is separated by a rock at the brink of the waterfall. 
+                                         Maria Cristina Falls is a waterfall of the Agus River in the Northern Mindanao region of the Philippines. It is sometimes called the "twin falls" as the flow is separated by a rock at the brink of the waterfall. 
                                         </p>
                                     </div>
                                 </div>
@@ -206,7 +193,7 @@ type();
                                            Avodah Kitchen
                                         </p>
                                         <p class='text-md text-gray-500'>
-                                         CRAVINGS FOR THE CURIOUS                                       
+                                         Cravings for the curious                                       
                                          </p>
                                     </div>
                                 </div>
@@ -363,6 +350,9 @@ type();
                 Scientific Lecturers
             </h1>
             <p class='mb-6 text-center text-white md:text-xl'>
+                Clamshell 1
+            </p>
+            <p class='mb-6 text-center text-white md:text-xl'>
             Get to know our lineup of prominent speakers who will be sharing their expertise at the MINCON 2025.
             </p>
         </div>
@@ -448,7 +438,7 @@ type();
                                         <img src="/images/speakers/updated/Dr. Jacob.png" alt="DR. ALVIN M. LAXAMANA" class="mx-auto w-full h-full mx-auto " style="width: 240px; margin: 0 auto;">
                                     </div>
                                     <div class="text-content text-white mt-4">
-                                        <h1 class="text-xl font-bold mt-4">Romeo N. Jacob, Jr.<span class='text-sm font-light'>, DMD., Cert. Ortho., FADI, FPFA</span></h1>
+                                        <h1 class="text-xl font-bold mt-4">Romeo N. Jacob, Jr., DMD., Cert. Ortho., FADI, FPFA</h1>
                                         <!-- <p class="mt-2 text-sm px-6 text-white">6</p> -->
                                     </div>
                                 </div>
@@ -463,7 +453,7 @@ type();
                                         <img src="/images/speakers/updated/Dr. Militante.png" alt="DR. ALVIN M. LAXAMANA" class="mx-auto w-full h-full mx-auto " style="width: 240px; margin: 0 auto;">
                                     </div>
                                     <div class="text-content text-white mt-4">
-                                        <h1 class="text-xl font-bold mt-4">DR. ANGELO MILITANTE</h1>
+                                        <h1 class="text-xl font-bold mt-4">ANGELO MILITANTE, DMD</h1>
                                         <!-- <p class="mt-2 text-sm px-6 text-white">7</p> -->
                                     </div>
                                 </div>
@@ -477,7 +467,7 @@ type();
                                         <img src="/images/speakers/updated/Dr. De Castro.png" alt="DR. ALVIN M. LAXAMANA" class="mx-auto w-full h-full mx-auto " style="width: 240px; margin: 0 auto;">
                                     </div>
                                     <div class="text-content text-white mt-4">
-                                        <h1 class="text-xl font-bold mt-4">DR. LEO GERALD DE CASTRO</h1>
+                                        <h1 class="text-xl font-bold mt-4">LEO GERALD DE CASTRO, DMD</h1>
                                         <!-- <p class="mt-2 text-sm px-6 text-white">8</p> -->
                                     </div>
                                 </div>
@@ -491,7 +481,7 @@ type();
                                         <img src="/images/speakers/updated/Dr. Fernandez.png" alt="DR. ALVIN M. LAXAMANA" class="mx-auto w-full h-full mx-auto " style="width: 240px; margin: 0 auto;">
                                     </div>
                                     <div class="text-content text-white mt-4">
-                                        <h1 class="text-xl font-bold mt-4">DR. FELYLOU FERNANDEZ</h1>
+                                        <h1 class="text-xl font-bold mt-4">FELYLOU FERNANDEZ, DMD</h1>
                                         <!-- <p class="mt-2 text-sm px-6 text-white">9</p> -->
                                     </div>
                                 </div>
@@ -505,7 +495,7 @@ type();
                                         <img src="/images/speakers/updated/Dr. Nunez.png" alt="DR. ALVIN M. LAXAMANA" class="mx-auto w-full h-full mx-auto " style="width: 240px; margin: 0 auto;">
                                     </div>
                                     <div class="text-content text-white mt-4">
-                                        <h1 class="text-xl font-bold mt-4">DR. ARVIN LESTER NUÑEZ</h1>
+                                        <h1 class="text-xl font-bold mt-4">ARVIN LESTER NUÑEZ, DMD</h1>
                                         <!-- <p class="mt-2 text-sm px-6 text-white">10</p> -->
                                     </div>
                                 </div>
@@ -519,7 +509,7 @@ type();
                                         <img src="/images/speakers/updated/Dr. Almonte.png" alt="DR. ALVIN M. LAXAMANA" class="mx-auto w-full h-full mx-auto " style="width: 240px; margin: 0 auto;">
                                     </div>
                                     <div class="text-content text-white mt-4">
-                                        <h1 class="text-xl font-bold mt-4">DR. STEPHEN ALMONTE</h1>
+                                        <h1 class="text-xl font-bold mt-4">STEPHEN ALMONTE, DMD</h1>
                                         <!-- <p class="mt-2 text-sm px-6 text-white">11</p> -->
                                     </div>
                                 </div>
@@ -538,7 +528,10 @@ type();
                 Table Clinic Lecturers
             </h1>
             <p class='mb-6 text-center text-white md:text-xl'>
-            Get to know our lineup of prominent speakers who will be sharing their expertise at the MINCON 2025.
+            Clamshell 2
+            </p>
+            <p class='mb-6 text-center text-white md:text-xl'>
+             Get to know our lineup of prominent speakers who will be sharing their expertise at the MINCON 2025.
             </p>
         </div>
         
@@ -554,7 +547,7 @@ type();
                                         <img src="/images/speakers/updated/Dr. Bautista.png" alt="Dr. Bautista.png" class="mx-auto w-full h-full mx-auto " style="width: 240px; margin: 0 auto;">
                                     </div>
                                     <div class="text-content text-white mt-4">
-                                        <h1 class="text-xl font-bold mt-4">DR. JOY BAUTISTA</h1>
+                                        <h1 class="text-xl font-bold mt-4">JOY BAUTISTA, DMD</h1>
                                         <!-- <p class="mt-2 text-sm px-6 text-white">12</p> -->
                                     </div>
                                 </div>
@@ -568,7 +561,7 @@ type();
                                         <img src="/images/speakers/updated/Dr. Reguyal.png" alt="DR. ALVIN M. LAXAMANA" class="mx-auto w-full h-full mx-auto " style="width: 240px; margin: 0 auto;">
                                     </div>
                                     <div class="text-content text-white mt-4">
-                                        <h1 class="text-xl font-bold mt-4">DR. ALBERT REGUYAL</h1>
+                                        <h1 class="text-xl font-bold mt-4">ALBERT REGUYAL, DMD</h1>
                                         <!-- <p class="mt-2 text-sm px-6 text-white">13</p> -->
                                     </div>
                                 </div>
@@ -582,7 +575,7 @@ type();
                                         <img src="/images/speakers/updated/Dr. Padilla.png" alt="OSWALD PADILLA" class="mx-auto w-full h-full mx-auto " style="width: 240px; margin: 0 auto;">
                                     </div>
                                     <div class="text-content text-white mt-4">
-                                        <h1 class="text-xl font-bold mt-4">OSWALD PADILLA, <span class='text-sm font-light'>RN, RMT, MAN</span></h1>
+                                        <h1 class="text-xl font-bold mt-4">OSWALD PADILLA, RN, RMT, MAN</h1>
                                         <!-- <p class="mt-2 text-sm px-6 text-white">14</p> -->
                                     </div>
                                 </div>
@@ -596,7 +589,7 @@ type();
                                         <img src="/images/speakers/updated/Dr. de Leon.png" alt="ART KEVIN DE LEON" class="mx-auto w-full h-full mx-auto " style="width: 240px; margin: 0 auto;">
                                     </div>
                                     <div class="text-content text-white mt-4">
-                                        <h1 class="text-xl font-bold mt-4">ART KEVIN DE LEON</h1>
+                                        <h1 class="text-xl font-bold mt-4">ART KEVIN DE LEON, DMD</h1>
                                         <!-- <p class="mt-2 text-sm px-6 text-white">15</p> -->
                                     </div>
                                 </div>
@@ -610,7 +603,7 @@ type();
                                         <img src="/images/speakers/updated/Dr. Alano.png" alt="DR. HERTZ A. ALANO" class="mx-auto w-full h-full mx-auto " style="width: 240px; margin: 0 auto;">
                                     </div>
                                     <div class="text-content text-white mt-4">
-                                        <h1 class="text-xl font-bold mt-4">DR. HERTZ A. ALANO</h1>
+                                        <h1 class="text-xl font-bold mt-4">HERTZ A. ALANO, DMD</h1>
                                         <!-- <p class="mt-2 text-sm px-6 text-white">16</p> -->
                                     </div>
                                 </div>
@@ -624,7 +617,7 @@ type();
                                         <img src="/images/speakers/updated/Dr. Manaloto.png" alt="DR. ALVIN M. LAXAMANA" class="mx-auto w-full h-full mx-auto " style="width: 240px; margin: 0 auto;">
                                     </div>
                                     <div class="text-content text-white mt-4">
-                                        <h1 class="text-xl font-bold mt-4">DR. ADRIAN CARLOS MANALOTO</h1>
+                                        <h1 class="text-xl font-bold mt-4">ADRIAN CARLOS MANALOTO, DMD</h1>
                                         <!-- <p class="mt-2 text-sm px-6 text-white">17</p> -->
                                     </div>
                                 </div>

@@ -21,9 +21,8 @@
                         </div>
                     </a>
                     <div class="w-full md:w-1/2 text-white m-4">
-                        <h1 class="text-xl md:text-4xl font-bold text-left">Romeo N. Jacob, Jr. <span class='text-lg md:text-2xl'>, DMD., Cert. Ortho., FADI, FPFA</span></h1>
+                        <h1 class="text-xl md:text-4xl font-bold text-left">Romeo N. Jacob, Jr., DMD., Cert. Ortho., FADI, FPFA</h1>
                         <div class='mt-2 text-sm'>
-                            <p><span class="font-black">Mobile Number:</span> +63918.5051180</p>
                             <p class='mt-5 text-xl'>"Orthodontics Management of Impacted Teeth: An Inter-disciplinary Perspective"</p>
                             <div class='text-justify'>
                                 <p class='mt-5'>Tooth erupts when half to three-quarters of the root length has developed. Impaction is usually diagnosed after this period and at times asymptomatic, the reason why patients seek treatment later. Tooth impaction is a common problem in daily orthodontic practice, and, in most cases, it is recognized by chance in a routine dental examination. Therefore, it is very important that dental practitioners are aware of this condition since early detection and intervention may help to prevent many harmful complications.</p>

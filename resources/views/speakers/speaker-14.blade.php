@@ -21,7 +21,7 @@
     <a href="" class="w-full md:w-1/2 p-10">
         <div class="card w-full bg-black/30 border border-white border-opacity-30 rounded-2xl text-center p-5 mb-4">
             <div class="image-container w-full relative overflow-hidden mt-[-80px] p-4">
-                <img src="" alt="" class="mx-auto w-[350px]">
+                <img src="/images/speakers/updated/Dr. Padilla.png" alt="" class="mx-auto w-[350px]">
             </div>
         </div>
     </a>
