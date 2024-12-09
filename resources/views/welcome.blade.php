@@ -133,9 +133,23 @@ type();
                 </p>
             </div>
 
+            <div class='py-10 bg-black md:py-30 flex justify-center items-center'>
+                <div class="rounded-lg overflow-hidden mb-10">
+                    <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2F61564303471877%2Fvideos%2F1792807084852870%2F&show_text=false&width=560&t=0" 
+                        width="auto" height="auto" 
+                        style="border:none;overflow:hidden" 
+                        scrolling="no" 
+                        frameborder="0" 
+                        allowfullscreen="true" 
+                        allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" 
+                        allowFullScreen="true"
+                        class=''></iframe>
+                </div>
+            </div>
+
             <body>
                 <div class='swiper w-full max-w-6xl mx-auto py-10 px-4 relative '>
-                    <div class='swiper-wrapper py-20'>
+                    <div class='swiper-wrapper pb-20'>
                     
                             <div class="swiper-slide border border-gray-500 rounded-lg bg-gray-950">
                                 <div class="px-6 py-3">
@@ -201,7 +215,9 @@ type();
                     </div>
 
                     <div class="swiper-pagination"></div> 
-
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    
                 </div>
             </body>
         </div>
@@ -263,7 +279,7 @@ type();
                         </header>
                         <div class="px-6 py-3">
                             <div class='flex justify-center'>
-                                <img src="{{  asset('/images/events/accomodations.jpg') }}" alt="" class='object-cover w-full h-40 rounded-lg md:rounded-2xl'>
+                                <img src="{{  asset('/images/events/crop-accommodation.jpg') }}" alt="" class='object-cover w-full h-40 rounded-lg md:rounded-2xl'>
                             </div>
                             <div class="mt-6">
                                 <p class='text-sm text-white md:h-24'>
@@ -349,9 +365,9 @@ type();
             <h1 class='mb-6 text-4xl font-bold text-center text-white md:text-6xl'>
                 Scientific Lecturers
             </h1>
-            <p class='mb-6 text-center text-white md:text-xl'>
-                Clamshell 1
-            </p>
+            <!-- <p class='mb-6 text-center text-white md:text-xl'>
+                Location: Clamshell 1
+            </p> -->
             <p class='mb-6 text-center text-white md:text-xl'>
             Get to know our lineup of prominent speakers who will be sharing their expertise at the MINCON 2025.
             </p>
@@ -527,9 +543,9 @@ type();
             <h1 class='mb-6 text-4xl font-bold text-center text-white md:text-6xl'>
                 Table Clinic Lecturers
             </h1>
-            <p class='mb-6 text-center text-white md:text-xl'>
+            <!-- <p class='mb-6 text-center text-white md:text-xl'>
             Clamshell 2
-            </p>
+            </p> -->
             <p class='mb-6 text-center text-white md:text-xl'>
              Get to know our lineup of prominent speakers who will be sharing their expertise at the MINCON 2025.
             </p>
