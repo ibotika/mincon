@@ -99,7 +99,7 @@ type();
                 </div>
             </div>
         </div>
-        <div class='w-full md:max-w-6xl mx-auto'>
+        <div class='w-full md:max-w-6xl mx-auto p-3 bg-white/15 rounded-lg'>
             <div class='wrapper'>
                 <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2F61564303471877%2Fvideos%2F531176213127524%2F&show_text=false&width=560&t=0" 
                     style="border:none;overflow:hidden" 
@@ -129,7 +129,7 @@ type();
                      Iligan is a place unlike any other. It is a highly progressive city perfect for trips, socializing and adventures. A perfect mix of chill and excitement.
                 </p>
             </div>
-            <div class='w-full md:max-w-6xl mx-auto py-10 '>
+            <div class='w-full md:max-w-6xl mx-auto my-10 p-3 bg-white/15 rounded-lg'>
                 <div class='wrapper'>
                     <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2F61564303471877%2Fvideos%2F1792807084852870%2F&show_text=false&width=560&t=0"
                         style="border:none;overflow:hidden" 
@@ -355,7 +355,7 @@ type();
 
     <div class='px-8 justify-items-center max-w-6xl mx-auto relative z-10 '>
         <div class='mx-10 md:mx-auto md:max-w-xl'>
-            <h1 class='mb-6 text-4xl font-bold text-center text-white md:text-6xl'>
+            <h1 class='mb-6 text-3xl font-bold text-center text-white md:text-6xl'>
                 Scientific Lecturers
             </h1>
             <!-- <p class='mb-6 text-center text-white md:text-xl'>
@@ -533,15 +533,9 @@ type();
 
         <div class='px-8 justify-items-center max-w-6xl mx-auto relative z-10 '>
         <div class='mx-10 md:mx-auto md:max-w-xl'>
-            <h1 class='mb-6 text-4xl font-bold text-center text-white md:text-6xl'>
+            <h1 class='mb-6 text-3xl font-bold text-center text-white md:text-6xl'>
                 Table Clinic Lecturers
             </h1>
-            <!-- <p class='mb-6 text-center text-white md:text-xl'>
-            Clamshell 2
-            </p> -->
-            <p class='mb-6 text-center text-white md:text-xl'>
-             Get to know our lineup of prominent speakers who will be sharing their expertise at the MINCON 2025.
-            </p>
         </div>
         
         <body class="h-full bg-gray-100 font-sans text-sm text-black">  
@@ -699,7 +693,7 @@ type();
                         <div class='py-3 text-2xl font-bold text-center text-white bg-red-600'>
                             Early Bird
                         </div>
-                        <div class='mt-5 p-6 text-center text-white'>
+                        <div class='mt-5 p-6 text-left text-white'>
                             <p class='mb-5 text-gray-500 w-15 '>(September 15, 2024-November 15, 2024)</p>
                             <p class='mb-3'><span class='text-red-600 text-md font-black'>P4,500</span> Dentist, Dental Technologist, Dental Hygienist, and Government Dentist</p>
                             <p class='mb-6'><span class='text-red-600 text-md font-black'>P2,500</span> PDA Life Member & Dental Students</p>
