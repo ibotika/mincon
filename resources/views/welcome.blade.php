@@ -99,7 +99,7 @@ type();
                 </div>
             </div>
         </div>
-        <div class='w-full md:max-w-6xl px-8 mx-auto'>
+        <div class='w-full md:max-w-6xl px-8 mx-auto rounded-lg overflow-hidden'>
             <div class='wrapper rounded-lg'>
                 <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2F61564303471877%2Fvideos%2F531176213127524%2F&show_text=false&width=560&t=0" 
                     style="border:none;overflow:hidden" 
@@ -129,7 +129,7 @@ type();
                      Iligan is a place unlike any other. It is a highly progressive city perfect for trips, socializing and adventures. A perfect mix of chill and excitement.
                 </p>
             </div>
-            <div class='w-full md:max-w-6xl px-8 mx-auto py-10'>
+            <div class='w-full md:max-w-6xl px-8 mx-auto py-10 rounded-lg overflow-hidden'>
                 <div class='wrapper rounded-lg'>
                     <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2F61564303471877%2Fvideos%2F1792807084852870%2F&show_text=false&width=560&t=0" width="560" height="314" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
                 </div>
