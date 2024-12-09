@@ -40,7 +40,7 @@ type();
 <!-- intro -->
 <section class='flex items-center justify-center min-h-screen py-8 mt-8 overflow-hidden bg-black'>
     <div class="max-w-6xl px-8 mx-auto">
-        <div class="items-center grid-cols-2 md:grid">
+        <div class="items-center grid-cols-2 md:grid mb-10">
             <div>
                 <img src="{{  asset('/images/mincon-cutout-logo.png') }}" alt="MINCON logo" 
                 class='md:rounded-2xl'>
@@ -99,22 +99,17 @@ type();
                 </div>
             </div>
         </div>
-    </div>
-</section>
-
-<!-- promotional video -->
-
-<section class='py-10 bg-black md:py-30 flex justify-center items-center'>
-    <div class="rounded-lg overflow-hidden mb-10">
-        <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2F61564303471877%2Fvideos%2F531176213127524%2F&show_text=false&width=560&t=0" 
-            width="auto" height="auto" 
-            style="border:none;overflow:hidden" 
-            scrolling="no" 
-            frameborder="0" 
-            allowfullscreen="true" 
-            allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" 
-            allowFullScreen="true"
-            class=''></iframe>
+        <div class='wrapper rounded-lg'>
+            <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2F61564303471877%2Fvideos%2F531176213127524%2F&show_text=false&width=560&t=0" 
+                style="border:none;overflow:hidden" 
+                scrolling="no" 
+                frameborder="0" 
+                allowfullscreen="true" 
+                allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" 
+                allowFullScreen="true"
+                class=''>
+            </iframe>        
+        </div>
     </div>
 </section>
 
@@ -132,21 +127,11 @@ type();
                      Iligan is a place unlike any other. It is a highly progressive city perfect for trips, socializing and adventures. A perfect mix of chill and excitement.
                 </p>
             </div>
-
-            <div class='py-10 bg-black md:py-30 flex justify-center items-center'>
-                <div class="rounded-lg overflow-hidden mb-10">
-                    <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2F61564303471877%2Fvideos%2F1792807084852870%2F&show_text=false&width=560&t=0" 
-                        width="auto" height="auto" 
-                        style="border:none;overflow:hidden" 
-                        scrolling="no" 
-                        frameborder="0" 
-                        allowfullscreen="true" 
-                        allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" 
-                        allowFullScreen="true"
-                        class=''></iframe>
+            <div class='max-w-6xl mx-auto py-10'>
+                <div class='wrapper rounded-lg'>
+                    <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2F61564303471877%2Fvideos%2F1792807084852870%2F&show_text=false&width=560&t=0" width="560" height="314" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
                 </div>
             </div>
-
             <body>
                 <div class='swiper w-full max-w-6xl mx-auto py-10 px-4 relative '>
                     <div class='swiper-wrapper pb-20'>
@@ -803,5 +788,11 @@ type();
             </button> 
         </div>
     </section>
+
+     <div class='max-w-6xl mx-auto py-20 px-10'>
+        <div class='wrapper rounded-lg'>
+            <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2F61564303471877%2Fvideos%2F1792807084852870%2F&show_text=false&width=560&t=0" width="560" height="314" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
+        </div>
+    </div>
 
  @endsection

@@ -20,7 +20,7 @@
                             </div>
                         </div>
                     </a>
-                    <div class="w-full text-white">
+                    <div class="mtx-2 w-full text-white">
                         <h1 class="text-xl md:text-4xl font-bold text-left">ALVIN M. LAXAMANA, DMD </h1>
                         <div class='mt-5 text-sm text-justify'>
                             <p class='mt-5 text-xl'>"From Mouth to Body: The Impact of the Oral Microbiome on Systemic Health"</p>
