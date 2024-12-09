@@ -38,10 +38,10 @@
                     </div>
                     <div class='px-6 text-sm'>
                         <p class='text-white text-left mb-2'>
-                            <span class='text-white/60'>Contact Number:</span> 224-9599
+                            <span class='text-gray-400'>Contact Number:</span> 224-9599
                         </p>
                         <p class='text-white text-left'>
-                        <span class='text-white/60'>Address:</span> Robinsons Place Iligan Complex, Iligan City, Philippines       
+                        <span class='text-gray-400'>Address:</span> Robinsons Place Iligan Complex, Iligan City, Philippines       
                         </p>
                     </div>
                     <div class="px-6 py-5">
@@ -66,10 +66,10 @@
                     </div>
                     <div class='px-6 text-sm'>
                         <p class='text-white text-left mb-2'>
-                            <span class='text-white/60'>Contact Number:</span> 0962 842 7621
+                            <span class='text-gray-400'>Contact Number:</span> 0962 842 7621
                         </p>
                         <p class='text-white text-left'>
-                        <span class='text-white/60'>Address:</span> The Loft Hotel Iligan, Aguinaldo St, Iligan, Iligan City, Lanao del Norte       
+                        <span class='text-gray-400'>Address:</span> The Loft Hotel Iligan, Aguinaldo St, Iligan, Iligan City, Lanao del Norte       
                         </p>
                     </div>
                     <div class="px-6 py-5">
@@ -95,10 +95,10 @@
                     </div>
                     <div class='px-6 text-sm'>
                         <p class='text-white text-left mb-2'>
-                            <span class='text-white/60'>Contact Number:</span> 0917 112 8004
+                            <span class='text-gray-400'>Contact Number:</span> 0917 112 8004
                         </p>
                         <p class='text-white text-left'>
-                        <span class='text-white/60'>Address:</span> Quezon Avenue Extension, Pala-o, Iligan City, Philippines    
+                        <span class='text-gray-400'>Address:</span> Quezon Avenue Extension, Pala-o, Iligan City, Philippines    
                         </p>
                     </div>
                     <div class="px-6 py-5">
@@ -124,10 +124,10 @@
                     </div>
                     <div class='px-6 text-sm'>
                         <p class='text-white text-left mb-2'>
-                            <span class='text-white/60'>Contact Number:</span> 0917 117 3021
+                            <span class='text-gray-400'>Contact Number:</span> 0917 117 3021
                         </p>
                         <p class='text-white text-left'>
-                        <span class='text-white/60'>Address:</span> Lot 12 Block 10 Purok 9, San Miguel, Barangay Pala-o, Iligan City, Philippines
+                        <span class='text-gray-400'>Address:</span> Lot 12 Block 10 Purok 9, San Miguel, Barangay Pala-o, Iligan City, Philippines
                         </p>
                     </div>
                     <div class="px-6 py-5">
@@ -153,10 +153,10 @@
                     </div>
                     <div class='px-6 text-sm'>
                         <p class='text-white text-left mb-2'>
-                            <span class='text-white/60'>Contact Number:</span> 0920 926 8721
+                            <span class='text-gray-400'>Contact Number:</span> 0920 926 8721
                         </p>
                         <p class='text-white text-left'>
-                        <span class='text-white/60'>Address:</span> Zone 5, Del Carmen, Iligan City, Philippines
+                        <span class='text-gray-400'>Address:</span> Zone 5, Del Carmen, Iligan City, Philippines
                         </p>
                     </div>
                     <div class="px-6 py-5">
@@ -182,10 +182,10 @@
                     </div>
                     <div class='px-6 text-sm'>
                         <p class='text-white text-left mb-2'>
-                            <span class='text-white/60'>Contact Number:</span> 223-0512
+                            <span class='text-gray-400'>Contact Number:</span> 223-0512
                         </p>
                         <p class='text-white text-left'>
-                        <span class='text-white/60'>Address:</span> Uranus-Saturn Street Rabago Subdivision Barangay Villaverde, Iligan City, Philippines
+                        <span class='text-gray-400'>Address:</span> Uranus-Saturn Street Rabago Subdivision Barangay Villaverde, Iligan City, Philippines
                         </p>
                     </div>
                     <div class="px-6 py-5">
@@ -211,10 +211,10 @@
                     </div>
                     <div class='px-6 text-sm'>
                         <p class='text-white text-left mb-2'>
-                            <span class='text-white/60'>Contact Number:</span> 0935 023 4989
+                            <span class='text-gray-400'>Contact Number:</span> 0935 023 4989
                         </p>
                         <p class='text-white text-left'>
-                        <span class='text-white/60'>Address:</span> Macapagal Avenue, Iligan, Mindanao 9200 Philippines
+                        <span class='text-gray-400'>Address:</span> Macapagal Avenue, Iligan, Mindanao 9200 Philippines
                         </p>
                     </div>
                     <div class="px-6 py-5">
@@ -240,10 +240,10 @@
                     </div>
                     <div class='px-6 text-sm'>
                         <p class='text-white text-left mb-2'>
-                            <span class='text-white/60'>Contact Number:</span> 0915 713 3862
+                            <span class='text-gray-400'>Contact Number:</span> 0915 713 3862
                         </p>
                         <p class='text-white text-left'>
-                        <span class='text-white/60'>Address:</span> Bonifacio Highway, Tibanga, Iligan City, Philippines
+                        <span class='text-gray-400'>Address:</span> Bonifacio Highway, Tibanga, Iligan City, Philippines
                         </p>
                     </div>
                     <div class="px-6 py-5">
@@ -269,10 +269,10 @@
                     </div>
                     <div class='px-6 text-sm'>
                         <p class='text-white text-left mb-2'>
-                            <span class='text-white/60'>Contact Number:</span> 0917 716 1743
+                            <span class='text-gray-400'>Contact Number:</span> 0917 716 1743
                         </p>
                         <p class='text-white text-left'>
-                        <span class='text-white/60'>Address:</span> Don Gregorio Lluch Avenue corner B.S. Ong Street, Pala-o, Iligan City, Philippines, 9200
+                        <span class='text-gray-400'>Address:</span> Don Gregorio Lluch Avenue corner B.S. Ong Street, Pala-o, Iligan City, Philippines, 9200
                         </p>
                     </div>
                     <div class="px-6 py-5">
@@ -298,10 +298,10 @@
                     </div>
                     <div class='px-6 text-sm'>
                         <p class='text-white text-left mb-2'>
-                            <span class='text-white/60'>Contact Number:</span> 0916 399 6504
+                            <span class='text-gray-400'>Contact Number:</span> 0916 399 6504
                         </p>
                         <p class='text-white text-left'>
-                        <span class='text-white/60'>Address:</span> Jorge Sheker Street, Iligan City, Philippines
+                        <span class='text-gray-400'>Address:</span> Jorge Sheker Street, Iligan City, Philippines
                         </p>
                     </div>
                     <div class="px-6 py-5">
@@ -327,10 +327,10 @@
                     </div>
                     <div class='px-6 text-sm'>
                         <p class='text-white text-left mb-2'>
-                            <span class='text-white/60'>Contact Number:</span> 0968 357 7104
+                            <span class='text-gray-400'>Contact Number:</span> 0968 357 7104
                         </p>
                         <p class='text-white text-left'>
-                        <span class='text-white/60'>Address:</span> Brgy San Miguel, Iligan City, Philippines
+                        <span class='text-gray-400'>Address:</span> Brgy San Miguel, Iligan City, Philippines
                         </p>
                     </div>
                     <div class="px-6 py-5">
@@ -356,10 +356,10 @@
                     </div>
                     <div class='px-6 text-sm'>
                         <p class='text-white text-left mb-2'>
-                            <span class='text-white/60'>Contact Number:</span> 221-5272
+                            <span class='text-gray-400'>Contact Number:</span> 221-5272
                         </p>
                         <p class='text-white text-left'>
-                        <span class='text-white/60'>Address:</span> Quezon Avenue, Iligan City, Philippines
+                        <span class='text-gray-400'>Address:</span> Quezon Avenue, Iligan City, Philippines
                         </p>
                     </div>
                     <div class="px-6 py-5">
@@ -385,10 +385,10 @@
                     </div>
                     <div class='px-6 text-sm'>
                         <p class='text-white text-left mb-2'>
-                            <span class='text-white/60'>Contact Number:</span> 221-3352
+                            <span class='text-gray-400'>Contact Number:</span> 221-3352
                         </p>
                         <p class='text-white text-left'>
-                        <span class='text-white/60'>Address:</span> General Aguinaldo Street, Brgy Poblacion, Iligan City, Philippines
+                        <span class='text-gray-400'>Address:</span> General Aguinaldo Street, Brgy Poblacion, Iligan City, Philippines
                         </p>
                     </div>
                     <div class="px-6 py-5">
@@ -414,10 +414,10 @@
                     </div>
                     <div class='px-6 text-sm'>
                         <p class='text-white text-left mb-2'>
-                            <span class='text-white/60'>Contact Number:</span> 0927 424 2549
+                            <span class='text-gray-400'>Contact Number:</span> 0927 424 2549
                         </p>
                         <p class='text-white text-left'>
-                        <span class='text-white/60'>Address:</span> Barangay, Purok 2c Balete Drive, Iligan City, Lanao del Norte
+                        <span class='text-gray-400'>Address:</span> Barangay, Purok 2c Balete Drive, Iligan City, Lanao del Norte
                         </p>
                     </div>
                     <div class="px-6 py-5">
