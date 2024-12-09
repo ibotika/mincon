@@ -25,11 +25,11 @@
                         <div class='mt-5 text-sm text-left'>
                             <p class=''>Day 1, 10:30 AM - 12:00 PM</p>
                             <p class=''>Location: Clamshell 1</p>
-                            <p class='mt-5 text-xl text-justify'>"From Mouth to Body: The Impact of the Oral Microbiome on Systemic Health"</p>
-                            <div class='text-justify'>
+                        </div>
+                        <div class='mt-5 text-sm text-justify'>
+                                <p class='mt-5 text-xl'>"From Mouth to Body: The Impact of the Oral Microbiome on Systemic Health"</p>
                                 <p class='mt-5'>A complex ecology of bacteria, viruses, fungus, and other microorganisms that live in the oral cavity, the oral microbiome is essential to preserving general health. Its substantial impact extends beyond dental health, as recent studies have connected it to systemic diseases like diabetes, cardiovascular disease, respiratory infections, and unfavorable pregnancy outcomes.</p>
                                 <p class='mt-5'>This lecture will focus on the mechanisms by which the oral microbiome impacts systemic health, emphasizing the bidirectional relationship between oral and systemic diseases. Understanding the oral microbiome's systemic implications underscores its importance in holistic healthcare and the need for integrated prevention strategies to enhance overall well-being.</p>
-                            </div>
                         </div>
                     </div>
                 </div>
