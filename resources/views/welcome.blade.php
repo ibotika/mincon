@@ -118,7 +118,7 @@ type();
 <!-- Iligan city -->
 <section class='py-10 bg-black md:py-30'>
         <div class='px-8 justify-items-center max-w-6xl mx-auto'>
-            <div class=' text-white md:max-w-xl text-center '>
+            <div class=' text-white md:max-w-xl text-center'>
                 <!-- <h1 class='text-4xl font-bold text-center md:text-6xl'>
                     Welcome to  
                 </h1> -->
@@ -129,7 +129,7 @@ type();
                      Iligan is a place unlike any other. It is a highly progressive city perfect for trips, socializing and adventures. A perfect mix of chill and excitement.
                 </p>
             </div>
-            <div class='w-full md:max-w-6xl mx-auto my-10 p-3 bg-white/15 rounded-lg'>
+            <div class='w-full md:max-w-6xl mx-auto p-3 bg-white/15 rounded-lg my-10'>
                 <div class='wrapper'>
                     <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2F61564303471877%2Fvideos%2F1792807084852870%2F&show_text=false&width=560&t=0"
                         style="border:none;overflow:hidden" 
