@@ -224,7 +224,7 @@ type();
             <h1 class='mb-5 text-4xl font-bold text-center md:text-6xl'>
                 Welcome to  
                 <span class='mb-5 bg-gradient-to-r from-[#A47BF4] to-[#ED4E8C] bg-clip-text text-transparent text-5xl md:text-6xl font-black'>
-                    MINCON 2025
+                    MINCON 2025 
                 </span> 
             </h1>
 

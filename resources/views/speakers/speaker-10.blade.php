@@ -20,7 +20,7 @@
                         </div>
                     </div>
                 </a>
-                <div class="w-1/2 text-white">
+                <div class="w-full text-white">
                 <h1 class="text-xl md:text-4xl font-bold">ARVIN LESTER NUÑEZ, DMD</h1>                    
                 <div class='mt-5 text-sm text-justify'>
                     <p class='mt-5 text-xl'>"Digital Prosthodontics: The Future of Dental Prosthodontics"</p>

@@ -21,7 +21,7 @@
                     </div>
                 </a>
                 <div class="w-full text-white">
-                <h1 class="text-xl md:text-4xl font-bold text-left">DR. LEO GERALD DE CASTRO</h1> 
+                <h1 class="text-xl md:text-4xl font-bold text-left">LEO GERALD DE CASTRO, DMD</h1> 
                 <div class='mt-5 text-sm text-justify'>
                     <p class='mt-5 text-xl'>"Ethical Excellence: The Key to Sustainable Success in Your Practice"</p>
                     <p class='mt-5'>Day 2, 1:00 PM - 3:00 PM</p>
