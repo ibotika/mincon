@@ -99,7 +99,7 @@ type();
                 </div>
             </div>
         </div>
-        <div class='w-full md:max-w-6xl mx-auto p-3 bg-white/15 rounded-lg flex justify-center items-center'>
+        <div class='w-full md:max-w-6xl mx-auto flex justify-center items-center'>
             <div class='wrapper'>
                 <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2F61564303471877%2Fvideos%2F531176213127524%2F&show_text=false&width=560&t=0" 
                     style="border:none;overflow:hidden" 
@@ -118,7 +118,7 @@ type();
 <!-- Iligan city -->
 <section class='py-10 bg-black md:py-30'>
         <div class='px-8 justify-items-center max-w-6xl mx-auto'>
-            <div class='mb-10 text-white md:max-w-xl text-center'>
+            <div class=' text-white md:max-w-xl text-center '>
                 <!-- <h1 class='text-4xl font-bold text-center md:text-6xl'>
                     Welcome to  
                 </h1> -->
@@ -129,19 +129,19 @@ type();
                      Iligan is a place unlike any other. It is a highly progressive city perfect for trips, socializing and adventures. A perfect mix of chill and excitement.
                 </p>
             </div>
-            <div class='w-full md:max-w-6xl mx-auto p-3 bg-white/15 rounded-lg flex justify-center items-center mb-10'>
+            <div class='w-full md:max-w-6xl mx-auto py-10 bg-red-500'>
                 <div class='wrapper'>
                     <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2F61564303471877%2Fvideos%2F1792807084852870%2F&show_text=false&width=560&t=0"
                         style="border:none;overflow:hidden" 
                         scrolling="no" 
-                        frameborder="0"     
+                        frameborder="0" 
                         allowfullscreen="true" 
                         allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" 
                         allowFullScreen="true"></iframe>
                 </div>
             </div>
-            <body class=''>
-                <div class=' swiper w-full max-w-6xl mx-auto py-10 px-4 relative '>
+            <body>
+                <div class='swiper w-full max-w-6xl mx-auto py-10 px-4 relative '>
                     <div class='swiper-wrapper pb-20'>
                     
                             <div class="swiper-slide border border-gray-500 rounded-lg bg-gray-950">
@@ -536,6 +536,7 @@ type();
             <h1 class='mb-6 text-3xl font-bold text-center text-white md:text-6xl'>
                 Table Clinic Lecturers
             </h1>
+
         </div>
         
         <body class="h-full bg-gray-100 font-sans text-sm text-black">  
