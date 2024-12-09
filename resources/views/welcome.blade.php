@@ -217,7 +217,7 @@ type();
                     <div class="swiper-pagination"></div> 
                     <div class="swiper-button-next"></div>
                     <div class="swiper-button-prev"></div>
-                    
+
                 </div>
             </body>
         </div>
@@ -426,7 +426,7 @@ type();
                                         <img src="/images/speakers/updated/Dr. Uy.png" alt="DR. ALVIN M. LAXAMANA" class="mx-auto w-full h-full mx-auto " style="width: 240px; margin: 0 auto;">
                                     </div>
                                     <div class="text-content text-white mt-4">
-                                        <h1 class="text-xl font-bold mt-4">SAMANTHA NINA UY, DMD</h1>
+                                        <h1 class="text-xl font-bold mt-4">SAMANTHA NIÑA UY, DMD</h1>
                                         <!-- <p class="mt-2 text-sm px-6 text-white">4</p> -->
                                     </div>
                                 </div>
