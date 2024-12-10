@@ -694,7 +694,7 @@ type();
                         <div class='py-3 text-2xl font-bold text-center text-white bg-red-600'>
                             Early Bird
                         </div>
-                        <div class='mt-5 p-6 text-left text-white'>
+                        <div class='p-6 text-left text-white'>
                             <p class='mb-5 text-gray-500 w-15 '>(September 15, 2024-November 15, 2024)</p>
                             <p class='mb-3'><span class='text-red-600 text-md font-black'>P4,500</span> Dentist, Dental Technologist, Dental Hygienist, and Government Dentist</p>
                             <p class='mb-6'><span class='text-red-600 text-md font-black'>P2,500</span> PDA Life Member & Dental Students</p>
