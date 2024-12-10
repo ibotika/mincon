@@ -430,6 +430,412 @@
                     </div>
                 </div>
 
+                <div class="border border-gray-500 rounded-lg bg-gray-950">
+                    <header class="px-6 py-5">
+                        <h1 class='text-lg font-semibold text-white'>
+                        Sunset Beach Resthouse 
+                        </h1>
+                    </header>
+                    <div class="px-6 py-3">
+                        <div class='flex justify-center'>
+                            <img src="/images/accomodations/Sunset Beach Resthouse.png" alt="" class='object-cover w-full h-40 rounded-lg md:rounded-2xl'>
+                        </div>
+                    </div>
+                    <div class='px-6 text-sm'>
+                        <p class='text-white text-left mb-2'>
+                            <span class='text-gray-400'>Contact Number:</span> 0995 568 2540
+                        </p>
+                        <p class='text-white text-left'>
+                        <span class='text-gray-400'>Address:</span> Linamon, Lanao del Norte
+                        </p>
+                    </div>
+                    <div class="px-6 py-5">
+                            <a href="https://web.facebook.com/SunsetBeachR" 
+                                target="_blank"
+                                class='block text-white w-full px-3 py-3 text-center bg-blue-600 rounded-md hover:bg-blue-800'>
+                                Facebook page
+                            </a> 
+                        </a>
+                    </div>
+                </div>
+
+                <div class="border border-gray-500 rounded-lg bg-gray-950">
+                    <header class="px-6 py-5">
+                        <h1 class='text-lg font-semibold text-white'>
+                         Venida Farms by SMA Hospitality 
+                        </h1>
+                    </header>
+                    <div class="px-6 py-3">
+                        <div class='flex justify-center'>
+                            <img src="/images/accomodations/Venida Farms by SMA Hospitality.png" alt="" class='object-cover w-full h-40 rounded-lg md:rounded-2xl'>
+                        </div>
+                    </div>
+                    <div class='px-6 text-sm'>
+                        <p class='text-white text-left mb-2'>
+                            <span class='text-gray-400'>Contact Number:</span> 0916 415 9486 / 0917 169 3290
+                        </p>
+                        <p class='text-white text-left'>
+                        <span class='text-gray-400'>Address:</span> Purok 4, Mimbalot Buru-un, Iligan City
+                        </p>
+                    </div>
+                    <div class="px-6 py-5">
+                            <a href="https://web.facebook.com/venidafarms" 
+                                target="_blank"
+                                class='block text-white w-full px-3 py-3 text-center bg-blue-600 rounded-md hover:bg-blue-800'>
+                                Facebook page
+                            </a> 
+                        </a>
+                    </div>
+                </div>
+
+                <div class="border border-gray-500 rounded-lg bg-gray-950">
+                    <header class="px-6 py-5">
+                        <h1 class='text-lg font-semibold text-white'>
+                        Ohana Pool and Pension House  
+                        </h1>
+                    </header>
+                    <div class="px-6 py-3">
+                        <div class='flex justify-center'>
+                            <img src="/images/accomodations/Ohana Pool and Pension House.jpg" alt="" class='object-cover w-full h-40 rounded-lg md:rounded-2xl'>
+                        </div>
+                    </div>
+                    <div class='px-6 text-sm'>
+                        <p class='text-white text-left mb-2'>
+                            <span class='text-gray-400'>Contact Number:</span> 0995 683 3020
+                        </p>
+                        <p class='text-white text-left'>
+                        <span class='text-gray-400'>Address:</span> Prk Sta Cruz Lower Taytay Ditucalan, Iligan City
+                        </p>
+                    </div>
+                    <div class="px-6 py-5">
+                            <a href="https://web.facebook.com/profile.php?id=100057563314754" 
+                                target="_blank"
+                                class='block text-white w-full px-3 py-3 text-center bg-blue-600 rounded-md hover:bg-blue-800'>
+                                Facebook page
+                            </a> 
+                        </a>
+                    </div>
+                </div>
+
+                <div class="border border-gray-500 rounded-lg bg-gray-950">
+                    <header class="px-6 py-5">
+                        <h1 class='text-lg font-semibold text-white'>
+                        Jay Farmville - KJJ Ville  
+                        </h1>
+                    </header>
+                    <div class="px-6 py-3">
+                        <div class='flex justify-center'>
+                            <img src="/images/accomodations/Jay Farmville - KJJ Ville.jpg" alt="" class='object-cover w-full h-40 rounded-lg md:rounded-2xl'>
+                        </div>
+                    </div>
+                    <div class='px-6 text-sm'>
+                        <p class='text-white text-left mb-2'>
+                            <span class='text-gray-400'>Contact Number:</span> 0998 549 3762
+                        </p>
+                        <p class='text-white text-left'>
+                        <span class='text-gray-400'>Address:</span> Ditucalan, Iligan City
+                        </p>
+                    </div>
+                    <div class="px-6 py-5">
+                            <a href="https://web.facebook.com/KJJVille" 
+                                target="_blank"
+                                class='block text-white w-full px-3 py-3 text-center bg-blue-600 rounded-md hover:bg-blue-800'>
+                                Facebook page
+                            </a> 
+                        </a>
+                    </div>
+                </div>
+
+                <div class="border border-gray-500 rounded-lg bg-gray-950">
+                    <header class="px-6 py-5">
+                        <h1 class='text-lg font-semibold text-white'>
+                        Alya Vista Inn
+                        </h1>
+                    </header>
+                    <div class="px-6 py-3">
+                        <div class='flex justify-center'>
+                            <img src="/images/accomodations/Alya Vista Inn .jpg" alt="" class='object-cover w-full h-40 rounded-lg md:rounded-2xl'>
+                        </div>
+                    </div>
+                    <div class='px-6 text-sm'>
+                        <p class='text-white text-left mb-2'>
+                            <span class='text-gray-400'>Contact Number:</span> 223-3915
+                        </p>
+                        <p class='text-white text-left'>
+                        <span class='text-gray-400'>Address:</span> Lluch St., Iligan City
+                        </p>
+                    </div>
+                    <div class="px-6 py-5">
+                            <a href="https://web.facebook.com/pages/Alya-Vista-Lodge/424636727583752" 
+                                target="_blank"
+                                class='block text-white w-full px-3 py-3 text-center bg-blue-600 rounded-md hover:bg-blue-800'>
+                                Facebook page
+                            </a> 
+                        </a>
+                    </div>
+                </div>
+
+                <div class="border border-gray-500 rounded-lg bg-gray-950">
+                    <header class="px-6 py-5">
+                        <h1 class='text-lg font-semibold text-white'>
+                        Alexandria Cafe & Hotel
+                        </h1>
+                    </header>
+                    <div class="px-6 py-3">
+                        <div class='flex justify-center'>
+                            <img src="/images/accomodations/Alexandria Cafe & Hotel.jpg" alt="" class='object-cover w-full h-40 rounded-lg md:rounded-2xl'>
+                        </div>
+                    </div>
+                    <div class='px-6 text-sm'>
+                        <p class='text-white text-left mb-2'>
+                            <span class='text-gray-400'>Contact Number:</span> 0910 418 9440
+                        </p>
+                        <p class='text-white text-left'>
+                        <span class='text-gray-400'>Address:</span> Ubaldo Laya, Iligan City
+                        </p>
+                    </div>
+                    <div class="px-6 py-5">
+                            <a href="https://web.facebook.com/profile.php?id=100092683901777" 
+                                target="_blank"
+                                class='block text-white w-full px-3 py-3 text-center bg-blue-600 rounded-md hover:bg-blue-800'>
+                                Facebook page
+                            </a> 
+                        </a>
+                    </div>
+                </div>
+
+                <div class="border border-gray-500 rounded-lg bg-gray-950">
+                    <header class="px-6 py-5">
+                        <h1 class='text-lg font-semibold text-white'>
+                        Woodland Suites, Iligan City 
+                        </h1>
+                    </header>
+                    <div class="px-6 py-3">
+                        <div class='flex justify-center'>
+                            <img src="/images/accomodations/Woodland Suites, Iligan City.jpeg" alt="" class='object-cover w-full h-40 rounded-lg md:rounded-2xl'>
+                        </div>
+                    </div>
+                    <div class='px-6 text-sm'>
+                        <p class='text-white text-left mb-2'>
+                            <span class='text-gray-400'>Contact Number:</span> 0956 680 1497
+                        </p>
+                        <p class='text-white text-left'>
+                        <span class='text-gray-400'>Address:</span> Roxas Ave., Iligan City
+                        </p>
+                    </div>
+                    <div class="px-6 py-5">
+                            <a href="https://web.facebook.com/pages/Woodland%20Suites,%20Iligan%20City/1589436417853135" 
+                                target="_blank"
+                                class='block text-white w-full px-3 py-3 text-center bg-blue-600 rounded-md hover:bg-blue-800'>
+                                Facebook page
+                            </a> 
+                        </a>
+                    </div>
+                </div>
+
+                <div class="border border-gray-500 rounded-lg bg-gray-950">
+                    <header class="px-6 py-5">
+                        <h1 class='text-lg font-semibold text-white'>
+                        RedDoorz Iligan at Socor Pension House 
+                        </h1>
+                    </header>
+                    <div class="px-6 py-3">
+                        <div class='flex justify-center'>
+                            <img src="/images/accomodations/RedDoorz Iligan at Socor Pension House.jpg" alt="" class='object-cover w-full h-40 rounded-lg md:rounded-2xl'>
+                        </div>
+                    </div>
+                    <div class='px-6 text-sm'>
+                        <p class='text-white text-left mb-2'>
+                            <span class='text-gray-400'>Contact Number:</span> 0975 5 234 391
+                        </p>
+                        <p class='text-white text-left'>
+                        <span class='text-gray-400'>Address:</span> 542 Doña Juana Rd Pala-o, Iligan City
+                        </p>
+                    </div>
+                    <div class="px-6 py-5">
+                            <a href="https://web.facebook.com/profile.php?id=61563422969321" 
+                                target="_blank"
+                                class='block text-white w-full px-3 py-3 text-center bg-blue-600 rounded-md hover:bg-blue-800'>
+                                Facebook page
+                            </a> 
+                        </a>
+                    </div>
+                </div>
+
+                <div class="border border-gray-500 rounded-lg bg-gray-950">
+                    <header class="px-6 py-5">
+                        <h1 class='text-lg font-semibold text-white'>
+                        D'Morvie Suites Iligan 
+                        </h1>
+                    </header>
+                    <div class="px-6 py-3">
+                        <div class='flex justify-center'>
+                            <img src="/images/accomodations/D'Morvie Suites Iligan.png" alt="" class='object-cover w-full h-40 rounded-lg md:rounded-2xl'>
+                        </div>
+                    </div>
+                    <div class='px-6 text-sm'>
+                        <p class='text-white text-left mb-2'>
+                            <span class='text-gray-400'>Contact Number:</span> 223-3255
+                        </p>
+                        <p class='text-white text-left'>
+                        <span class='text-gray-400'>Address:</span> Andres Bonifacio Ave., Iligan City
+                        </p>
+                    </div>
+                    <div class="px-6 py-5">
+                            <a href="https://www.dmorviesuite.com/?fbclid=IwY2xjawHETZRleHRuA2FlbQIxMAABHSd3OV4L-IS6ogGSLFTC7EfrOi_bf4T5-ap-kH6_a8cWHKQt4V9x6bPRkw_aem_5lBrl2Edm0nShqGZ6VVscw" 
+                                target="_blank"
+                                class='block text-white w-full px-3 py-3 text-center bg-blue-600 rounded-md hover:bg-blue-800'>
+                                Facebook page
+                            </a> 
+                        </a>
+                    </div>
+                </div>
+
+                <div class="border border-gray-500 rounded-lg bg-gray-950">
+                    <header class="px-6 py-5">
+                        <h1 class='text-lg font-semibold text-white'>
+                        StayLite Suites  
+                        </h1>
+                    </header>
+                    <div class="px-6 py-3">
+                        <div class='flex justify-center'>
+                            <img src="/images/accomodations/StayLite Suites.jpg" alt="" class='object-cover w-full h-40 rounded-lg md:rounded-2xl'>
+                        </div>
+                    </div>
+                    <div class='px-6 text-sm'>
+                        <p class='text-white text-left mb-2'>
+                            <span class='text-gray-400'>Contact Number:</span> 228-0467 / 0917 707 2491
+                        </p>
+                        <p class='text-white text-left'>
+                        <span class='text-gray-400'>Address:</span> Champaca Street, San Miguel Village, Pala-o 9200 Iligan City
+                        </p>
+                    </div>
+                    <div class="px-6 py-5">
+                            <a href="https://web.facebook.com/StayLiteSuites" 
+                                target="_blank"
+                                class='block text-white w-full px-3 py-3 text-center bg-blue-600 rounded-md hover:bg-blue-800'>
+                                Facebook page
+                            </a> 
+                        </a>
+                    </div>
+                </div>
+
+                <div class="border border-gray-500 rounded-lg bg-gray-950">
+                    <header class="px-6 py-5">
+                        <h1 class='text-lg font-semibold text-white'>
+                        Monlan Suites
+                        </h1>
+                    </header>
+                    <div class="px-6 py-3">
+                        <div class='flex justify-center'>
+                            <img src="/images/accomodations/Monlan Suites.jpg" alt="" class='object-cover w-full h-40 rounded-lg md:rounded-2xl'>
+                        </div>
+                    </div>
+                    <div class='px-6 text-sm'>
+                        <p class='text-white text-left mb-2'>
+                            <span class='text-gray-400'>Contact Number:</span> 0965 306 8098
+                        </p>
+                        <p class='text-white text-left'>
+                        <span class='text-gray-400'>Address:</span> Corner Vicenta Sheker Ave, San Miguel 9200 Iligan City
+                        </p>
+                    </div>
+                    <div class="px-6 py-5">
+                            <a href="https://web.facebook.com/monlansuitesiligan" 
+                                target="_blank"
+                                class='block text-white w-full px-3 py-3 text-center bg-blue-600 rounded-md hover:bg-blue-800'>
+                                Facebook page
+                            </a> 
+                        </a>
+                    </div>
+                </div>
+
+                <div class="border border-gray-500 rounded-lg bg-gray-950">
+                    <header class="px-6 py-5">
+                        <h1 class='text-lg font-semibold text-white'>
+                        Northbay Suites
+                        </h1>
+                    </header>
+                    <div class="px-6 py-3">
+                        <div class='flex justify-center'>
+                            <img src="/images/accomodations/Northbay Suites.jpg" alt="" class='object-cover w-full h-40 rounded-lg md:rounded-2xl'>
+                        </div>
+                    </div>
+                    <div class='px-6 text-sm'>
+                        <p class='text-white text-left mb-2'>
+                            <span class='text-gray-400'>Contact Number:</span> 0995 513 3821
+                        </p>
+                        <p class='text-white text-left'>
+                        <span class='text-gray-400'>Address:</span> Cor. Sabayle St., Iligan City
+                        </p>
+                    </div>
+                    <div class="px-6 py-5">
+                            <a href="" 
+                                target="_blank"
+                                class='block text-white w-full px-3 py-3 text-center bg-blue-600 rounded-md hover:bg-blue-800'>
+                                Facebook page
+                            </a> 
+                        </a>
+                    </div>
+                </div>
+
+                <div class="border border-gray-500 rounded-lg bg-gray-950">
+                    <header class="px-6 py-5">
+                        <h1 class='text-lg font-semibold text-white'>
+                        Alma Residences
+                        </h1>
+                    </header>
+                    <div class="px-6 py-3">
+                        <div class='flex justify-center'>
+                            <img src="/images/accomodations/Alma Residences.jpeg" alt="" class='object-cover w-full h-40 rounded-lg md:rounded-2xl'>
+                        </div>
+                    </div>
+                    <div class='px-6 text-sm'>
+                        <p class='text-white text-left mb-2'>
+                            <span class='text-gray-400'>Contact Number:</span> 224-0835
+                        </p>
+                        <p class='text-white text-left'>
+                        <span class='text-gray-400'>Address:</span> Zamora St., Iligan City
+                        </p>
+                    </div>
+                    <div class="px-6 py-5">
+                            <a href="" 
+                                target="_blank"
+                                class='block text-white w-full px-3 py-3 text-center bg-blue-600 rounded-md hover:bg-blue-800'>
+                                Facebook page
+                            </a> 
+                        </a>
+                    </div>
+                </div>
+
+                <div class="border border-gray-500 rounded-lg bg-gray-950">
+                    <header class="px-6 py-5">
+                        <h1 class='text-lg font-semibold text-white'>
+                        Famous Pension House
+                        </h1>
+                    </header>
+                    <div class="px-6 py-3">
+                        <div class='flex justify-center'>
+                            <img src="/images/accomodations/Famous Pension House.jpeg" alt="" class='object-cover w-full h-40 rounded-lg md:rounded-2xl'>
+                        </div>
+                    </div>
+                    <div class='px-6 text-sm'>
+                        <p class='text-white text-left mb-2'>
+                            <span class='text-gray-400'>Contact Number:</span> 0922 891 9636
+                        </p>
+                        <p class='text-white text-left'>
+                        <span class='text-gray-400'>Address:</span> Miguelito Sheker Lane, Iligan City
+                        </p>
+                    </div>
+                    <div class="px-6 py-5">
+                            <a href="" 
+                                target="_blank"
+                                class='block text-white w-full px-3 py-3 text-center bg-blue-600 rounded-md hover:bg-blue-800'>
+                                Facebook page
+                            </a> 
+                        </a>
+                    </div>
+                </div>
+
             </div>
         </div>
     </div>

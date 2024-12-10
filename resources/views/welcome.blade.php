@@ -39,7 +39,7 @@ type();
 
 <!-- intro -->
 <section class='flex items-center justify-center min-h-screen py-8 mt-8 overflow-hidden bg-black'>
-    <div class="max-w-6xl px-8 mx-auto">
+    <div class="max-w-6xl px-8 mx-auto mt-5">
         <div class="items-center grid-cols-2 md:grid mb-10">
             <div>
                 <img src="{{  asset('/images/mincon-cutout-logo.png') }}" alt="MINCON logo" 
@@ -430,7 +430,7 @@ type();
                             <a href="{{ route('speaker-5') }}">
                                 <div class="card" style="background-color: rgba(0, 0, 0, 0.3); border: 1px solid rgba(255, 255, 255, 0.3); border-radius: 24px; text-align: center; padding: 16px;">
                                     <div class="image-container" style="position: relative; overflow: visible; margin-top: -80px;">
-                                        <img src="/images/speakers/updated/Dr. Lantican.png" alt="DR. ALVIN M. LAXAMANA" class="mx-auto w-full h-full mx-auto " style="width: 240px; margin: 0 auto;">
+                                        <img src="/images/speakers/updated/Dr. Lantican latest.png" alt="DR. ALVIN M. LAXAMANA" class="mx-auto w-full h-full mx-auto " style="width: 240px; margin: 0 auto;">
                                     </div>
                                     <div class="text-content text-white mt-4">
                                         <h1 class="text-xl font-bold mt-4">SHERILYN LANTICAN, DMD</h1>
@@ -459,7 +459,7 @@ type();
                             <a href="{{ route('speaker-7') }}">
                                 <div class="card" style="background-color: rgba(0, 0, 0, 0.3); border: 1px solid rgba(255, 255, 255, 0.3); border-radius: 24px; text-align: center; padding: 16px;">
                                     <div class="image-container" style="position: relative; overflow: visible; margin-top: -80px;">
-                                        <img src="/images/speakers/updated/Dr. Militante.png" alt="DR. ALVIN M. LAXAMANA" class="mx-auto w-full h-full mx-auto " style="width: 240px; margin: 0 auto;">
+                                        <img src="/images/speakers/updated/Dr. Militante new.png" alt="DR. ALVIN M. LAXAMANA" class="mx-auto w-full h-full mx-auto " style="width: 240px; margin: 0 auto;">
                                     </div>
                                     <div class="text-content text-white mt-4">
                                         <h1 class="text-xl font-bold mt-4">ANGELO MILITANTE, DMD</h1>
