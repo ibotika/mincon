@@ -9,6 +9,6 @@ class CheckIn extends Component
     public function render()
     {
         return view('livewire.check-in')
-            ->layout('layouts.guest');
+            ->layout('layouts.basic');
     }
 }
