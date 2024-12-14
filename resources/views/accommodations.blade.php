@@ -769,12 +769,9 @@
                         </p>
                     </div>
                     <div class="px-6 py-5">
-                            <a href="" 
-                                target="_blank"
-                                class='block text-white w-full px-3 py-3 text-center bg-blue-600 rounded-md hover:bg-blue-800'>
+                            <button class='block text-white w-full px-3 py-3 text-center bg-gray-600 rounded-md'>
                                 Facebook page
-                            </a> 
-                        </a>
+                            </button>
                     </div>
                 </div>
 
@@ -798,12 +795,9 @@
                         </p>
                     </div>
                     <div class="px-6 py-5">
-                            <a href="" 
-                                target="_blank"
-                                class='block text-white w-full px-3 py-3 text-center bg-blue-600 rounded-md hover:bg-blue-800'>
+                        <button class='block text-white w-full px-3 py-3 text-center bg-gray-600 rounded-md'>
                                 Facebook page
-                            </a> 
-                        </a>
+                        </button>
                     </div>
                 </div>
 
@@ -827,12 +821,9 @@
                         </p>
                     </div>
                     <div class="px-6 py-5">
-                            <a href="" 
-                                target="_blank"
-                                class='block text-white w-full px-3 py-3 text-center bg-blue-600 rounded-md hover:bg-blue-800'>
+                          <button class='block text-white w-full px-3 py-3 text-center bg-gray-600 rounded-md'>
                                 Facebook page
-                            </a> 
-                        </a>
+                            </button>
                     </div>
                 </div>
 
