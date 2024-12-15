@@ -23,7 +23,7 @@
                     <div class="w-full text-white">
                             <h1 class="text-xl md:text-4xl font-bold text-left">ROSA RIA HALILI-SUGUITAN, DMD</h1>
                             <div class='mt-5 text-sm text-justify'>
-                            <p class='mt-5 text-xl'>"Advancing Oral Health through Preventive and Minimally Invasive Dentistry"</p>
+                            <p class='mt-5 text-xl'>"PRESERVING SMILES : Advancing Oral Health through Preventive and Minimally Invasive Dentistry"</p>
                             <p class='mt-5'>Day 1, 1:00 PM - 4:00 PM</p>
                             <p class=''>Location: Clamshell 1</p>
                             <p class='mt-5'>In modern dentistry, the focus is shifting towards proactive measures that preserve natural tooth structure while promoting long-term oral health. This lecture will explore the principles of oral health, preventive dentistry, and minimally invasive techniques, emphasizing their significance in clinical practice. The lecture aims to provide insight into scientifically supported strategies that prioritize prevention, early intervention, and the use of advanced materials to manage common dental conditions effectively.</p>

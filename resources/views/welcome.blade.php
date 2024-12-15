@@ -433,7 +433,7 @@ type();
                                         <img src="/images/speakers/updated/Dr. Lantican latest.png" alt="DR. ALVIN M. LAXAMANA" class="mx-auto w-full h-full mx-auto " style="width: 240px; margin: 0 auto;">
                                     </div>
                                     <div class="text-content text-white mt-4">
-                                        <h1 class="text-xl font-bold mt-4">SHERILYN LANTICAN, DMD</h1>
+                                        <h1 class="text-xl font-bold mt-4">SHERYL ANNE ROSE, DMD</h1>
                                         <!-- <p class="mt-2 text-sm px-6 text-white">5</p> -->
                                     </div>
                                 </div>
