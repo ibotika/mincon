@@ -462,7 +462,6 @@ type();
                                         <img src="/images/speakers/updated/Dr. Militante new.png" alt="DR. ALVIN M. LAXAMANA" class="mx-auto w-full h-full mx-auto " style="width: 240px; margin: 0 auto;">
                                     </div>
                                     <div class="text-content text-white mt-4">
-                                        <h1 class="text-xl font-bold mt-4">JOSE ANGELO MILITANTE, DMD</h1>
                                         <!-- <p class="mt-2 text-sm px-6 text-white">7</p> -->
                                     </div>
                                 </div>

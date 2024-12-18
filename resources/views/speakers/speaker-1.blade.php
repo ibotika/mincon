@@ -3,7 +3,7 @@
 
 @section('content')
 
-<section class='relative pt-20 bg-black md:py-30'>
+<section class='relative mt-10 pt-20 bg-black md:py-30'>
     <div class="absolute inset-0 bg-center bg-cover" style="background-image: url('/images/bg/bg-6.webp'); opacity:0.6;"></div>
         <div class='mx-auto md:px-8 md:max-w-6xl'>
             <div class='relative z-10 m-10'>
