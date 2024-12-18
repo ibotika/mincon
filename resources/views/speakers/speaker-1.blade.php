@@ -3,7 +3,7 @@
 
 @section('content')
 
-<section class='relative mt-10 pt-20 bg-black md:py-30'>
+<section class='relative mt-10 py-20 bg-black md:py-30'>
     <div class="absolute inset-0 bg-center bg-cover" style="background-image: url('/images/bg/bg-6.webp'); opacity:0.6;"></div>
         <div class='mx-auto md:px-8 md:max-w-6xl'>
             <div class='relative z-10 m-10'>
@@ -31,19 +31,15 @@
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
 
-        <div class='relative bg-black/50 z-10 py-20 mt-20'>
-            <div class='mx-auto md:px-8 md:max-w-6xl'>
-                <div class='justify-items-center mx-10 '>
+                <div class='justify-items-center mt-20'>
                     <p class='text-justify text-white text-sm'>
                     We are privileged to introduce Dr. Alvin M. Laxamana, a luminary in both the dental and public health realms. A proud alumnus of Centro Escolar University with a Doctorate in Dental Medicine. With Masters in Educational Management and Public Health, Dr. Laxamana stands at the convergence of clinical excellence and academic leadership. He serves as an Associate Professor and Chief of Clinics at the College of Dentistry, University of Perpetual Help Laguna, and leads as the Department Head of Periodontology, Oral Research, & Dental Public Health. Beyond his academic and clinical roles, Dr. Laxamana's dedication to advancing dental education shines through his leadership as the Chairman of the Commission for Dental Education, Asia Pacific Dental Federation, and his influential positions within the Philippine Dental Association, including past presidency and his current role as Editor-in-Chief of its journal. A respected authority on periodontology and the critical links between oral and systemic health, Dr. Laxamana will delve into 'From Mouth to Body: The Impact of the Oral Microbiome on Systemic Health,' offering an enlightening perspective on how oral health is integral to our overall well-being.
                     </p>
                 </div>
-            </div>    
+                
+            </div>
         </div>
-
     </div>
 </section>
 
