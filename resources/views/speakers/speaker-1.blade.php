@@ -14,7 +14,7 @@
                     </svg>
                 </button>
 
-                <div class="mt-12 flex flex-col md:flex-row justify-center items-center">
+                <div class="mt-12 mb-10 flex flex-col md:flex-row justify-center items-center">
                     <a href="" class="w-full md:w-3/4 p-10 flex items-center justify-center">
                         <div class="card" style="background-color: rgba(0, 0, 0, 0.3); border: 1px solid rgba(255, 255, 255, 0.3); border-radius: 24px; text-align: center; padding: 16px;">
                             <div class="image-container" style="position: relative; overflow: visible; margin-top: -80px;">
@@ -35,8 +35,8 @@
                 </div>
 
                 <div class=''>
-                    <p class='mt-10 text-justify text-white text-sm'>
-                     margin fix We are privileged to introduce Dr. Alvin M. Laxamana, a luminary in both the dental and public health realms. A proud alumnus of Centro Escolar University with a Doctorate in Dental Medicine. With Masters in Educational Management and Public Health, Dr. Laxamana stands at the convergence of clinical excellence and academic leadership. He serves as an Associate Professor and Chief of Clinics at the College of Dentistry, University of Perpetual Help Laguna, and leads as the Department Head of Periodontology, Oral Research, & Dental Public Health. Beyond his academic and clinical roles, Dr. Laxamana's dedication to advancing dental education shines through his leadership as the Chairman of the Commission for Dental Education, Asia Pacific Dental Federation, and his influential positions within the Philippine Dental Association, including past presidency and his current role as Editor-in-Chief of its journal. A respected authority on periodontology and the critical links between oral and systemic health, Dr. Laxamana will delve into 'From Mouth to Body: The Impact of the Oral Microbiome on Systemic Health,' offering an enlightening perspective on how oral health is integral to our overall well-being.
+                    <p class='text-justify text-white text-sm'>
+                    MB  We are privileged to introduce Dr. Alvin M. Laxamana, a luminary in both the dental and public health realms. A proud alumnus of Centro Escolar University with a Doctorate in Dental Medicine. With Masters in Educational Management and Public Health, Dr. Laxamana stands at the convergence of clinical excellence and academic leadership. He serves as an Associate Professor and Chief of Clinics at the College of Dentistry, University of Perpetual Help Laguna, and leads as the Department Head of Periodontology, Oral Research, & Dental Public Health. Beyond his academic and clinical roles, Dr. Laxamana's dedication to advancing dental education shines through his leadership as the Chairman of the Commission for Dental Education, Asia Pacific Dental Federation, and his influential positions within the Philippine Dental Association, including past presidency and his current role as Editor-in-Chief of its journal. A respected authority on periodontology and the critical links between oral and systemic health, Dr. Laxamana will delve into 'From Mouth to Body: The Impact of the Oral Microbiome on Systemic Health,' offering an enlightening perspective on how oral health is integral to our overall well-being.
                     </p>
                 </div>
 
