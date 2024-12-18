@@ -3,7 +3,7 @@
 
 @section('content')
 
-<section class='relative py-20 bg-black md:py-30'>
+<section class='relative pt-20 bg-black md:py-30'>
     <div class="absolute inset-0 bg-center bg-cover" style="background-image: url('/images/bg/bg-6.webp'); opacity:0.6;"></div>
         <div class='mx-auto md:px-8 md:max-w-6xl'>
             <div class='relative z-10 m-10'>
@@ -12,8 +12,8 @@
                         <path d="m313-440 224 224-57 56-320-320 320-320 57 56-224 224h487v80H313Z"/>
                     </svg>
                 </button>
-                <div class="mt-12 flex flex-col md:flex-row justify-center items-center space-x-4">
-                    <a href="" class="w-full md:w-3/4 p-10 flex justify-center">
+                <div class="mt-12 flex flex-col md:flex-row justify-center items-center">
+                    <a href="" class="w-full md:w-3/4 p-10 flex items-center justify-center">
                         <div class="card" style="background-color: rgba(0, 0, 0, 0.3); border: 1px solid rgba(255, 255, 255, 0.3); border-radius: 24px; text-align: center; padding: 16px;">
                             <div class="image-container" style="position: relative; overflow: visible; margin-top: -80px;">
                                 <img src="/images/speakers/updated/Dr. Suguitan.png" alt="Dr. Suguitan.png" class="mx-auto w-full h-full mx-auto " style="width: 240px; margin: 0 auto;">
@@ -40,6 +40,21 @@
             </div>
         </div>
     </div>
+
+    <div class='relative bg-black/50 z-10 py-20 mt-20'>
+        <div class='mx-auto md:px-8 md:max-w-6xl'>
+            <div class='justify-items-center mx-10 '>
+                <p class='text-justify text-white text-sm'>
+                Join us at the Mindanao Convention for an insightful session with Dr. Rosa Ria Halili-Suguitan, a distinguished figure in the fields of Esthetic Dentistry, Family Dentistry, and Orthodontics. With over a decade of expertise and a plethora of accolades to her name,     
+                Dr. Halili-Suguitan stands as a pioneering force in dental health and innovation. Notably, she was the Gold Awardee at the Kaizen Innovation Presentation in 2022 and has served as both a faculty member and clinical instructor at the University of the East College of Dentistry.
+                Dr. Halili-Suguitan's educational journey is marked by her Doctor of Dental Medicine degree and a Master of Science in Dental Education from the University of the East. Her dedication to her craft is further highlighted by her affiliations with prestigious organizations such as the Philippine Dental Association, the Philippine Prosthodontic Society, and the International Association for Orthodontics.
+                Currently, Dr. Halili-Suguitan leads as the Head Dentist at GC Asia Dental PTE LTD and maintains a thriving private practice at Dentistry by Halili & Suguitan. She also imparts her knowledge and skills as a faculty member and clinical instructor at the UE College of Dentistry.
+                In her much-anticipated lecture, "Preserving Smiles: Advancing Oral Health through Preventive and Minimally Invasive Dentistry," Dr. Halili-Suguitan will delve into the core principles of preventive dentistry and the role of minimally invasive techniques in the management of early caries and dry mouth conditions.
+                </p>
+            </div>
+        </div>    
+    </div>
+    
 </section>
 
 

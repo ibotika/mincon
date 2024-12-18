@@ -3,7 +3,7 @@
 
 @section('content')
 
-<section class='relative py-20 bg-black md:py-30'>
+<section class='relative pt-20 bg-black md:py-30'>
     <div class="absolute inset-0 bg-center bg-cover" style="background-image: url('/images/bg/bg-6.webp'); opacity:0.6;"></div>
     <div class='mx-auto md:px-8 md:max-w-6xl'>
         <div class='relative z-10 m-10'>
@@ -12,7 +12,7 @@
                     <path d="m313-440 224 224-57 56-320-320 320-320 57 56-224 224h487v80H313Z"/>
                 </svg>
             </button>
-            <div class="mt-12 flex flex-col md:flex-row justify-center items-center space-x-4">
+            <div class="mt-12 flex flex-col md:flex-row justify-center items-center">
                 <a href="" class="w-full md:w-3/4 p-10 flex items-center justify-center">
                     <div class="card" style="background-color: rgba(0, 0, 0, 0.3); border: 1px solid rgba(255, 255, 255, 0.3); border-radius: 24px; text-align: center; padding: 16px;">
                         <div class="image-container" style="position: relative; overflow: visible; margin-top: -80px;">
@@ -34,6 +34,17 @@
                 </div>
             </div>
         </div>
+
+        <div class='relative bg-black/50 z-10 py-20 mt-20'>
+            <div class='mx-auto md:px-8 md:max-w-6xl'>
+                <div class='justify-items-center mx-10 '>
+                    <p class='text-justify text-white text-sm'>
+                        
+                    </p>
+                </div>
+            </div>    
+        </div>
+
     </div>
 </section>
 
