@@ -12,7 +12,7 @@
                     <path d="m313-440 224 224-57 56-320-320 320-320 57 56-224 224h487v80H313Z"/>
                 </svg>
             </button>
-            <div class="mt-12 flex flex-col md:flex-row justify-center items-center space-x-4">
+            <div class="mt-12 mb-10 flex flex-col md:flex-row justify-center items-center space-x-4">
                 <a href="" class="w-full md:w-3/4 p-10 flex items-center justify-center">
                     <div class="card" style="background-color: rgba(0, 0, 0, 0.3); border: 1px solid rgba(255, 255, 255, 0.3); border-radius: 24px; text-align: center; padding: 16px;">
                         <div class="image-container" style="position: relative; overflow: visible; margin-top: -80px;">
@@ -32,10 +32,16 @@
                     </div>
                 </div>
             </div>
+            <div class='text-justify text-white text-sm'>
+                <p class='mb-5'>It's our privilege to introduce Dr. Sheryl Anne Rose Lantican, DDS, PAED, as a highlighted speaker at this year's Mindanao Convention. Beginning her career at Centro Escolar University, she has further enhanced her skills with specializations in Pediatric Dentistry, Orthodontics, and TMJ and Orofacial Pain. 
+                <p class='mb-5'>Her journey spans over two decades, featuring roles from Associate Dentist at Asian Hospital to proprietor of Sheryl Lantican Dental Clinic in Canlubang, Laguna.</p>
+                <p class='mb-5'>In the past five years, Dr. Lantican has spearheaded numerous initiatives, significantly contributing to the enhancement of oral health education and services. Her esteemed positions within the Philippine Dental Association epitomize her influence on dental health policies.</p>
+                <p class='mb-5'>Dr. Lantican's excellence garners recognition, including awards like "Most Outstanding Club President" and "Most Outstanding Chapter Officer" from PDA Laguna Chapter, Inc., celebrating her leadership and dedication to oral health.</p>
+                <p class='mb-5'>In her presentation, “PDA: PROACTIVE in its Commitment to ORAL HEALTH,” Dr. Lantican will explore the Philippine Dental Association's alignment with WHO's Global Oral Health Action Plan. She will highlight the shift towards preventive care and detail the “Oral Health Dapat Sapat” project's initiatives aimed at achieving comprehensive health goals.</p></p>
+            </div>
         </div>
     </div>
 </section>
-
 
 
 @endsection

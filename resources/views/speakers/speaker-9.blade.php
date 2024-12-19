@@ -12,7 +12,7 @@
                     <path d="m313-440 224 224-57 56-320-320 320-320 57 56-224 224h487v80H313Z"/>
                 </svg>
             </button>
-            <div class="mt-12 flex flex-col md:flex-row justify-center items-center space-x-4">
+            <div class="mt-12 mb-10 flex flex-col md:flex-row justify-center items-center space-x-4">
                 <a href="" class="w-full md:w-3/4 p-10 flex items-center justify-center">
                     <div class="card" style="background-color: rgba(0, 0, 0, 0.3); border: 1px solid rgba(255, 255, 255, 0.3); border-radius: 24px; text-align: center; padding: 16px;">
                         <div class="image-container" style="position: relative; overflow: visible; margin-top: -80px;">
@@ -21,7 +21,7 @@
                     </div>
                 </a>
                 <div class="w-full text-white">
-                    <h1 class="text-xl md:text-4xl font-bold">FELYLOU FERNANDEZ, DMD</h1>
+                    <h1 class="text-xl md:text-4xl font-bold">FELYLOU ALTURA FERNANDEZ, DMD</h1>
                     <div class='mt-5 text-sm text-justify'>
                         <p class='mt-5 text-xl'>"The Code of Ethics for Dentists and Social Media: The impact of Digital evolution and social media to dental practice and the culture of dental profession"</p>
                         <p class='mt-5'>Day 2, 1:00 PM - 3:00 PM</p>
@@ -44,6 +44,10 @@
                         </p>
                     </div>
                 </div>
+            </div>
+            <div class='text-justify text-white text-sm'>
+                <p class='mb-5'>We are thrilled to present Dr. Felylou Altura Fernandez as a spotlight speaker at our Mindanao Convention, illustrating an exceptional journey that bridges law, dentistry, and nursing. Dr. Fernandez stands as a testament to unparalleled dedication and interdisciplinary expertise. Her illustrious career is marked by significant milestones, including advancing her qualifications as a Registered Nurse (RN) by passing the NCLEX-RN and the CGFNS in 2007, and noteworthy recognition as the Most Outstanding Alumni by Dr. Jose Lanting College in 2005. Furthermore, her active involvement in leading organizations such as the Philippine Dental Association, Integrated Bar of the Philippines, and Philippine Nurses Association attests to her unwavering commitment to her diverse professions. Her achievements not only mirror her passion but also her desire to contribute meaningfully across her fields of expertise.</p>
+                <p class='mb-5'>In her much-anticipated lecture titled "Ethical Dental Practice in the Age of Social Media," Dr. Fernandez promises to delve into the nuanced relationship between dentistry and digital technology. She will explore the enduring principles of dental ethics and their relevance in today’s fast-paced, social media-driven world, tackling the delicate balance between commercialism and professionalism.</p>
             </div>
         </div>
     </div>

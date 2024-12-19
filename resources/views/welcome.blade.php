@@ -388,7 +388,7 @@ type();
                             <a href="{{ route('speaker-2') }}">
                                 <div class="card" style="background-color: rgba(0, 0, 0, 0.3); border: 1px solid rgba(255, 255, 255, 0.3); border-radius: 24px; text-align: center; padding: 16px;">
                                     <div class="image-container" style="position: relative; overflow: visible; margin-top: -80px;">
-                                        <img src="/images/speakers/updated/Dr. Laurito.png" alt="DR. ALVIN M. LAXAMANA" class="mx-auto w-full h-full mx-auto " style="width: 240px; margin: 0 auto;">
+                                        <img src="/images/speakers/updated/Dr. Laurito.png" alt="ARNOLD LAURITO" class="mx-auto w-full h-full mx-auto " style="width: 240px; margin: 0 auto;">
                                     </div>
                                     <div class="text-content text-white mt-4">
                                         <h1 class="text-xl font-bold mt-4">ARNOLD LAURITO, MD</h1>
@@ -402,7 +402,7 @@ type();
                             <a href="{{ route('speaker-3') }}">
                                 <div class="card" style="background-color: rgba(0, 0, 0, 0.3); border: 1px solid rgba(255, 255, 255, 0.3); border-radius: 24px; text-align: center; padding: 16px;">
                                     <div class="image-container" style="position: relative; overflow: visible; margin-top: -80px;">
-                                        <img src="/images/speakers/updated/Dr. Suguitan.png" alt="DR. ALVIN M. LAXAMANA" class="mx-auto w-full h-full mx-auto " style="width: 240px; margin: 0 auto;">
+                                        <img src="/images/speakers/updated/Dr. Suguitan.png" alt="ROSA RIA HALILI SUGUITAN" class="mx-auto w-full h-full mx-auto " style="width: 240px; margin: 0 auto;">
                                     </div>
                                     <div class="text-white mt-4">
                                         <h1 class="text-xl font-bold mt-4">ROSA RIA HALILI SUGUITAN, DMD</h1>
@@ -416,7 +416,7 @@ type();
                             <a href="{{ route('speaker-4') }}">
                                 <div class="card" style="background-color: rgba(0, 0, 0, 0.3); border: 1px solid rgba(255, 255, 255, 0.3); border-radius: 24px; text-align: center; padding: 16px;">
                                     <div class="image-container" style="position: relative; overflow: visible; margin-top: -80px;">
-                                        <img src="/images/speakers/updated/Dr. Uy.png" alt="DR. ALVIN M. LAXAMANA" class="mx-auto w-full h-full mx-auto " style="width: 240px; margin: 0 auto;">
+                                        <img src="/images/speakers/updated/Dr. Uy.png" alt="SAMANTHA NIÑA UY" class="mx-auto w-full h-full mx-auto " style="width: 240px; margin: 0 auto;">
                                     </div>
                                     <div class="text-content text-white mt-4">
                                         <h1 class="text-xl font-bold mt-4">SAMANTHA NIÑA UY, DMD</h1>
@@ -430,7 +430,7 @@ type();
                             <a href="{{ route('speaker-5') }}">
                                 <div class="card" style="background-color: rgba(0, 0, 0, 0.3); border: 1px solid rgba(255, 255, 255, 0.3); border-radius: 24px; text-align: center; padding: 16px;">
                                     <div class="image-container" style="position: relative; overflow: visible; margin-top: -80px;">
-                                        <img src="/images/speakers/updated/Dr. Lantican latest.png" alt="DR. ALVIN M. LAXAMANA" class="mx-auto w-full h-full mx-auto " style="width: 240px; margin: 0 auto;">
+                                        <img src="/images/speakers/updated/Dr. Lantican latest.png" alt="SHERYL ANNE ROSE" class="mx-auto w-full h-full mx-auto " style="width: 240px; margin: 0 auto;">
                                     </div>
                                     <div class="text-content text-white mt-4">
                                         <h1 class="text-xl font-bold mt-4">SHERYL ANNE ROSE, DMD</h1>
@@ -444,10 +444,10 @@ type();
                             <a href="{{ route('speaker-6') }}">
                                 <div class="card" style="background-color: rgba(0, 0, 0, 0.3); border: 1px solid rgba(255, 255, 255, 0.3); border-radius: 24px; text-align: center; padding: 16px;">
                                     <div class="image-container" style="position: relative; overflow: visible; margin-top: -80px;">
-                                        <img src="/images/speakers/updated/Dr. Jacob.png" alt="DR. ALVIN M. LAXAMANA" class="mx-auto w-full h-full mx-auto " style="width: 240px; margin: 0 auto;">
+                                        <img src="/images/speakers/updated/Dr. Jacob.png" alt="ROMEO N. JACOB" class="mx-auto w-full h-full mx-auto " style="width: 240px; margin: 0 auto;">
                                     </div>
                                     <div class="text-content text-white mt-4">
-                                        <h1 class="text-xl font-bold mt-4">Romeo N. Jacob, Jr., DMD., Cert. Ortho., FADI, FPFA</h1>
+                                        <h1 class="text-xl font-bold mt-4">ROMEO N. JACOB, Jr., DMD., Cert. Ortho., FADI, FPFA</h1>
                                         <!-- <p class="mt-2 text-sm px-6 text-white">6</p> -->
                                     </div>
                                 </div>
@@ -459,9 +459,10 @@ type();
                             <a href="{{ route('speaker-7') }}">
                                 <div class="card" style="background-color: rgba(0, 0, 0, 0.3); border: 1px solid rgba(255, 255, 255, 0.3); border-radius: 24px; text-align: center; padding: 16px;">
                                     <div class="image-container" style="position: relative; overflow: visible; margin-top: -80px;">
-                                        <img src="/images/speakers/updated/Dr. Militante new.png" alt="DR. ALVIN M. LAXAMANA" class="mx-auto w-full h-full mx-auto " style="width: 240px; margin: 0 auto;">
+                                        <img src="/images/speakers/updated/Dr. Militante new.png" alt="JOSE ANGELO MILITANTE" class="mx-auto w-full h-full mx-auto " style="width: 240px; margin: 0 auto;">
                                     </div>
                                     <div class="text-content text-white mt-4">
+                                        <h1 class="text-xl font-bold mt-4">JOSE ANGELO MILITANTE, DMD</h1>
                                         <!-- <p class="mt-2 text-sm px-6 text-white">7</p> -->
                                     </div>
                                 </div>
@@ -472,7 +473,7 @@ type();
                             <a href="{{ route('speaker-8') }}">
                                 <div class="card" style="background-color: rgba(0, 0, 0, 0.3); border: 1px solid rgba(255, 255, 255, 0.3); border-radius: 24px; text-align: center; padding: 16px;">
                                     <div class="image-container" style="position: relative; overflow: visible; margin-top: -80px;">
-                                        <img src="/images/speakers/updated/Dr. De Castro.png" alt="DR. ALVIN M. LAXAMANA" class="mx-auto w-full h-full mx-auto " style="width: 240px; margin: 0 auto;">
+                                        <img src="/images/speakers/updated/Dr. De Castro.png" alt="LEO GERALD DE CASTRO" class="mx-auto w-full h-full mx-auto " style="width: 240px; margin: 0 auto;">
                                     </div>
                                     <div class="text-content text-white mt-4">
                                         <h1 class="text-xl font-bold mt-4">LEO GERALD DE CASTRO, DMD</h1>
@@ -486,10 +487,10 @@ type();
                             <a href="{{ route('speaker-9') }}">
                                 <div class="card" style="background-color: rgba(0, 0, 0, 0.3); border: 1px solid rgba(255, 255, 255, 0.3); border-radius: 24px; text-align: center; padding: 16px;">
                                     <div class="image-container" style="position: relative; overflow: visible; margin-top: -80px;">
-                                        <img src="/images/speakers/updated/Dr. Fernandez.png" alt="DR. ALVIN M. LAXAMANA" class="mx-auto w-full h-full mx-auto " style="width: 240px; margin: 0 auto;">
+                                        <img src="/images/speakers/updated/Dr. Fernandez.png" alt="FELYLOU ALTURA FERNANDEZ" class="mx-auto w-full h-full mx-auto " style="width: 240px; margin: 0 auto;">
                                     </div>
                                     <div class="text-content text-white mt-4">
-                                        <h1 class="text-xl font-bold mt-4">FELYLOU FERNANDEZ, DMD</h1>
+                                        <h1 class="text-xl font-bold mt-4">FELYLOU ALTURA FERNANDEZ, DMD</h1>
                                         <!-- <p class="mt-2 text-sm px-6 text-white">9</p> -->
                                     </div>
                                 </div>
@@ -500,7 +501,7 @@ type();
                             <a href="{{ route('speaker-10') }}">
                                 <div class="card" style="background-color: rgba(0, 0, 0, 0.3); border: 1px solid rgba(255, 255, 255, 0.3); border-radius: 24px; text-align: center; padding: 16px;">
                                     <div class="image-container" style="position: relative; overflow: visible; margin-top: -80px;">
-                                        <img src="/images/speakers/updated/Dr. Nunez.png" alt="DR. ALVIN M. LAXAMANA" class="mx-auto w-full h-full mx-auto " style="width: 240px; margin: 0 auto;">
+                                        <img src="/images/speakers/updated/Dr. Nunez.png" alt="ARVIN LESTER NUÑEZ" class="mx-auto w-full h-full mx-auto " style="width: 240px; margin: 0 auto;">
                                     </div>
                                     <div class="text-content text-white mt-4">
                                         <h1 class="text-xl font-bold mt-4">ARVIN LESTER NUÑEZ, DMD</h1>
@@ -514,7 +515,7 @@ type();
                             <a href="{{ route('speaker-11') }}">
                                 <div class="card" style="background-color: rgba(0, 0, 0, 0.3); border: 1px solid rgba(255, 255, 255, 0.3); border-radius: 24px; text-align: center; padding: 16px;">
                                     <div class="image-container" style="position: relative; overflow: visible; margin-top: -80px;">
-                                        <img src="/images/speakers/updated/Dr. Almonte.png" alt="DR. ALVIN M. LAXAMANA" class="mx-auto w-full h-full mx-auto " style="width: 240px; margin: 0 auto;">
+                                        <img src="/images/speakers/updated/Dr. Almonte.png" alt="STEPHEN ALMONTE" class="mx-auto w-full h-full mx-auto " style="width: 240px; margin: 0 auto;">
                                     </div>
                                     <div class="text-content text-white mt-4">
                                         <h1 class="text-xl font-bold mt-4">STEPHEN ALMONTE, DMD</h1>
@@ -547,7 +548,7 @@ type();
                             <a href="{{ route('speaker-12') }}">
                                 <div class="card" style="background-color: rgba(0, 0, 0, 0.3); border: 1px solid rgba(255, 255, 255, 0.3); border-radius: 24px; text-align: center; padding: 16px;">
                                     <div class="image-container" style="position: relative; overflow: visible; margin-top: -80px;">
-                                        <img src="/images/speakers/updated/Dr. Bautista.png" alt="Dr. Bautista.png" class="mx-auto w-full h-full mx-auto " style="width: 240px; margin: 0 auto;">
+                                        <img src="/images/speakers/updated/Dr. Bautista.png" alt="JOY BAUTISTA" class="mx-auto w-full h-full mx-auto " style="width: 240px; margin: 0 auto;">
                                     </div>
                                     <div class="text-content text-white mt-4">
                                         <h1 class="text-xl font-bold mt-4">JOY BAUTISTA, DMD</h1>
@@ -561,7 +562,7 @@ type();
                             <a href="{{ route('speaker-13') }}">
                                 <div class="card" style="background-color: rgba(0, 0, 0, 0.3); border: 1px solid rgba(255, 255, 255, 0.3); border-radius: 24px; text-align: center; padding: 16px;">
                                     <div class="image-container" style="position: relative; overflow: visible; margin-top: -80px;">
-                                        <img src="/images/speakers/updated/Dr. Reguyal.png" alt="DR. ALVIN M. LAXAMANA" class="mx-auto w-full h-full mx-auto " style="width: 240px; margin: 0 auto;">
+                                        <img src="/images/speakers/updated/Dr. Reguyal.png" alt="ALBERT REGUYAL" class="mx-auto w-full h-full mx-auto " style="width: 240px; margin: 0 auto;">
                                     </div>
                                     <div class="text-content text-white mt-4">
                                         <h1 class="text-xl font-bold mt-4">ALBERT REGUYAL, DMD</h1>
@@ -603,7 +604,7 @@ type();
                             <a href="{{ route('speaker-16') }}">
                                 <div class="card" style="background-color: rgba(0, 0, 0, 0.3); border: 1px solid rgba(255, 255, 255, 0.3); border-radius: 24px; text-align: center; padding: 16px;">
                                     <div class="image-container" style="position: relative; overflow: visible; margin-top: -80px;">
-                                        <img src="/images/speakers/updated/Dr. Alano.png" alt="DR. HERTZ A. ALANO" class="mx-auto w-full h-full mx-auto " style="width: 240px; margin: 0 auto;">
+                                        <img src="/images/speakers/updated/Dr. Alano.png" alt="HERTZ A. ALANO" class="mx-auto w-full h-full mx-auto " style="width: 240px; margin: 0 auto;">
                                     </div>
                                     <div class="text-content text-white mt-4">
                                         <h1 class="text-xl font-bold mt-4">HERTZ A. ALANO, DMD</h1>
@@ -617,7 +618,7 @@ type();
                             <a href="{{ route('speaker-17') }}">
                                 <div class="card" style="background-color: rgba(0, 0, 0, 0.3); border: 1px solid rgba(255, 255, 255, 0.3); border-radius: 24px; text-align: center; padding: 16px;">
                                     <div class="image-container" style="position: relative; overflow: visible; margin-top: -80px;">
-                                        <img src="/images/speakers/updated/Dr. Manaloto.png" alt="DR. ALVIN M. LAXAMANA" class="mx-auto w-full h-full mx-auto " style="width: 240px; margin: 0 auto;">
+                                        <img src="/images/speakers/updated/Dr. Manaloto.png" alt="ADRIAN CARLOS MANALOTO" class="mx-auto w-full h-full mx-auto " style="width: 240px; margin: 0 auto;">
                                     </div>
                                     <div class="text-content text-white mt-4">
                                         <h1 class="text-xl font-bold mt-4">ADRIAN CARLOS MANALOTO, DMD</h1>

@@ -12,7 +12,7 @@
                     <path d="m313-440 224 224-57 56-320-320 320-320 57 56-224 224h487v80H313Z"/>
                 </svg>
             </button>
-            <div class="mt-12 flex flex-col md:flex-row justify-center items-center space-x-4">
+            <div class="mt-12 mb-10 flex flex-col md:flex-row justify-center items-center space-x-4">
                 <a href="" class="w-full md:w-3/4 p-10 flex items-center justify-center">
                     <div class="card" style="background-color: rgba(0, 0, 0, 0.3); border: 1px solid rgba(255, 255, 255, 0.3); border-radius: 24px; text-align: center; padding: 16px;">
                         <div class="image-container" style="position: relative; overflow: visible; margin-top: -80px;">
@@ -21,7 +21,7 @@
                     </div>
                 </a>
                 <div class="w-full text-white">
-                    <h1 class="text-xl md:text-4xl font-bold text-left">Romeo N. Jacob, Jr., DMD., Cert. Ortho., FADI, FPFA</h1>           
+                    <h1 class="text-xl md:text-4xl font-bold text-left">ROMEO N. JACOB, Jr., DMD., Cert. Ortho., FADI, FPFA</h1>           
                     <div class='mt-5 text-sm text-justify'>
                         <p class='mt-5 text-xl'>"Orthodontics Management of Impacted Teeth: An Inter-disciplinary Perspective"</p>
                         <p class='mt-5'>Day 2, 9:00 AM - 11:00 AM</p>
@@ -31,6 +31,11 @@
                         <p class='mt-5'>The objective of the presentation is to provide an overview of the prevalence, etiology, diagnosis, treatment, and complications associated with the management of impacted teeth. Orthodontics as part of the inter-discipline can break the stereotype in impacted teeth by saving rather than sacrificing impacted teeth.</p>
                     </div>
                 </div>
+            </div>
+            <div class='text-justify text-white text-sm'>
+                <p class='mb-5'>We are honored to present Dr. Romeo N. Jacob, Jr., a luminary in Pediatric Dentistry and Orthodontics, as a distinguished speaker at our upcoming Mindanao Convention. With an illustrious track record peppered with global recognition, Dr. Jacob brings over three decades of unparalleled expertise and innovation to the forefront of dental practice. His enriching journey includes prestigious consultations and contributions across the Philippines, Hong Kong, Thailand, and Vietnam, underscoring his commitment to advancing dental health worldwide.
+                <p class='mb-5'>Holding pivotal positions, from a Training Officer at the Philippine Children's Medical Center to a Consultant for several Asian Dental Associations, and as a decorated recipient of numerous dental accolades, Dr. Jacob’s contributions to the field are monumental. His ethos of saving over sacrificing is set to inspire a paradigm shift in the management of impacted teeth, making his presentation a transformative experience for all attendees.</p>
+                <p class='mb-5'>Dr. Jacob's lecture, "Orthodontics Management of Impacted Teeth: An Inter-disciplinary Perspective," promises to be a cornerstone event. Unveiling the complexities of tooth impaction, his insights stem from a deep understanding of its prevalence, etiology, and the collaborative modalities of treatment that intertwine orthodontics, oral surgery, and periodontics. This session is meticulously designed to enlighten practitioners on the crucial role of early detection and the innovative orthodontic interventions that prioritize the preservation of impacted teeth.</p></p>
             </div>
         </div>
     </div>

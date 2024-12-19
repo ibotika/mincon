@@ -7,13 +7,11 @@
     <div class="absolute inset-0 bg-center bg-cover" style="background-image: url('/images/bg/bg-6.webp'); opacity:0.6;"></div>
         <div class='mx-auto md:px-8 md:max-w-6xl'>
             <div class='relative z-10 m-10'>
-
                 <button onclick="history.back()" class="text-white hover:text-blue-600">
                     <svg xmlns="http://www.w3.org/2000/svg" height="32px" viewBox="0 -960 960 960" width="32px" fill="#e8eaed" class="hover:fill-white/50">
                         <path d="m313-440 224 224-57 56-320-320 320-320 57 56-224 224h487v80H313Z"/>
                     </svg>
                 </button>
-                
                 <div class="mt-12 mb-10 flex flex-col md:flex-row justify-center items-center">
                     <a href="" class="w-full md:w-3/4 p-10 flex items-center justify-center">
                         <div class="card" style="background-color: rgba(0, 0, 0, 0.3); border: 1px solid rgba(255, 255, 255, 0.3); border-radius: 24px; text-align: center; padding: 16px;">
@@ -40,17 +38,13 @@
                         </div>
                     </div>
                 </div>
-
-                <div>
-                    <p class='text-justify text-white text-sm'>
-                    Join us at the Mindanao Convention for an insightful session with Dr. Rosa Ria Halili-Suguitan, a distinguished figure in the fields of Esthetic Dentistry, Family Dentistry, and Orthodontics. With over a decade of expertise and a plethora of accolades to her name,     
-                    Dr. Halili-Suguitan stands as a pioneering force in dental health and innovation. Notably, she was the Gold Awardee at the Kaizen Innovation Presentation in 2022 and has served as both a faculty member and clinical instructor at the University of the East College of Dentistry.
-                    Dr. Halili-Suguitan's educational journey is marked by her Doctor of Dental Medicine degree and a Master of Science in Dental Education from the University of the East. Her dedication to her craft is further highlighted by her affiliations with prestigious organizations such as the Philippine Dental Association, the Philippine Prosthodontic Society, and the International Association for Orthodontics.
-                    Currently, Dr. Halili-Suguitan leads as the Head Dentist at GC Asia Dental PTE LTD and maintains a thriving private practice at Dentistry by Halili & Suguitan. She also imparts her knowledge and skills as a faculty member and clinical instructor at the UE College of Dentistry.
-                    In her much-anticipated lecture, "Preserving Smiles: Advancing Oral Health through Preventive and Minimally Invasive Dentistry," Dr. Halili-Suguitan will delve into the core principles of preventive dentistry and the role of minimally invasive techniques in the management of early caries and dry mouth conditions.
-                    </p>
+                <div class='text-justify text-white text-sm'>
+                    <p class='mb-5'>Join us at the Mindanao Convention for an insightful session with Dr. Rosa Ria Halili-Suguitan, a distinguished figure in the fields of Esthetic Dentistry, Family Dentistry, and Orthodontics. With over a decade of expertise and a plethora of accolades to her name,     </p>
+                    <p class='mb-5'>Dr. Halili-Suguitan stands as a pioneering force in dental health and innovation. Notably, she was the Gold Awardee at the Kaizen Innovation Presentation in 2022 and has served as both a faculty member and clinical instructor at the University of the East College of Dentistry.</p>
+                    <p class='mb-5'>Dr. Halili-Suguitan's educational journey is marked by her Doctor of Dental Medicine degree and a Master of Science in Dental Education from the University of the East. Her dedication to her craft is further highlighted by her affiliations with prestigious organizations such as the Philippine Dental Association, the Philippine Prosthodontic Society, and the International Association for Orthodontics.</p>
+                    <p class='mb-5'>Currently, Dr. Halili-Suguitan leads as the Head Dentist at GC Asia Dental PTE LTD and maintains a thriving private practice at Dentistry by Halili & Suguitan. She also imparts her knowledge and skills as a faculty member and clinical instructor at the UE College of Dentistry.</p>
+                    <p class=''>In her much-anticipated lecture, "Preserving Smiles: Advancing Oral Health through Preventive and Minimally Invasive Dentistry," Dr. Halili-Suguitan will delve into the core principles of preventive dentistry and the role of minimally invasive techniques in the management of early caries and dry mouth conditions.</p>
                 </div>
-                
             </div>
         </div>
     </div>

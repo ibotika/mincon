@@ -30,15 +30,11 @@
                         </div>
                     </div>
                 </div>
-
-                <div>
-                    <p class='text-justify text-white text-sm'>
-                                                Join us in welcoming Dr. Arnold Acosta Laurito at the 35th Mindanao Convention, a luminary in the field of Urology. Dr. Laurito stands out not only for his distinguished career in urology but also for his unwavering commitment to medical innovation and education. Dr. Laurito graduated cum laude with a degree in BS Zoology from MSU IIT and was among the top five graduates of the MSU-College of Medicine, where he also received the Best in Internal Medicine Clerkship award, demonstrating his pursuit of excellence.
-                        Dr. Laurito has honed his expertise at the Vicente Sotto Memorial Medical Center, where he completed his residency training. Currently, he imparts his valuable knowledge as a Professor IV at MSU-College of Medicine, training future medical professionals. Beyond his surgical achievements, Dr. Laurito is an esteemed member of key medical societies, contributing significantly to the advancement of urological care and robotic surgery in the Philippines.
-                        His participation as a lecturer highlights the caliber of discussions to be expected at our convention, as he presents his groundbreaking lecture on the intriguing link between periodontal health and urological health entitled: “PROSTEETH: The Insights & Implications Connecting Periodontal and Urological Health”.
-                    </p>
+                <div class='text-justify text-white text-sm'>
+                    <p class='mb-5'>Join us in welcoming Dr. Arnold Acosta Laurito at the 35th Mindanao Convention, a luminary in the field of Urology. Dr. Laurito stands out not only for his distinguished career in urology but also for his unwavering commitment to medical innovation and education. Dr. Laurito graduated cum laude with a degree in BS Zoology from MSU IIT and was among the top five graduates of the MSU-College of Medicine, where he also received the Best in Internal Medicine Clerkship award, demonstrating his pursuit of excellence.</p>
+                    <p class='mb-5'>Dr. Laurito has honed his expertise at the Vicente Sotto Memorial Medical Center, where he completed his residency training. Currently, he imparts his valuable knowledge as a Professor IV at MSU-College of Medicine, training future medical professionals. Beyond his surgical achievements, Dr. Laurito is an esteemed member of key medical societies, contributing significantly to the advancement of urological care and robotic surgery in the Philippines.</p>
+                    <p class=''>His participation as a lecturer highlights the caliber of discussions to be expected at our convention, as he presents his groundbreaking lecture on the intriguing link between periodontal health and urological health entitled: “PROSTEETH: The Insights & Implications Connecting Periodontal and Urological Health”.</p>
                 </div>
-
             </div>
         </div>
     </div>

@@ -3,7 +3,7 @@
 
 @section('content')
 
-<section class='relative py-20 bg-black md:py-30'>
+<section class='relative mt-10 py-20 bg-black md:py-30'>
     <div class="absolute inset-0 bg-center bg-cover" style="background-image: url('/images/bg/bg-6.webp'); opacity:0.6;"></div>
         <div class='mx-auto md:px-8 md:max-w-6xl'>
             <div class='relative z-10 m-10'>
@@ -12,7 +12,7 @@
                         <path d="m313-440 224 224-57 56-320-320 320-320 57 56-224 224h487v80H313Z"/>
                     </svg>
                 </button>
-                <div class="mt-12 flex flex-col md:flex-row justify-center items-center">
+                <div class="mt-12 mb-10 flex flex-col md:flex-row justify-center items-center">
                     <a href="" class="w-full md:w-3/4 p-10 flex items-center justify-center">
                         <div class="card" style="background-color: rgba(0, 0, 0, 0.3); border: 1px solid rgba(255, 255, 255, 0.3); border-radius: 24px; text-align: center; padding: 16px;">
                             <div class="image-container" style="position: relative; overflow: visible; margin-top: -80px;">
@@ -32,6 +32,11 @@
                             <p class='mt-5'>By rethinking the importance of behavior management in periodontal care, this presentation aims to empower dental professionals to elevate their practice and improve patient outcomes in ways that go beyond the clinic chair. Join us as we explore how these 'underdogs' can lead to significant, sustained improvements in oral health.</p> </div>
                         </div>
                     </div>
+                    <div class='text-justify text-white text-sm'>
+                        <p class='mb-5'>We are thrilled to announce Dr. Samantha Niña Marie Ramos Uy as our distinguished lecturer at the 35th Mindanao Convention. Dr. Uy, a respected periodontist and implant dentist, boasts an impressive academic background, including a Master of Dental Surgery in Periodontology with Distinction from the University of Hong Kong and a Doctor of Dental Medicine degree, which she earned Cum Laude from the University of the East College of Dentistry.</p>
+                        <p class='mb-5'>Throughout her exemplary career, Dr. Uy has held prestigious roles at various dental clinics and enhanced her skills during her residency at the Prince Philip Dental Hospital in Hong Kong. Her dedication to advancing periodontal care is evident in her pivotal research, acknowledged by the European Federation of Periodontology, and active participation in numerous dental associations.</p>
+                        <p class=''>At the convention, Dr. Uy will present "Oral Hygiene and Behavior Management: The Underdogs in Periodontal Care." This lecture promises to reveal essential, yet often underestimated, elements of periodontal treatment, focusing on empowering patients through personalized behavior management for long-term periodontal health.</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -41,3 +46,7 @@
 
 
 @endsection
+
+
+
+
