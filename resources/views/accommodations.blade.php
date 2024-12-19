@@ -201,6 +201,64 @@
                 <div class="border border-gray-500 rounded-lg bg-gray-950">
                     <header class="px-6 py-5">
                         <h1 class='text-lg font-semibold text-white'>
+                        Cheradel Suites          
+                        </h1>
+                    </header>
+                    <div class="px-6 py-3">
+                        <div class='flex justify-center'>
+                            <img src="/images/accomodations/Cheradel Suites.webp" alt="" class='object-cover w-full h-40 rounded-lg md:rounded-2xl'>
+                        </div>
+                    </div>
+                    <div class='px-6 text-sm'>
+                        <p class='text-white text-left mb-2'>
+                            <span class='text-gray-400'>Contact Number:</span> 0917 708 1231
+                        </p>
+                        <p class='text-white text-left'>
+                        <span class='text-gray-400'>Address:</span>Bro. Raymond Jeffrey Road, Villa Verde, Iligan City
+                        </p>
+                    </div>
+                    <div class="px-6 py-5">
+                            <a href="https://www.facebook.com/p/Cheradel-Suites-100054534065983/" 
+                                target="_blank"
+                                class='block text-white w-full px-3 py-3 text-center bg-blue-600 rounded-md hover:bg-blue-800'>
+                                Facebook page
+                            </a> 
+                        </a>
+                    </div>
+                </div>
+
+                <!-- <div class="border border-gray-500 rounded-lg bg-gray-950">
+                    <header class="px-6 py-5">
+                        <h1 class='text-lg font-semibold text-white'>
+                            Vacueto's Place Homestay
+                        </h1>
+                    </header>
+                    <div class="px-6 py-3">
+                        <div class='flex justify-center'>
+                            <img src="/images/accomodations/Vacueto's Place Homestay.jpg" alt="" class='object-cover w-full h-40 rounded-lg md:rounded-2xl'>
+                        </div>
+                    </div>
+                    <div class='px-6 text-sm'>
+                        <p class='text-white text-left mb-2'>
+                            <span class='text-gray-400'>Contact Number:</span> 0995 135 4600
+                        </p>
+                        <p class='text-white text-left'>
+                        <span class='text-gray-400'>Address:</span> 0047 Bro. Raymund Jeffrey st, La Salle Rd, Iligan City, 9200 Lanao del Norte
+                        </p>
+                    </div>
+                    <div class="px-6 py-5">
+                            <a href="https://www.facebook.com/vacuetosplacehomestay" 
+                                target="_blank"
+                                class='block text-white w-full px-3 py-3 text-center bg-blue-600 rounded-md hover:bg-blue-800'>
+                                Facebook page
+                            </a> 
+                        </a>
+                    </div>
+                </div> -->
+
+                <div class="border border-gray-500 rounded-lg bg-gray-950">
+                    <header class="px-6 py-5">
+                        <h1 class='text-lg font-semibold text-white'>
                         Balay Sa Iligan Inn
                        </h1>
                     </header>
@@ -768,11 +826,11 @@
                         <span class='text-gray-400'>Address:</span> Cor. Sabayle St., Iligan City
                         </p>
                     </div>
-                    <div class="px-6 py-5">
+                    <!-- <div class="px-6 py-5">
                             <button class='block text-white w-full px-3 py-3 text-center bg-gray-600 rounded-md'>
                                 Facebook page
                             </button>
-                    </div>
+                    </div> -->
                 </div>
 
                 <div class="border border-gray-500 rounded-lg bg-gray-950">
@@ -794,11 +852,11 @@
                         <span class='text-gray-400'>Address:</span> Zamora St., Iligan City
                         </p>
                     </div>
-                    <div class="px-6 py-5">
+                    <!-- <div class="px-6 py-5">
                         <button class='block text-white w-full px-3 py-3 text-center bg-gray-600 rounded-md'>
                                 Facebook page
                         </button>
-                    </div>
+                    </div> -->
                 </div>
 
                 <div class="border border-gray-500 rounded-lg bg-gray-950">
@@ -820,11 +878,11 @@
                         <span class='text-gray-400'>Address:</span> Miguelito Sheker Lane, Iligan City
                         </p>
                     </div>
-                    <div class="px-6 py-5">
+                    <!-- <div class="px-6 py-5">
                           <button class='block text-white w-full px-3 py-3 text-center bg-gray-600 rounded-md'>
                                 Facebook page
                             </button>
-                    </div>
+                    </div> -->
                 </div>
 
             </div>
