@@ -29,7 +29,7 @@
                         <p class='mt-5'>In modern dentistry, the focus is shifting towards proactive measures that preserve natural tooth structure while promoting long-term oral health. This lecture will explore the principles of oral health, preventive dentistry, and minimally invasive techniques, emphasizing their significance in clinical practice. The lecture aims to provide insight into scientifically supported strategies that prioritize prevention, early intervention, and the use of advanced materials to manage common dental conditions effectively.</p>
                         <p class='mt-5'>Through a combination of clinical case studies, scientific evidence, and practical tips, this lecture will illustrate how a preventive and minimally invasive approach not only improves patient outcomes but also enhances the overall dental experience and quality of life. Key focus areas will include the management of early caries, promoting oral health in dry mouth conditions, and addressing patient-specific needs with less invasive treatment treatment modalities. The discussion will also highlight the role of innovative materials and techniques that align with this modern approach to dentistry.</p>
                     </div>
-                    <div class='mt-5'>
+                    <div class='mt-5 text-sm text-justify'>
                         <p class='mt-5 text-xl'>"Beyond the Drill: Hands-On Minimally Invasive Dentistry for Healthier Smiles"</p>
                         <p class='mt-5'>Day 1, 4:00 PM - 5:00 PM</p>
                         <p class=''>Location: Clamshell 1</p>
