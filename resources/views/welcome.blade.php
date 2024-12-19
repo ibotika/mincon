@@ -454,7 +454,6 @@ type();
                             </a>
                         </div>
                         
-                        
                         <div class='swiper-slide flex flex-col items-center justify-center text-lg p-6'>
                             <a href="{{ route('speaker-7') }}">
                                 <div class="card" style="background-color: rgba(0, 0, 0, 0.3); border: 1px solid rgba(255, 255, 255, 0.3); border-radius: 24px; text-align: center; padding: 16px;">
@@ -468,7 +467,7 @@ type();
                                 </div>
                             </a>
                         </div>
-                        
+
                         <div class='swiper-slide flex flex-col items-center justify-center text-lg p-6'>
                             <a href="{{ route('speaker-8') }}">
                                 <div class="card" style="background-color: rgba(0, 0, 0, 0.3); border: 1px solid rgba(255, 255, 255, 0.3); border-radius: 24px; text-align: center; padding: 16px;">
