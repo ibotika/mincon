@@ -12,7 +12,7 @@
                     <path d="m313-440 224 224-57 56-320-320 320-320 57 56-224 224h487v80H313Z"/>
                 </svg>
             </button>
-            <div class="mt-12 flex flex-col md:flex-row justify-center items-center space-x-4">
+            <div class="mt-12 flex flex-col md:flex-row justify-center items-center">
                 <a href="" class="w-full md:w-3/4 p-10 flex items-center justify-center">
                     <div class="card" style="background-color: rgba(0, 0, 0, 0.3); border: 1px solid rgba(255, 255, 255, 0.3); border-radius: 24px; text-align: center; padding: 16px;">
                         <div class="image-container" style="position: relative; overflow: visible; margin-top: -80px;">
@@ -29,6 +29,9 @@
                     <p class='mt-5'>Advancements in the evolution of dentistry have taken Dentistry to another level, Digital Era have begun, various dental procedures like digital impression ,3D Printing Dental Restorations such as Crown, Veneer, Bridge & Dentures . Three-dimensional (3D) printing  is a process where materials (resin) are added in layers & cured by blue light  in which a 3D object is formed. With the use of computer aided programs, dental restoration is possible to manufacture chairside w/accuracy w/ direct patient communication on how we can finish & deliver the treatment. 3D Printing Dental restoration is a game changer Single Visit Dentistry.</p>
                 </div>
             </div>
+            <!-- <div class='text-justify text-white text-sm'>
+                <p class='mb-5'></p>
+            </div> -->
         </div>
     </div>
 </section>
