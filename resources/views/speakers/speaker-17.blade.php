@@ -12,7 +12,7 @@
                     <path d="m313-440 224 224-57 56-320-320 320-320 57 56-224 224h487v80H313Z"/>
                 </svg>
             </button>
-            <div class="mt-12 flex flex-col md:flex-row justify-center items-center">
+            <div class="mt-12 mb-10 flex flex-col md:flex-row justify-center items-center">
                 <a href="" class="w-full md:w-3/4 p-10 flex items-center justify-center">
                     <div class="card" style="background-color: rgba(0, 0, 0, 0.3); border: 1px solid rgba(255, 255, 255, 0.3); border-radius: 24px; text-align: center; padding: 16px;">
                         <div class="image-container" style="position: relative; overflow: visible; margin-top: -80px;">
