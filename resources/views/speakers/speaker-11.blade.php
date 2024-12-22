@@ -30,9 +30,10 @@
                     </div>
                 </div>
             </div>
-            <!-- <div class='text-justify text-white text-sm'>
-                <p class='mb-5'></p>
-            </div> -->
+            <div class='text-justify text-white text-sm'>
+                <p class='mb-5'>We are excited to showcase Dr. Stephen Bermudez Almonte, an esteemed Filipino dentist with extensive expertise in Periodontics and Implant Dentistry. Dr. Almonte's journey began at the prestigious Centro Escolar University, leading to significant roles as a consultant and visiting practitioner across renowned clinics and corporations. He has held honored positions within the Philippine Dental Association, coming equipped with unparalleled expertise and a wealth of experience. His impressive track record, marked by significant contributions to dental science and his continuous endeavor to share knowledge through various seminars and conventions, makes this lecture a must-attend for dental professionals aiming to enhance their practice and deliver outstanding patient care.</p>
+                <p class='mb-5'>Dive deep into the "Periodontal Considerations in Fixed and Partial Removable Prosthodontics Therapy" with Dr. Almonte. This lecture is thoughtfully crafted to equip General Practitioners by underscoring the vital importance of assessing periodontal health prior to any prosthodontics procedures. Recognizing the interconnectedness of periodontal health and prosthodontics is crucial for ensuring the durability and success of dental treatments, offering patients not just cosmetic enhancements but also improved functionality.</p>
+            </div>
         </div>
     </div>
 </section>

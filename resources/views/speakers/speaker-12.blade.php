@@ -32,9 +32,12 @@
                     </div>
                 </div>
             </div>
-            <!-- <div class='text-justify text-white text-sm'>
-                <p class='mb-5'></p>
-            </div> -->
+            <div class='text-justify text-white text-sm'>
+                <p class='mb-5'>Be with us at the Mindanao Convention as we proudly feature Dr. Joy S. Bautista, a luminary in the field of dental implantology and orthodontics. With a rich background stemming from his extensive education and a multitude of key roles, including Assistant Professor at the University of the East College of Dentistry, Visiting Consultant at Perfect Teeth Dental Center, and a respected dentist and owner of Bhest Smile Dental Clinic,</p>
+                <p class='mb-5'>Dr. Bautista is a globally recognized figure in dental health. An affiliate fellow, international fellow, and awarded educator, his specialization in dental implantology, orthodontics, and oral surgery underscores his profound competence and dedication to dental education.</p>
+                <p class='mb-5'>Dr. Bautista's lecture, “Freehand vs. Digitally Guided Implant Placement: A Comparative Approach,” promises to delve into the significant innovations shaping the future of dental implantology. Balancing his deep clinical expertise with a keen insight into cutting-edge technologies, Dr. Bautista will explore the advantages, challenges, and the clinical implications of both traditional and digitally guided implant placement techniques. This engaging session aims to arm practitioners with the knowledge to optimize treatment planning and enhance implant outcomes, all while navigating the complexities presented by digital advancements in the field.</p>
+                <p class='mb-5'>Do not miss the opportunity to gain valuable insights from one of the field's most esteemed innovators.</p>
+            </div>
         </div>
     </div>
 </section>
@@ -42,3 +45,5 @@
 
 
 @endsection
+
+

@@ -35,13 +35,16 @@
                     </div>
                 </div>
             </div>
-            <!-- <div class='text-justify text-white text-sm'>
-                <p class='mb-5'></p>
-            </div> -->
+            <div class='text-justify text-white text-sm'>
+                <p class='mb-5'>Join us at the Mindanao Convention for a special presentation by Dr. Hertz A. Alano, a leading authority in Orthodontics known for his expertise in Temporary Anchorage Devices (TADs).</p>
+                <p class='mb-5'>Dr. Alano, who has a strong academic background from Centro Escolar University and extensive global experience, is set to share his valuable knowledge and innovative methods. His lecture titled "Orthodontic Mini-implants (TADs): A Key to Orthodontic Treatment Efficiency" will explore the biological principles and advanced clinical uses of TADs, aiming to establish new standards for efficiency in orthodontic treatment.</p>
+                <p class='mb-5'>As a highly regarded speaker with numerous accolades for his contributions to the field, and with a successful history of leading seminars both locally and internationally, Dr. Alano is ready to transform practitioners’ approaches to complex tooth movements using skeletal anchorage. His journey, from the lively streets of Manila to esteemed orthodontic conferences around the world, reflects his commitment to excellence and innovation in dental care.</p>
+                <p class='mb-5'>Get ready to be inspired by strategies developed in the Philippines, as Dr. Alano discusses his groundbreaking techniques and personal insights on optimizing orthodontic treatment through the effective use of mini-implants. This session at the Mindanao Convention is truly a unique opportunity for both newcomers and seasoned professionals to enhance their practice with expertise from one of the foremost leaders in the field of Orthodontics today.</p>
+            </div>
         </div>
     </div>
 </section>
 
 
-
 @endsection
+

@@ -30,11 +30,16 @@
                     </div>
                 </div>
             </div>
-            <!-- <div class='text-justify text-white text-sm'>
-                <p class='mb-5'></p>
-            </div> -->
+            <div class='text-justify text-white text-sm'>
+                <p class='mb-5'>Join us for an enlightening journey in dentistry with Dr. Art Kevin de Leon, at the Mindanao Convention. Dr. Arkhe, a luminary in Prosthodontics, Esthetics, and Orthodontics, brings his innovative lecture "Functional yet Esthetic Posterior Restoration" to our platform. In an industry where the beauty of posterior tooth restoration is often overlooked, Dr. Arkhe challenges the norm by emphasizing the importance of aesthetic appeal alongside functional efficiency. His dedication to restoring teeth cusp by cusp not only enhances their appearance but significantly reduces polymerization stress, ensuring a blend of strength and beauty.</p>
+                <p class='mb-5'>With a rich background marked by prestigious recognitions such as the Youtube Silver Play Button and numerous leadership awards from the Philippine Dental Association (PDA), Dr. Arkhe stands out as a beacon of innovation and excellence.</p>
+                <p class='mb-5'>His involvement in significant seminars and his contributions as a knowledgeable educator further establish him as a leading figure in the dental community.</p>
+                <p class='mb-5'>Prepare to be inspired by a session that promises to transform your approach to dental esthetics and function. Never miss out to this opportunity to learn from one of the best in the field.</p>
+            </div> 
         </div>
     </div>
 </section>
 
 @endsection
+
+

@@ -30,9 +30,11 @@
                 </div>
                 </div>
             </div>
-            <!-- <div class='text-justify text-white text-sm'>
-                <p class='mb-5'></p>
-            </div> -->
+            <div class='text-justify text-white text-sm'>
+                <p class='mb-5'>We are thrilled to feature Dr. Adrian Carlos F. Manaloto, a vanguard in the realm of Prosthodontics and Implantology, as one of our distinguished speakers at this year's Mindanao Convention. With a profound educational background, Dr. Manaloto brings a wealth of knowledge from his Master of Science degree in Prosthodontics from Korea University and illustrious career marked by notable contributions to the field. As a dedicated prosthodontist serving in esteemed institutions such as Cornerstone Dental Office, Let’s Talk Teeth, and Landayan Dental Clinic, Dr. Manaloto's clinical brilliance is unparalleled.</p>
+                <p class='mb-5'>Dr. Manaloto has earned recognition for his exemplary skills, marked by participation in the International College of Prosthodontists' Young Prosthodontic Educator Summit and accolades such as the 2nd place Oral Presentation at the 8th Asian Academy of Osseointegration. His involvement in the Philippine Dental Association and the Philippine Prosthodontic Society as a Fellow underlines his commitment to advancing dental practice in the Philippines.</p>
+                <p class='mb-5'>In his presentation, “Chairside FPD Temporization Techniques,” Dr. Manaloto will unveil innovative strategies for prosthetic rehabilitation, enabling dental practitioners to offer timely, efficient patient care in today’s fast-paced clinical settings. This session promises to equip attendees with the necessary toolkit to thrive in the evolving landscape of dental practice, ensuring they stay at the forefront of patient treatment trends.</p>
+            </div>
         </div>
     </div>
 </section>
