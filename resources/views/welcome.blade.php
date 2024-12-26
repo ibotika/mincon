@@ -564,7 +564,7 @@ type();
                                         <img src="/images/speakers/updated/Dr. Reguyal.png" alt="ALBERT REGUYAL" class="mx-auto w-full h-full mx-auto " style="width: 240px; margin: 0 auto;">
                                     </div>
                                     <div class="text-content text-white mt-4">
-                                        <h1 class="text-xl font-bold mt-4">ALBERT REGUYAL, DMD</h1>
+                                        <h1 class="text-xl font-bold mt-4">ALBERTO REGUYAL, DMD</h1>
                                         <!-- <p class="mt-2 text-sm px-6 text-white">13</p> -->
                                     </div>
                                 </div>
