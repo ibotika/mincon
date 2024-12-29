@@ -41,11 +41,15 @@
                     </div>
                 </div>
             </div>
-            <!-- <div class='text-justify text-white text-sm'>
-                <p class='mb-5'></p>
-            </div> -->
+            <div class='text-justify text-white text-sm'>
+                <p class='mb-5'>Experience the latest advancements in dental practices at the Mindanao Convention, featuring Dr. Alberto "Abet" C. Reguyal, a leader in Restorative Dentistry and Dental Photography. With a career that spans several decades, Dr. Reguyal offers a wealth of knowledge and experience.</p>
+                <p class='mb-5'>Graduating from Centro Escolar University with a Doctorate in Dental Medicine, Dr. Reguyal has dedicated his career to not only practicing but also educating others through seminars and training programs nationwide. His expertise in Dental Photography and Restorative Dentistry makes him a valuable contributor to our convention.</p>
+                <p class='mb-5'>This year, Dr. Reguyal will shed light on the often overlooked yet vital practice of Rubberdamology in his presentation titled "Demystifying Rubberdamology." Discover the essential role of the rubber dam in promoting patient safety and procedural effectiveness in both endodontic and restorative dentistry. Although the rubber dam has many advantages, its use is often limited due to misunderstandings regarding its complexity and cost. Dr. Reguyal aims to clarify these misconceptions, offering practical advice and motivation to integrate this critical tool into everyday dental practice.</p>
+                <p class='mb-5'>Get ready to be inspired as Dr. Reguyal not only shares his expertise in effective Rubberdamology but also fosters a passion for achieving higher standards in dental care. Your path to excellence in dentistry can begin with this enlightening lecture. Don’t miss this opportunity at the Mindanao Convention.</p>
+            </div>
         </div>
     </div>
 </section>
+
 
 @endsection

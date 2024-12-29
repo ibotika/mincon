@@ -21,7 +21,7 @@
                     </div>
                 </a>
                 <div class="w-full text-white"> 
-                    <h1 class="text-xl md:text-4xl font-bold">OSWALD PADILLA, RN, RMT, MAN</h1>
+                    <h1 class="text-xl md:text-4xl font-bold">OSWALD ESSEL CAHANAP PADILLA, RN, RMT, MAN</h1>
                     <div class='mt-5 text-sm text-justify'>
                         <p class='mt-5 text-xl'>"CBCT: The Future of Dental Imaging"</p>
                         <p class='mt-5'>Day 1, 3:00 PM - 5:00 PM</p>
@@ -30,12 +30,15 @@
                     </div>
                 </div>
             </div>
-            <!-- <div class='text-justify text-white text-sm'>
-                <p class='mb-5'></p>
-            </div> -->
+            <div class='text-justify text-white text-sm'>
+                <p class='mb-5'>Join us at the Mindanao Convention as we proudly feature Oswald Essel Cahanap Padilla, a luminous figure in the realms of healthcare and dental technology.  With an educational foundation that spans across a Bachelor of Science in Nursing from Dr. Carlos S. Lanting College, a Bachelor of Science in Medical Technology from Emilio Aguinaldo College, and culminating in a Master of Arts in Nursing, Oswald's pursuit of excellence is evident. Holding a valid license as a nurse under the Philippines Regulatory Commission, he embodies the spirit of lifelong learning and professional development.</p>
+                <p class='mb-5'>Currently serving as the Country Manager for Dürr Dental in Germany, Oswald brings over two decades of experience in medical and dental technology to the forefront of discussion. His dedication is evident through his continuous engagement in advancing dental practices, particularly in Oral Radiology and Infection Control, across different continents. </p>
+                <p class='mb-5'>In his lecture titled "CBCT: The Future of Dental Imaging," He will delve into the revolutionary Cone Beam Computed Tomography (CBCT) technology. This session promises to bridge the gap between clinical knowledge and the technical prowess required to harness the full potential of CBCT in enhancing dental practice. From oral surgery to orthodontics, attendees will gain invaluable insights into the application, manipulation, and benefits of CBCT, marking a leap towards the future of dental imaging.</p>
+            </div>
         </div>
     </div> 
 </section>
+
 
 
 
