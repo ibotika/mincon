@@ -13,7 +13,7 @@
                 </svg>
             </button>
             <div class="mt-12 mb-5 flex flex-col md:flex-row justify-center items-center">
-                <a href="" class="w-full p-10 flex items-center justify-center">
+                <a href="" class="w-full px-10 flex items-center justify-center">
                     <div class="card" style="background-color: rgba(0, 0, 0, 0.3); border: 1px solid rgba(255, 255, 255, 0.3); border-radius: 24px; text-align: center; padding: 16px;">
                         <div class="image-container" style="position: relative; overflow: visible; margin-top: -80px;">
                         <img src="/images/speakers/updated/Dr. Padilla.png" alt="Dr. Padilla.png" class="mx-auto w-full h-full mx-auto " style=" margin: 0 auto;">
