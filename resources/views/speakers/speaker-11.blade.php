@@ -12,11 +12,11 @@
                     <path d="m313-440 224 224-57 56-320-320 320-320 57 56-224 224h487v80H313Z"/>
                 </svg>
             </button>
-            <div class="mt-12 mb-10 flex flex-col md:flex-row justify-center items-center">
-                <a href="" class="w-full md:w-3/4 p-10 flex items-center justify-center">
+            <div class="mt-12 mb-5 flex flex-col md:flex-row justify-center items-center">
+                <a href="" class="w-full p-10 flex items-center justify-center">
                     <div class="card" style="background-color: rgba(0, 0, 0, 0.3); border: 1px solid rgba(255, 255, 255, 0.3); border-radius: 24px; text-align: center; padding: 16px;">
                         <div class="image-container" style="position: relative; overflow: visible; margin-top: -80px;">
-                        <img src="/images/speakers/updated/Dr. Almonte.png" alt="Dr. Almonte.png" class="mx-auto w-full h-full mx-auto " style="width: 240px; margin: 0 auto;">
+                        <img src="/images/speakers/updated/Dr. Almonte.png" alt="Dr. Almonte.png" class="mx-auto w-full h-full mx-auto " style=" margin: 0 auto;">
                         </div>
                     </div>
                 </a>
