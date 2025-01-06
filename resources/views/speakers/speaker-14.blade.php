@@ -26,6 +26,7 @@
                         <p class='mt-5 text-xl'>"CBCT: The Future of Dental Imaging"</p>
                         <p class='mt-5'>Day 1, 3:00 PM - 5:00 PM</p>
                         <p class=''>Location: Clamshell 2</p>
+                        <p class=''>Session 3</p>
                         <p class='mt-5'>The Lecture will present various periodontal considerations for the success of Prosthodontics both in fixed and removable partial dentures.  The General Practitioner needs to observe and be guided properly on the protocol of analyzing and having a closer look at the periodontal status of the remaining dentition prior to any prosthodontics procedures.</p>
                     </div>
                 </div>

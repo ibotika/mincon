@@ -23,9 +23,10 @@
                 <div class="w-full text-white">
                     <h1 class="text-xl md:text-4xl font-bold">ARVIN LESTER NUÑEZ, DMD</h1>                    
                     <div class='mt-5 text-sm text-justify'>
-                        <p class='mt-5 text-xl'>"Digital Prosthodontics: The Future of Dental Prosthodontics"</p>
+                        <p class='mt-5 text-xl'>"DIGITAL PROSTHODONTICS: The Future of Dental Prosthodontics"</p>
                         <p class='mt-5'>Day 2, 1:00 PM - 3:00 PM</p>
                         <p class=''>Location: Clamshell 1</p>
+                        <p class=''>Session 3</p>
                         <p class='mt-5'>Advancements in the evolution of dentistry have taken Dentistry to another level, Digital Era have begun, various dental procedures like digital impression, 3D Printing Dental Restorations such as Crown, Veneer, Bridge & Dentures . Three-dimensional (3D) printing  is a process where materials (resin) are added in layers & cured by blue light  in which a 3D object is formed. With the use of computer aided programs, dental restoration is possible to manufacture chairside w/accuracy w/ direct patient communication on how we can finish & deliver the treatment. 3D Printing Dental restoration is a game changer Single Visit Dentistry.</p>
                     </div>
                 </div>

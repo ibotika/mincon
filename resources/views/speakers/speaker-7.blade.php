@@ -24,8 +24,9 @@
                     <h1 class="text-xl md:text-4xl font-bold text-left">JOSE ANGELO MILITANTE, DMD</h1>
                     <div class='mt-5 text-sm text-justify'>
                         <p class='mt-5 text-xl'>"The Role of Oral Surgery in Enhancing Orthodontic Treatment Outcomes"</p>
-                        <p class='mt-5'>Day 2, 9:00 AM - 11:00 AM</p>
+                        <p class='mt-5'>Day 2, 8:00 AM - 10:00 AM</p>
                         <p class=''>Location: Clamshell 1</p>
+                        <p class=''>Session 1</p>
                         <p class='mt-5'>Orthodontic treatments often require a multidisciplinary approach to achieve optimal dental and facial harmony. Oral surgery plays a pivotal role in addressing complex anatomical and developmental challenges that may impede orthodontic progress. This lecture delves into the key surgical interventions that support and complement orthodontic procedures, including extractions, exposure of impacted teeth, frenectomies, and surgically assisted rapid palatal expansion (SARPE).</p>
                         <p class='mt-5'>We will explore the indications, timing, and techniques for these interventions, as well as the critical collaboration between orthodontists and oral surgeons to tailor treatment plans to individual patient needs. By integrating surgical expertise, orthodontic treatment times can be reduced, patient comfort improved, and aesthetic outcomes enhanced. Case studies will be presented to illustrate the real-world impact of surgical-orthodontic synergy in achieving stable, functional, and esthetic results.</p>
                         <p class='mt-5'>Attendees will gain a comprehensive understanding of the protocols, patient selection criteria, and post-operative care necessary to ensure successful outcomes in cases requiring both orthodontic and surgical intervention.</p>

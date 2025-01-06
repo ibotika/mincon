@@ -23,9 +23,10 @@
                 <div class="w-full text-white"> 
                     <h1 class="text-xl md:text-4xl font-bold">HERTZ A. ALANO, DMD</h1>
                     <div class='mt-5 text-sm text-justify'>
-                        <p class='mt-5 text-xl'>"Orthodontic Mini-implants (TADS): A Key to Orthodontic Treatment Efficiency"</p>
-                        <p class='mt-5'>Day 2, 1:00 PM - 3:00 PM</p>
+                        <p class='mt-5 text-xl'>"ORTHODONTIC MINI-IMPLANTS (TADS): A Key to Orthodontic Treatment Efficiency"</p>
+                        <p class='mt-5'>Day 2, 10:00 AM - 12:00 PM</p>
                         <p class=''>Location: Clamshell 2</p>
+                        <p class=''>Session 2</p>
                         <p class='mt-5'>Temporary anchorage devices have been widely used in clinical orthodontics to have better control of
                             complex tooth movement through skeletal anchorage. This course will cover the biological foundations
                             and clinical applications of temporary anchorage devices in orthodontics. The different anatomical

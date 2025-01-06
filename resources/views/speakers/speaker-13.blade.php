@@ -26,6 +26,7 @@
                         <p class='mt-5 text-xl'>"Demystifying Rubberdamology"</p>
                         <p class='mt-5'>Day 1, 1:00 PM - 3:00 PM</p>
                         <p class=''>Location: Clamshell 2</p>
+                        <p class=''>Session 2</p>
                         <p class='mt-5'>The use of a rubber dam is an established method of isolation for optimal
                             dentistry. Despite it’s well known advantages, usage remains low amongst
                             dental practitioners. Mandatory in endodontics, a rubber dam is an effective

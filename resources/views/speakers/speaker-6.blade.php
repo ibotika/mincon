@@ -23,9 +23,10 @@
                 <div class="w-full text-white">
                     <h1 class="text-xl md:text-4xl font-bold text-left">ROMEO N. JACOB, Jr., DMD., Cert. Ortho., FADI, FPFA</h1>           
                     <div class='mt-5 text-sm text-justify'>
-                        <p class='mt-5 text-xl'>"Orthodontics Management of Impacted Teeth: An Inter-disciplinary Perspective"</p>
-                        <p class='mt-5'>Day 2, 9:00 AM - 11:00 AM</p>
+                        <p class='mt-5 text-xl'>"ORTHODONTICS MANAGEMENT OF IMPACTED TEETH: An Inter-disciplinary Perspective"</p>
+                        <p class='mt-5'>Day 2, 8:00 AM - 10:00 AM</p>
                         <p class=''>Location: Clamshell 1</p>
+                        <p class=''>Session 1</p>
                         <p class='mt-5'>Tooth erupts when half to three-quarters of the root length has developed. Impaction is usually diagnosed after this period and at times asymptomatic, the reason why patients seek treatment later. Tooth impaction is a common problem in daily orthodontic practice, and, in most cases, it is recognized by chance in a routine dental examination. Therefore, it is very important that dental practitioners are aware of this condition since early detection and intervention may help to prevent many harmful complications.</p>
                         <p class='mt-5'>The treatment of impacted teeth requires multidisciplinary cooperation between orthodontists, oral surgeons and sometimes periodontists. Orthodontic treatment and surgical exposure of impacted teeth are performed to bring the impacted tooth into the line of the arch. The treatment is long, more complicated, and challenging.</p>
                         <p class='mt-5'>The objective of the presentation is to provide an overview of the prevalence, etiology, diagnosis, treatment, and complications associated with the management of impacted teeth. Orthodontics as part of the inter-discipline can break the stereotype in impacted teeth by saving rather than sacrificing impacted teeth.</p>

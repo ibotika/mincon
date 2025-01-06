@@ -24,8 +24,9 @@
                     <h1 class="text-xl md:text-4xl font-bold">ART KEVIN DE LEON, DMD</h1>
                     <div class='mt-5 text-sm text-justify'>
                         <p class='mt-5 text-xl'>"Functional yet Esthetic Posterior Restoration"</p>
-                        <p class='mt-5'>Day 2, 10:00 AM - 12:00 PM</p>
+                        <p class='mt-5'>Day 2, 8:00 AM - 10:00 AM</p>
                         <p class=''>Location: Clamshell 2</p>
+                        <p class=''>Session 1</p>
                         <p class='mt-5'>Posterior tooth restoration’s esthetic and anatomic appearance is usually neglected due to that it is not seen in a patient’s smile. It is usually restored flat or concave without following the original anatomy of the tooth and this usually is also the reason why the restoration fails and causes tmj problems. With this lecture the participants will appreciate that while you are restoring the tooth with cusp per cusp technique they are also decreasing the polymerization stress at the same time making the tooth esthetically pleasing, functionally effective and amazingly strong.</p>
                     </div>
                 </div>

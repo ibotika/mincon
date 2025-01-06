@@ -26,6 +26,7 @@
                         <p class='mt-5 text-xl'>"Oral Hygiene and Behavior Management: the Underdogs in Periodontal Care"</p>
                         <p class='mt-5'>Day 1, 1:00 AM - 4:00 PM</p>
                         <p class=''>Location: Clamshell 1</p>
+                        <p class=''>Session 2</p>
                         <p class='mt-5'>This lecture sheds light on a critical yet often overlooked aspect of periodontal treatment—empowering patients to take control of their oral hygiene through personalized behavior management. While advanced therapies dominate discussions, it is the daily habits of patients that ultimately determine long-term periodontal health.</p>
                         <p class='mt-5'>This session explores practical, patient-centered approaches, including motivational interviewing, tailored oral hygiene tools, and reinforcement strategies that help bridge the gap between clinical treatments and lasting results. We will dive into the often underestimated role of self-performed plaque control, supported by the right techniques and tools such as interdental brushes, toothbrushes, and mouth rinses.</p>
                         <p class='mt-5'>Additionally, we will lightly touch on the challenges posed by smoking, diabetes, and other systemic factors, offering strategies to overcome these barriers. Attendees will explore ways on how to create behavior change that sticks, equipping patients with the knowledge and motivation to maintain their periodontal health for the long haul.</p>

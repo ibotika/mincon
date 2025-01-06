@@ -24,8 +24,9 @@
                     <h1 class="text-xl md:text-4xl font-bold">STEPHEN B. ALMONTE, DMD</h1>
                     <div class='mt-5 text-sm text-justify'>
                         <p class='mt-5 text-xl'>"Periodontal Considerations In Fixed And Partial Removable Prosthodontic Therapy"</p>
-                        <p class='mt-5'>Day 2, 3:00 PM - 5:00 PM</p>
+                        <p class='mt-5'>Day 2, 1:00 PM - 3:00 PM</p>
                         <p class=''>Location: Clamshell 1</p>
+                        <p class=''>Session 3</p>
                         <p class='mt-5'>The Lecture will present various periodontal considerations for the success of Prosthodontics both in fixed and removable partial dentures.  The General Practitioner needs to observe and be guided properly on the protocol of analyzing and having a closer look at the periodontal status of the remaining dentition prior to any prosthodontics procedures. 
                     </div>
                 </div>

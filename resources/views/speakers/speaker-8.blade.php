@@ -23,9 +23,10 @@
                 <div class="w-full text-white">
                     <h1 class="text-xl md:text-4xl font-bold text-left">LEO GERALD DE CASTRO, DMD</h1> 
                     <div class='mt-5 text-sm text-justify'>
-                        <p class='mt-5 text-xl'>"Ethical Excellence: The Key to Sustainable Success in Your Practice"</p>
-                        <p class='mt-5'>Day 2, 1:00 PM - 3:00 PM</p>
+                        <p class='mt-5 text-xl'>"ETHICAL EXCELLENCE: The Key to Sustainable Success in Your Practice"</p>
+                        <p class='mt-5'>Day 2, 10:00 AM - 12:00 PM</p>
                         <p class=''>Location: Clamshell 1</p>
+                        <p class=''>Session 2</p>
                         <p class='mt-5'>Orthodontic treatments often require a multidisciplinary approach to achieve optimal dental and facial harmony. Oral surgery plays a pivotal role in addressing complex anatomical and developmental challenges that may impede orthodontic progress. This lecture delves into the key surgical interventions that support and complement orthodontic procedures, including extractions, exposure of impacted teeth, frenectomies, and surgically assisted rapid palatal expansion (SARPE).</p>
                         <p class='mt-5'>Ethical practices are often seen as obstacles to success in competitive industries, but in reality, they form the foundation for long-term growth and sustainability. This article explores how ethics and success can coexist and even enhance each other. By building trust, avoiding legal pitfalls, fostering a positive work environment, and creating a competitive edge, professionals can achieve both integrity and profitability. Ethical decision-making not only strengthens client relationships and boosts employee satisfaction but also cultivates personal fulfillment, ensuring that success is meaningful and enduring.</p>
                     </div>

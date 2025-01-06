@@ -16,34 +16,29 @@
                 <a href="" class="w-full px-10 flex items-center justify-center">
                     <div class="card" style="background-color: rgba(0, 0, 0, 0.3); border: 1px solid rgba(255, 255, 255, 0.3); border-radius: 24px; text-align: center; padding: 16px;">
                         <div class="image-container" style="position: relative; overflow: visible; margin-top: -80px;">
-                        <img src="/images/speakers/updated/Dr. Bautista.png" alt="Dr. Bautista.png" class="mx-auto w-full h-full mx-auto " style=" margin: 0 auto;">
+                        <img src="/images/speakers/updated/Dr. Manaloto.png" alt="Dr. Manaloto.png" class="mx-auto w-full h-full mx-auto " style=" margin: 0 auto;">
+                        <!-- width: 240px; -->
                         </div>
                     </div>
                 </a>
-                <div class="w-full text-white">
-                    <h1 class="text-xl md:text-4xl font-bold">JOY BAUTISTA, DMD</h1>
+                <div class="w-full text-white"> 
+                    <h1 class="text-xl md:text-4xl font-bold">ADRIAN CARLOS MANALOTO, DMD</h1>
                     <div class='mt-5 text-sm text-justify'>
-                        <p class='mt-5 text-xl'>"Periodontal Considerations In Fixed And Partial Removable Prosthodontic Therapy"</p>
+                        <p class='mt-5 text-xl'>"Functional yet Esthetic Posterior Restoration"</p>
                         <p class='mt-5'>Day 1, 10:00 AM - 12:00 PM</p>
                         <p class=''>Location: Clamshell 2</p>
-                        <p class='mt-5'>The advancement of dental implantology has seen significant innovations, particularly in the integration of digital technology into clinical practice. One of the key debates in modern implant placement is the comparison between freehand and digitally guided techniques. This presentation  aims to provide an overview of both approaches, highlighting their respective advantages, challenges, and clinical implications.</p>
-                        <p class='mt-5'>Freehand implant placement, the traditional method, relies heavily on the clinician's skill, experience, and anatomical knowledge. While this technique offers flexibility and has been well-established over decades, it can be prone to errors in terms of implant positioning, angulation, and depth, which can ultimately affect the long-term success of the implant. However, it remains a viable option in situations where digital tools are not available or when a highly personalized approach is required.</p>
-                        <p class='mt-5'>In contrast, digitally guided implant placement involves the use of advanced technologies such as 3D imaging, cone beam computed tomography (CBCT), and computer-aided design (CAD) to plan and execute precise implant positioning. Guided surgery allows for greater accuracy, predictability, and reduction in human error, particularly in complex cases. It can improve treatment outcomes, reduce surgical time, and enhance patient satisfaction. However, the technique requires significant investment in technology, training, and software integration.</p>
-                    </div>
+                        <p class=''>Session 1</p>
+                        <p class='mt-5'>Dental Practice in the Philippines is in full gear these days. The demand for prosthetic rehabilitation of our patients is now possible. Knowing how to do chairside temporization may optimize our practice, so we can render quicker responses to the fast trends of patient treatment today.</p>
+                </div>
                 </div>
             </div>
             <div class='text-justify text-white text-sm'>
-                <p class='mb-5'>Be with us at the Mindanao Convention as we proudly feature Dr. Joy S. Bautista, a luminary in the field of dental implantology and orthodontics. With a rich background stemming from his extensive education and a multitude of key roles, including Assistant Professor at the University of the East College of Dentistry, Visiting Consultant at Perfect Teeth Dental Center, and a respected dentist and owner of Bhest Smile Dental Clinic,</p>
-                <p class='mb-5'>Dr. Bautista is a globally recognized figure in dental health. An affiliate fellow, international fellow, and awarded educator, his specialization in dental implantology, orthodontics, and oral surgery underscores his profound competence and dedication to dental education.</p>
-                <p class='mb-5'>Dr. Bautista's lecture, “Freehand vs. Digitally Guided Implant Placement: A Comparative Approach,” promises to delve into the significant innovations shaping the future of dental implantology. Balancing his deep clinical expertise with a keen insight into cutting-edge technologies, Dr. Bautista will explore the advantages, challenges, and the clinical implications of both traditional and digitally guided implant placement techniques. This engaging session aims to arm practitioners with the knowledge to optimize treatment planning and enhance implant outcomes, all while navigating the complexities presented by digital advancements in the field.</p>
-                <p class='mb-5'>Do not miss the opportunity to gain valuable insights from one of the field's most esteemed innovators.</p>
+                <p class='mb-5'>We are thrilled to feature Dr. Adrian Carlos F. Manaloto, a vanguard in the realm of Prosthodontics and Implantology, as one of our distinguished speakers at this year's Mindanao Convention. With a profound educational background, Dr. Manaloto brings a wealth of knowledge from his Master of Science degree in Prosthodontics from Korea University and illustrious career marked by notable contributions to the field. As a dedicated prosthodontist serving in esteemed institutions such as Cornerstone Dental Office, Let’s Talk Teeth, and Landayan Dental Clinic, Dr. Manaloto's clinical brilliance is unparalleled.</p>
+                <p class='mb-5'>Dr. Manaloto has earned recognition for his exemplary skills, marked by participation in the International College of Prosthodontists' Young Prosthodontic Educator Summit and accolades such as the 2nd place Oral Presentation at the 8th Asian Academy of Osseointegration. His involvement in the Philippine Dental Association and the Philippine Prosthodontic Society as a Fellow underlines his commitment to advancing dental practice in the Philippines.</p>
+                <p class='mb-5'>In his presentation, “Chairside FPD Temporization Techniques,” Dr. Manaloto will unveil innovative strategies for prosthetic rehabilitation, enabling dental practitioners to offer timely, efficient patient care in today’s fast-paced clinical settings. This session promises to equip attendees with the necessary toolkit to thrive in the evolving landscape of dental practice, ensuring they stay at the forefront of patient treatment trends.</p>
             </div>
         </div>
     </div>
 </section>
 
-
-
 @endsection
-
-

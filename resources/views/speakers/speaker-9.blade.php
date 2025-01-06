@@ -23,9 +23,10 @@
                 <div class="w-full text-white">
                     <h1 class="text-xl md:text-4xl font-bold">FELYLOU ALTURA FERNANDEZ, DMD</h1>
                     <div class='mt-5 text-sm text-justify'>
-                        <p class='mt-5 text-xl'>"The Code of Ethics for Dentists and Social Media: The impact of Digital evolution and social media to dental practice and the culture of dental profession"</p>
-                        <p class='mt-5'>Day 2, 1:00 PM - 3:00 PM</p>
+                        <p class='mt-5 text-xl'>"THE CODE OF ETHICS FOR DENTISTS AND SOCIAL MEDIA: The impact of Digital evolution and social media to dental practice and the culture of dental profession"</p>
+                        <p class='mt-5'>Day 2, 10:00 AM - 12:00 PM</p>
                         <p class=''>Location: Clamshell 1</p>
+                        <p class=''>Session 2</p>
                         <p class='mt-5'>The impact of the digital evolution, technology, and social media have
                             begun to make serious effects in the practice of dentistry. With the
                             evolution of the health care profession, many issues arise:
