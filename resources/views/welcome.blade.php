@@ -542,21 +542,20 @@ type();
             <div class="swiper w-full max-w-6xl mx-auto py-10 px-4 relative ">
                 <div class="swiper-wrapper py-10">
 
-                        
                         <div class='swiper-slide flex flex-col items-center justify-center text-lg p-6'>
                             <a href="{{ route('speaker-12') }}">
                                 <div class="card" style="background-color: rgba(0, 0, 0, 0.3); border: 1px solid rgba(255, 255, 255, 0.3); border-radius: 24px; text-align: center; padding: 16px;">
                                     <div class="image-container" style="position: relative; overflow: visible; margin-top: -80px;">
-                                        <img src="/images/speakers/updated/Dr. Bautista.png" alt="JOY BAUTISTA" class="mx-auto w-full h-full mx-auto " style="width: 240px; margin: 0 auto;">
+                                        <img src="/images/speakers/updated/Dr. Manaloto.png" alt="ADRIAN CARLOS MANALOTO" class="mx-auto w-full h-full mx-auto " style="width: 240px; margin: 0 auto;">
                                     </div>
                                     <div class="text-content text-white mt-4">
-                                        <h1 class="text-xl font-bold mt-4">JOY BAUTISTA, DMD</h1>
+                                        <h1 class="text-xl font-bold mt-4">ADRIAN CARLOS MANALOTO, DMD</h1>
                                         <!-- <p class="mt-2 text-sm px-6 text-white">12</p> -->
                                     </div>
                                 </div>
                             </a>
-                        </div>     
-
+                        </div> 
+                        
                         <div class='swiper-slide flex flex-col items-center justify-center text-lg p-6'>
                             <a href="{{ route('speaker-13') }}">
                                 <div class="card" style="background-color: rgba(0, 0, 0, 0.3); border: 1px solid rgba(255, 255, 255, 0.3); border-radius: 24px; text-align: center; padding: 16px;">
@@ -617,10 +616,10 @@ type();
                             <a href="{{ route('speaker-17') }}">
                                 <div class="card" style="background-color: rgba(0, 0, 0, 0.3); border: 1px solid rgba(255, 255, 255, 0.3); border-radius: 24px; text-align: center; padding: 16px;">
                                     <div class="image-container" style="position: relative; overflow: visible; margin-top: -80px;">
-                                        <img src="/images/speakers/updated/Dr. Manaloto.png" alt="ADRIAN CARLOS MANALOTO" class="mx-auto w-full h-full mx-auto " style="width: 240px; margin: 0 auto;">
+                                        <img src="/images/speakers/updated/Dr. Bautista.png" alt="JOY BAUTISTA" class="mx-auto w-full h-full mx-auto " style="width: 240px; margin: 0 auto;">
                                     </div>
                                     <div class="text-content text-white mt-4">
-                                        <h1 class="text-xl font-bold mt-4">ADRIAN CARLOS MANALOTO, DMD</h1>
+                                        <h1 class="text-xl font-bold mt-4">JOY BAUTISTA, DMD</h1>
                                         <!-- <p class="mt-2 text-sm px-6 text-white">17</p> -->
                                     </div>
                                 </div>
