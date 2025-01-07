@@ -714,7 +714,7 @@ type();
                         Pre-registration   
                         </div>
                         <div class='p-6 text-white text-start'>
-                            <p class='mb-5 text-gray-400'>(November 16, 2024-January 5, 2025)</p>
+                            <p class='mb-5 text-gray-400'>(November 16, 2024-January 10, 2025)</p>
                             <p class='mb-3'><span class='text-purple-600 text-md font-black'>P4,500</span> Dentist, Dental Technologist, and Dental Hygienist</p>
                             <p class='mb-3'><span class='text-purple-600 text-md font-black'>P3,500</span> Government Dentist</p>
                             <p class='mb-6'><span class='text-purple-600 text-md font-black'>P3,000</span> PDA Life Member & Dental Students</p>
@@ -744,7 +744,7 @@ type();
                         <div class='flex justify-center mb-6'>
                             <button class='bg-gray-500 h-[50px] w-[260px] rounded-md'>
                                     <p class='font-semibold text-white'>
-                                        January 6,2025 - onwards
+                                        January 11,2025 - onwards
                                     </p>
                             </button> 
                         </div> 
