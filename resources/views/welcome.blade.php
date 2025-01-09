@@ -140,7 +140,7 @@ type();
                         allowFullScreen="true"></iframe>
                 </div>
             </div>
-            <div class='w-full md:max-w-6xl mx-auto pb-10'>
+            <div class='w-full md:max-w-6xl mx-auto mb-10'>
                 <div class='wrapper'>
                     <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2F61564303471877%2Fvideos%2F954205523292542%2F&show_text=false&width=560&t=0" 
                         style="border:none;overflow:hidden" 
@@ -643,19 +643,22 @@ type();
 
 <!-- flipbook -->
 
-    <section class='pt-10 bg-black md:pt-30'>
-        <div class='mx-10 md:mx-auto md:max-w-xl mt-20 mb-10'>
+    <section class='py-20 bg-black md:py-30'>
+        <div class='mx-10 md:mx-auto md:max-w-xl mb-10'>
             <h1 class='text-center mb-5 bg-gradient-to-r from-[#A47BF4] to-[#ED4E8C] bg-clip-text text-transparent text-5xl md:text-6xl font-black'>
                 Souvenir Magazine
             </h1>
         </div>  
-        <iframe 
+        <!-- <iframe 
             frameborder="0" 
             allowtransparency="true" 
             allowFullscreen="true" 
             style="width: 100%; height: 620px; border: none;" 
             src="https://online.visual-paradigm.com/share/book/iligan-city-dental-society-program-20v9mht4li?p=1">
-        </iframe> 
+        </iframe>  -->
+        <div class='flex justify-center'>
+            <a id="c56d3d68-df35-4410-b244-833c569aa109" style="cursor:pointer;position:relative;display:inline-block" href="https://online.visual-paradigm.com/share/book/iligan-city-dental-society-program-20v9mht4li?p=1" target="_blank"><img style="max-width: 100%; max-height: 100%;background-color: white;vertical-align:bottom" src="https://online.visual-paradigm.com/community/book-thumbnail/iligan-city-dental-society-program-20v9mht4li?dummy=1736433429676?p=1" onError="this.onerror=null;this.src='https://online.visual-paradigm.com/images/vp-book-error.png';this.style.backgroundColor='transparent';"></img><img src="https://online.visual-paradigm.com/images/vp-flipbook-flipping_effect.gif" style="height: 50%;position:absolute;bottom:0px;right:0px"></img><img src="https://online.visual-paradigm.com/images/vp-flipbook-embed-icon_4.png" style="position: absolute; left:50%; top:50%; transform: translate(-50%,-50%); max-height:40%; opacity:0.7"></img></a><script type="text/javascript">(function(d,eid,url){var sns=d.getElementsByTagName('script');var st=window.vfbkembbs||sns[sns.length-1];var e=d.createElement('script');e.type='text/javascript';e.src='https://cdn-v17-2.visual-paradigm.com/diagrams/js/embed.js';e.onload=function(){VFBKEMBW2(eid,url);};e.onreadystatechange=function(){if (this.readyState==='complete'){VFBKEMBW2(eid,url);}};st.parentNode.insertBefore(e,st);})(document,'c56d3d68-df35-4410-b244-833c569aa109','https://online.visual-paradigm.com/share/book/iligan-city-dental-society-program-20v9mht4li?p=1')</script>
+        </div>
     </section>
 
 
