@@ -643,7 +643,7 @@ type();
 
 <!-- flipbook -->
 
-    <section class='pt-20 flex flex-col justify-center bg-black'>
+    <section class='pt-10 bg-black md:pt-30'>
         <div class='mx-10 md:mx-auto md:max-w-xl mt-20 mb-10'>
             <h1 class='text-center mb-5 bg-gradient-to-r from-[#A47BF4] to-[#ED4E8C] bg-clip-text text-transparent text-5xl md:text-6xl font-black'>
                 Souvenir Magazine
