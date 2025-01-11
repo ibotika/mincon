@@ -744,14 +744,13 @@ type();
                             <p class='mb-6'><span class='text-purple-600 text-md font-black'>P3,000</span> PDA Life Member & Dental Students</p>
                             <p class='text-gray-400'>With snacks, meals and free flowing coffee</p>
                         </div>
-                        <a href="https://docs.google.com/forms/d/1z5wkWCZOvqXtVmJ2xaIZHrSjaLsiBNoVKEtwXwxAHNA/viewform?edit_requested=true"
-                            class='flex justify-center mb-6'>
-                            <button class='bg-purple-600 hover:bg-purple-600/80 h-[50px] w-[260px] rounded-md'>
+                        <div class='flex justify-center mb-6'>
+                            <button class='bg-gray-500 h-[50px] w-[260px] rounded-md'>
                                     <p class='font-semibold text-white'>
-                                        Register Now
+                                        Closed
                                     </p>
                             </button> 
-                        </a>
+                        </div>
                     </div>
                 </div>
 
@@ -766,7 +765,7 @@ type();
                             <p class='text-gray-400'>With snacks, meals and free flowing coffee</p>
                         </div>
                         <div class='flex justify-center mb-6'>
-                            <button class='bg-gray-500 h-[50px] w-[260px] rounded-md'>
+                            <button class='bg-sky-500 h-[50px] w-[260px] rounded-md'>
                                     <p class='font-semibold text-white'>
                                         January 11,2025 - onwards
                                     </p>
