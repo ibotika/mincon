@@ -25,7 +25,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
 
         <!-- Scripts -->
-        @vite(['resources/css/app.css', 'resources/js/app.js'])
+        @vite(['resources/css/app.css'])
     </head>
     <body class="font-sans antialiased text-gray-900">
         @yield('content') {{  $slot ?? '' }}
