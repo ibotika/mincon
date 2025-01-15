@@ -659,6 +659,18 @@ type();
         <div class='flex justify-center'>
             <a id="c56d3d68-df35-4410-b244-833c569aa109" style="cursor:pointer;position:relative;display:inline-block" href="https://online.visual-paradigm.com/share/book/iligan-city-dental-society-program-20v9mht4li?p=1" target="_blank"><img style="max-width: 100%; max-height: 100%;background-color: white;vertical-align:bottom" src="https://online.visual-paradigm.com/community/book-thumbnail/iligan-city-dental-society-program-20v9mht4li?dummy=1736433429676?p=1" onError="this.onerror=null;this.src='https://online.visual-paradigm.com/images/vp-book-error.png';this.style.backgroundColor='transparent';"></img><img src="https://online.visual-paradigm.com/images/vp-flipbook-flipping_effect.gif" style="height: 50%;position:absolute;bottom:0px;right:0px"></img><img src="https://online.visual-paradigm.com/images/vp-flipbook-embed-icon_4.png" style="position: absolute; left:50%; top:50%; transform: translate(-50%,-50%); max-height:40%; opacity:0.7"></img></a><script type="text/javascript">(function(d,eid,url){var sns=d.getElementsByTagName('script');var st=window.vfbkembbs||sns[sns.length-1];var e=d.createElement('script');e.type='text/javascript';e.src='https://cdn-v17-2.visual-paradigm.com/diagrams/js/embed.js';e.onload=function(){VFBKEMBW2(eid,url);};e.onreadystatechange=function(){if (this.readyState==='complete'){VFBKEMBW2(eid,url);}};st.parentNode.insertBefore(e,st);})(document,'c56d3d68-df35-4410-b244-833c569aa109','https://online.visual-paradigm.com/share/book/iligan-city-dental-society-program-20v9mht4li?p=1')</script>
         </div>
+        <!-- <div class='mt-8 flex justify-center'>
+            <button class="relative inline-flex items-center justify-center p-0.5 overflow-hidden text-sm font-medium text-white rounded-lg group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white">
+                <a
+                href="/files/Iligan-City-Dental-Society_Program.pdf"
+                download="Iligan-City-Dental-Society_Program.pdf"
+                class="relative px-5 py-2.5 rounded-md"
+                >
+                  Download it Here
+                </a>
+
+            </button>
+        </div> -->
     </section>
 
 
@@ -765,11 +777,20 @@ type();
                             <p class='text-gray-400'>With snacks, meals and free flowing coffee</p>
                         </div>
                         <div class='flex justify-center mb-6'>
-                            <button class='bg-sky-500 h-[50px] w-[260px] rounded-md'>
+                            <a href="https://docs.google.com/forms/d/e/1FAIpQLSeReowZEnVNVm6pfWFhNoNysQ3hS5S2LZ2TY3Vsv84-D3QcnQ/viewform">
+                                <button class='bg-sky-500 hover:bg-sky-600 h-[50px] w-[260px] rounded-md'>
                                     <p class='font-semibold text-white'>
-                                        January 11,2025 - onwards
+                                        Register Here
                                     </p>
-                            </button> 
+                                </button> 
+                            </a>
+
+                            <!-- <div class="px-6 py-5">
+                            <a href="https://docs.google.com/forms/d/e/1FAIpQLScG3xwA7mhxlV5fF8AEEqT_ZKRaRwePB3lhzCnc6pejTpBEow/viewform" 
+                                class='block text-white w-full h-[50px] w-[260px] rounded-md text-center bg-sky-500 rounded-md hover:bg-sky-600'>
+                                Click to register
+                            </a>
+                        </div> -->
                         </div> 
                     </div>
                 </div>
