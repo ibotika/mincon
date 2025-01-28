@@ -771,8 +771,8 @@ type();
         </div>  
         <a href="{{ route('registrants') }}">
             <div class="flex justify-center">
-                <div class="text-content text-white mt-4">
-                    <h1 class="text-xl font-bold mt-4">Show all</h1>
+                <div class="text-content text-white mt-4 px-6 py-3 bg-sky-500 rounded-lg hover:bg-sky-500/80">
+                    <h1 class="text-xl font-bold">Show all</h1>
                     <!-- <p class="mt-2 text-sm px-6 text-white">12</p> -->
                 </div>
             </div>
