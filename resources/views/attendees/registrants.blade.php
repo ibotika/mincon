@@ -28,7 +28,7 @@
 
 <section class='py-20 md:py-30 bg-gray-600'>
     <div class='m-10 justify-items-center'>
-        <div class='mx-auto md:px-8 md:max-w-7xl text-white'>
+        <div class='mx-auto md:px-8 md:max-w-7xl'>
             <table id="registrants" class="display bg-gray-600" style="width:20% md:width:100%">
                     <thead>
                         <tr>
