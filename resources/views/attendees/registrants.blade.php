@@ -26,10 +26,10 @@
 
 <link rel='stylesheet' type='text/css' href='https://cdn.datatables.net/2.2.1/css/dataTables.dataTables.css'>
 
-<section class='py-20 md:py-30 bg-gray-600'>
+<section class='py-20 md:py-30 bg-black'>
     <div class='m-10 justify-items-center'>
         <div class='mx-auto md:px-8 md:max-w-7xl'>
-            <table id="registrants" class="display bg-gray-600" style="width:20% md:width:100%">
+            <table id="registrants" class="display bg-black" style="width:20% md:width:100%">
                     <thead>
                         <tr>
                             <th>LAST NAME</th>
