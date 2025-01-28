@@ -7,7 +7,7 @@
     <script type='text/javascript' src='https://cdn.datatables.net/2.2.1/js/dataTables.js'></script>
     <script>
         new DataTable('#registrants', {
-            ajax: 'https://script.google.com/macros/s/AKfycbxLUMpZ-HCIzXb_6IjNb1VMKAWpoaCg27pKKet08TVDr50uaBR4hWBrZZZY0-_1JIJYGw/exec',
+            ajax: 'https://script.google.com/macros/s/AKfycbxqSBx-J3N4hLz0RqDX6PnuihVh99M7bPbOESVedj4aAGKs1GPDGmqELnn4potUcjDmyg/exec',
             columns: [
                 { data: 'LAST NAME' },
                 { data: 'MIDDLE NAME' },
@@ -36,7 +36,7 @@
                     </svg>
                 </button>
                 <span class='flex justify-center gap-5'>
-                    <a href="{{ route('registrants') }}">
+                <a href="{{ route('registrants') }}">
                         <div class="flex justify-center">
                             <div class="text-content text-sky-500 mt-4 px-6 py-3 rounded-lg ring-2 ring-sky-500 hover:bg-sky-500 hover:text-white">
                                 <h1 class="text-xl font-bold">Registrants</h1>
