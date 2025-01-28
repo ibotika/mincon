@@ -673,43 +673,6 @@ type();
         </div> -->
     </section>
 
-
-<!-- trade exhibit map -->
-<!-- 
-<section class="py-10 bg-black md:py-40">
-    <div class="m-10 justify-items-center">
-        <div class="mb-10 text-white md:max-w-xl text-center">
-            <h1 class="text-4xl font-bold text-center md:text-6xl mb-5">
-                Trade Exhibit Hall 
-            </h1>
-            <img src="/images/events/floorplan.png" alt="Floor Plan" class="rounded-xl overflow-hidden">
-        </div>
-        <div class="flex flex-wrap justify-center gap-6">
-            <div class="h-[64px] w-auto max-w-[150px]">
-                <img src="/images/logo/logo-placeholder.png" alt="Logo 1" class="w-full h-auto object-contain">
-            </div>
-            <div class="h-[64px] w-auto max-w-[150px]">
-                <img src="/images/logo/logo-placeholder.png" alt="Logo 2" class="w-full h-auto object-contain">
-            </div>
-            <div class="h-[64px] w-auto max-w-[150px]">
-                <img src="/images/logo/logo-placeholder.png" alt="Logo 3" class="w-full h-auto object-contain">
-            </div>
-            <div class="h-[64px] w-auto max-w-[150px]">
-                <img src="/images/logo/logo-placeholder.png" alt="Logo 1" class="w-full h-auto object-contain">
-            </div>
-            <div class="h-[64px] w-auto max-w-[150px]">
-                <img src="/images/logo/logo-placeholder.png" alt="Logo 2" class="w-full h-auto object-contain">
-            </div>
-            <div class="h-[64px] w-auto max-w-[150px]">
-                <img src="/images/logo/logo-placeholder.png" alt="Logo 3" class="w-full h-auto object-contain">
-            </div>
-        </div>
-    </div>
-</section> -->
-
-
-
-
 <!-- registration fees -->
 <section id="registration-fees" class="relative py-10 bg-black md:py-40 ">
         <div class="absolute inset-0 bg-center bg-cover" style="background-image: url('/images/bg/Maria-Christina-Falls.webp'); opacity: 0.5;"></div>
@@ -777,26 +740,44 @@ type();
                             <p class='text-gray-400'>With snacks, meals and free flowing coffee</p>
                         </div>
                         <div class='flex justify-center mb-6'>
-                            <a href="https://docs.google.com/forms/d/e/1FAIpQLSeReowZEnVNVm6pfWFhNoNysQ3hS5S2LZ2TY3Vsv84-D3QcnQ/viewform">
-                                <button class='bg-sky-500 hover:bg-sky-600 h-[50px] w-[260px] rounded-md'>
+                            <!-- <a href="https://docs.google.com/forms/d/e/1FAIpQLSeReowZEnVNVm6pfWFhNoNysQ3hS5S2LZ2TY3Vsv84-D3QcnQ/viewform"> -->
+                                <button class='bg-gray-500 h-[50px] w-[260px] rounded-md'>
                                     <p class='font-semibold text-white'>
-                                        Register Here
+                                        Closed
                                     </p>
                                 </button> 
-                            </a>
+                            
 
                             <!-- <div class="px-6 py-5">
-                            <a href="https://docs.google.com/forms/d/e/1FAIpQLScG3xwA7mhxlV5fF8AEEqT_ZKRaRwePB3lhzCnc6pejTpBEow/viewform" 
-                                class='block text-white w-full h-[50px] w-[260px] rounded-md text-center bg-sky-500 rounded-md hover:bg-sky-600'>
-                                Click to register
-                            </a>
-                        </div> -->
+                                <a href="https://docs.google.com/forms/d/e/1FAIpQLScG3xwA7mhxlV5fF8AEEqT_ZKRaRwePB3lhzCnc6pejTpBEow/viewform" 
+                                    class='block text-white w-full h-[50px] w-[260px] rounded-md text-center bg-sky-500 rounded-md hover:bg-sky-600'>
+                                    Click to register
+                                </a>
+                            </div> -->
+
                         </div> 
                     </div>
                 </div>
         </div>
     </section>
 
+    <!-- attendees -->
+
+    <section class='py-20 bg-black md:py-30'>
+        <div class='mx-10 md:mx-auto md:max-w-xl mb-10'>
+            <h1 class='text-center mb-5 bg-gradient-to-r from-[#A47BF4] to-[#ED4E8C] bg-clip-text text-transparent text-5xl md:text-6xl font-black'>
+                Attendees
+            </h1>
+        </div>  
+        <a href="{{ route('registrants') }}">
+            <div class="flex justify-center">
+                <div class="text-content text-white mt-4">
+                    <h1 class="text-xl font-bold mt-4">Show all</h1>
+                    <!-- <p class="mt-2 text-sm px-6 text-white">12</p> -->
+                </div>
+            </div>
+        </a>
+    </section>
 
     <!-- hosted by -->
     <section class='py-20 bg-white'>

@@ -100,3 +100,12 @@ Route::middleware('auth')->group(function () {
 Route::get('checkin', CheckIn::class);
 
 require __DIR__.'/auth.php';
+
+Route::get('/registrants', function(){
+    return view('attendees.registrants');
+})->name('registrants');
+
+
+Route::get('/attendees', function(){
+    return view('attendees.attendees');
+})->name('attendees');
