@@ -12,10 +12,10 @@
                 { data: 'LAST NAME' },
                 { data: 'MIDDLE NAME' },
                 { data: 'FIRST NAME' },
-                { data: 'PRC #' },
-                { data: 'EMAIL' },
-                { data: 'CONTACT #' },
-                { data: 'CHAPTER/SCHOOL' }
+                // { data: 'PRC #' },
+                // { data: 'EMAIL' },
+                // { data: 'CONTACT #' },
+                // { data: 'CHAPTER/SCHOOL' }
             ]
         });
     </script>
@@ -61,10 +61,10 @@
                             <th>LAST NAME</th>
                             <th>MIDDLE NAME</th>
                             <th>FIRST NAME</th>
-                            <th>PRC #</th>
+                            <!-- <th>PRC #</th>
                             <th>EMAIL</th>
                             <th>CONTACT #</th>
-                            <th>CHAPTER/SCHOOL</th>
+                            <th>CHAPTER/SCHOOL</th> -->
                         </tr>
                     </thead>
             </table>
